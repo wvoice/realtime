@@ -1,0 +1,89 @@
+# Microsoft Developer Studio Generated Dependency File, included by TheApp.mak
+
+.\ActivationTimer.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	
+
+.\ActiveAccounts.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	".\TheApp.h"\
+	
+
+.\Database.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	
+
+.\Discovery.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	
+
+.\IniEx.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	
+
+.\Logger.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	
+
+.\StdAfx.cpp : \
+	".\ActivationTimer.h"\
+	".\ActiveAccounts.h"\
+	".\Database.h"\
+	".\filemailer.h"\
+	".\ftp.h"\
+	".\htmlmailer.h"\
+	".\http.h"\
+	".\icmpport.h"\
+	".\imap.h"\
+	".\IniEx.h"\
+	".\ipdaemon.h"\
+	".\ipinfo.h"\
+	".\ipport.h"\
+	".\ipworks.h"\
+	".\ipworks.key"\
+	".\ldap.h"\
+	".\mcast.h"\
+	".\mime.h"\
+	".\mx.h"\
+	".\netclock.h"\
+	".\netcode.h"\
+	".\netdial.h"\
+	".\nntp.h"\
+	".\ping.h"\
+	".\pop.h"\
+	".\rcp.h"\
+	".\rexec.h"\
+	".\rshell.h"\
+	".\smtp.h"\
+	".\snmp.h"\
+	".\snpp.h"\
+	".\soap.h"\
+	".\StdAfx.h"\
+	".\telnet.h"\
+	".\tftp.h"\
+	".\traceroute.h"\
+	".\udpport.h"\
+	".\webform.h"\
+	".\webupload.h"\
+	".\whois.h"\
+	".\xmlp.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\TheApp.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	".\TheApp.h"\
+	
+
+.\Worker.cpp : \
+	".\ActivationTimer.h"\
+	".\ipworks.h"\
+	".\netcash_lib.h"\
+	

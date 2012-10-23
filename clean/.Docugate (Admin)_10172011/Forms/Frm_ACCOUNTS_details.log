@@ -1,0 +1,157 @@
+Line 96: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 122: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 320: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 346: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 440: Class SCLABELLib.SCLabel of control lbl_OU was not a loaded control class.
+Line 466: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 492: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 545: Class RadioLibCtl.ctRadio of control optAccLevel was not a loaded control class.
+Line 581: Class RadioLibCtl.ctRadio of control optAccLevel was not a loaded control class.
+Line 617: Class RadioLibCtl.ctRadio of control optAccLevel was not a loaded control class.
+Line 858: Class SCLABELLib.SCLabel of control lbl_ACC_FIRSTNAME was not a loaded control class.
+Line 884: Class SCLABELLib.SCLabel of control lbl_ACC_LASTNAME was not a loaded control class.
+Line 910: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 936: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 962: Class SCLABELLib.SCLabel of control lbl_ACC_FULLNAME was not a loaded control class.
+Line 988: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 1014: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 1047: Class SCLABELLib.SCLabel of control SCLabel1 was not a loaded control class.
+Line 103: The property name _Version in SCLabel1 is invalid.
+Line 104: The property name _ExtentX in SCLabel1 is invalid.
+Line 105: The property name _ExtentY in SCLabel1 is invalid.
+Line 106: The property name _StockProps in SCLabel1 is invalid.
+Line 117: The property name Caption in SCLabel1 is invalid.
+Line 118: The property name Alignment in SCLabel1 is invalid.
+Line 120: The property name WordWrap in SCLabel1 is invalid.
+Line 129: The property name _Version in SCLabel1 is invalid.
+Line 130: The property name _ExtentX in SCLabel1 is invalid.
+Line 131: The property name _ExtentY in SCLabel1 is invalid.
+Line 132: The property name _StockProps in SCLabel1 is invalid.
+Line 143: The property name Caption in SCLabel1 is invalid.
+Line 144: The property name Alignment in SCLabel1 is invalid.
+Line 146: The property name WordWrap in SCLabel1 is invalid.
+Line 327: The property name _Version in SCLabel1 is invalid.
+Line 328: The property name _ExtentX in SCLabel1 is invalid.
+Line 329: The property name _ExtentY in SCLabel1 is invalid.
+Line 330: The property name _StockProps in SCLabel1 is invalid.
+Line 341: The property name Caption in SCLabel1 is invalid.
+Line 342: The property name Alignment in SCLabel1 is invalid.
+Line 344: The property name WordWrap in SCLabel1 is invalid.
+Line 353: The property name _Version in SCLabel1 is invalid.
+Line 354: The property name _ExtentX in SCLabel1 is invalid.
+Line 355: The property name _ExtentY in SCLabel1 is invalid.
+Line 356: The property name _StockProps in SCLabel1 is invalid.
+Line 367: The property name Caption in SCLabel1 is invalid.
+Line 368: The property name Alignment in SCLabel1 is invalid.
+Line 370: The property name WordWrap in SCLabel1 is invalid.
+Line 447: The property name _Version in lbl_OU is invalid.
+Line 448: The property name _ExtentX in lbl_OU is invalid.
+Line 449: The property name _ExtentY in lbl_OU is invalid.
+Line 450: The property name _StockProps in lbl_OU is invalid.
+Line 461: The property name Caption in lbl_OU is invalid.
+Line 462: The property name Alignment in lbl_OU is invalid.
+Line 464: The property name WordWrap in lbl_OU is invalid.
+Line 473: The property name _Version in SCLabel1 is invalid.
+Line 474: The property name _ExtentX in SCLabel1 is invalid.
+Line 475: The property name _ExtentY in SCLabel1 is invalid.
+Line 476: The property name _StockProps in SCLabel1 is invalid.
+Line 487: The property name Caption in SCLabel1 is invalid.
+Line 488: The property name Alignment in SCLabel1 is invalid.
+Line 490: The property name WordWrap in SCLabel1 is invalid.
+Line 499: The property name _Version in SCLabel1 is invalid.
+Line 500: The property name _ExtentX in SCLabel1 is invalid.
+Line 501: The property name _ExtentY in SCLabel1 is invalid.
+Line 502: The property name _StockProps in SCLabel1 is invalid.
+Line 513: The property name Caption in SCLabel1 is invalid.
+Line 514: The property name Alignment in SCLabel1 is invalid.
+Line 516: The property name WordWrap in SCLabel1 is invalid.
+Line 552: The property name _Version in optAccLevel is invalid.
+Line 553: The property name _ExtentX in optAccLevel is invalid.
+Line 554: The property name _ExtentY in optAccLevel is invalid.
+Line 555: The property name _StockProps in optAccLevel is invalid.
+Line 556: The property name Caption in optAccLevel is invalid.
+Line 574: The property name FontOver in optAccLevel is invalid.
+Line 575: The property name PictureTrue in optAccLevel is invalid.
+Line 576: The property name PictureFalse in optAccLevel is invalid.
+Line 577: The property name BackImage in optAccLevel is invalid.
+Line 579: The property name Caption in optAccLevel is invalid.
+Line 545: Property MouseIcon in optAccLevel could not be set.
+Line 588: The property name _Version in optAccLevel is invalid.
+Line 589: The property name _ExtentX in optAccLevel is invalid.
+Line 590: The property name _ExtentY in optAccLevel is invalid.
+Line 591: The property name _StockProps in optAccLevel is invalid.
+Line 592: The property name Caption in optAccLevel is invalid.
+Line 610: The property name FontOver in optAccLevel is invalid.
+Line 611: The property name PictureTrue in optAccLevel is invalid.
+Line 612: The property name PictureFalse in optAccLevel is invalid.
+Line 613: The property name BackImage in optAccLevel is invalid.
+Line 615: The property name Caption in optAccLevel is invalid.
+Line 581: Property MouseIcon in optAccLevel could not be set.
+Line 624: The property name _Version in optAccLevel is invalid.
+Line 625: The property name _ExtentX in optAccLevel is invalid.
+Line 626: The property name _ExtentY in optAccLevel is invalid.
+Line 627: The property name _StockProps in optAccLevel is invalid.
+Line 628: The property name Caption in optAccLevel is invalid.
+Line 646: The property name FontOver in optAccLevel is invalid.
+Line 647: The property name PictureTrue in optAccLevel is invalid.
+Line 648: The property name PictureFalse in optAccLevel is invalid.
+Line 649: The property name BackImage in optAccLevel is invalid.
+Line 651: The property name Value in optAccLevel is invalid.
+Line 652: The property name Caption in optAccLevel is invalid.
+Line 617: Property MouseIcon in optAccLevel could not be set.
+Line 865: The property name _Version in lbl_ACC_FIRSTNAME is invalid.
+Line 866: The property name _ExtentX in lbl_ACC_FIRSTNAME is invalid.
+Line 867: The property name _ExtentY in lbl_ACC_FIRSTNAME is invalid.
+Line 868: The property name _StockProps in lbl_ACC_FIRSTNAME is invalid.
+Line 879: The property name Caption in lbl_ACC_FIRSTNAME is invalid.
+Line 880: The property name Alignment in lbl_ACC_FIRSTNAME is invalid.
+Line 882: The property name WordWrap in lbl_ACC_FIRSTNAME is invalid.
+Line 891: The property name _Version in lbl_ACC_LASTNAME is invalid.
+Line 892: The property name _ExtentX in lbl_ACC_LASTNAME is invalid.
+Line 893: The property name _ExtentY in lbl_ACC_LASTNAME is invalid.
+Line 894: The property name _StockProps in lbl_ACC_LASTNAME is invalid.
+Line 905: The property name Caption in lbl_ACC_LASTNAME is invalid.
+Line 906: The property name Alignment in lbl_ACC_LASTNAME is invalid.
+Line 908: The property name WordWrap in lbl_ACC_LASTNAME is invalid.
+Line 917: The property name _Version in SCLabel1 is invalid.
+Line 918: The property name _ExtentX in SCLabel1 is invalid.
+Line 919: The property name _ExtentY in SCLabel1 is invalid.
+Line 920: The property name _StockProps in SCLabel1 is invalid.
+Line 931: The property name Caption in SCLabel1 is invalid.
+Line 932: The property name Alignment in SCLabel1 is invalid.
+Line 934: The property name WordWrap in SCLabel1 is invalid.
+Line 943: The property name _Version in SCLabel1 is invalid.
+Line 944: The property name _ExtentX in SCLabel1 is invalid.
+Line 945: The property name _ExtentY in SCLabel1 is invalid.
+Line 946: The property name _StockProps in SCLabel1 is invalid.
+Line 957: The property name Caption in SCLabel1 is invalid.
+Line 958: The property name Alignment in SCLabel1 is invalid.
+Line 960: The property name WordWrap in SCLabel1 is invalid.
+Line 969: The property name _Version in lbl_ACC_FULLNAME is invalid.
+Line 970: The property name _ExtentX in lbl_ACC_FULLNAME is invalid.
+Line 971: The property name _ExtentY in lbl_ACC_FULLNAME is invalid.
+Line 972: The property name _StockProps in lbl_ACC_FULLNAME is invalid.
+Line 983: The property name Caption in lbl_ACC_FULLNAME is invalid.
+Line 984: The property name Alignment in lbl_ACC_FULLNAME is invalid.
+Line 986: The property name WordWrap in lbl_ACC_FULLNAME is invalid.
+Line 995: The property name _Version in SCLabel1 is invalid.
+Line 996: The property name _ExtentX in SCLabel1 is invalid.
+Line 997: The property name _ExtentY in SCLabel1 is invalid.
+Line 998: The property name _StockProps in SCLabel1 is invalid.
+Line 1009: The property name Caption in SCLabel1 is invalid.
+Line 1010: The property name Alignment in SCLabel1 is invalid.
+Line 1012: The property name WordWrap in SCLabel1 is invalid.
+Line 1021: The property name _Version in SCLabel1 is invalid.
+Line 1022: The property name _ExtentX in SCLabel1 is invalid.
+Line 1023: The property name _ExtentY in SCLabel1 is invalid.
+Line 1024: The property name _StockProps in SCLabel1 is invalid.
+Line 1035: The property name Caption in SCLabel1 is invalid.
+Line 1036: The property name Alignment in SCLabel1 is invalid.
+Line 1038: The property name WordWrap in SCLabel1 is invalid.
+Line 1055: The property name _Version in SCLabel1 is invalid.
+Line 1056: The property name _ExtentX in SCLabel1 is invalid.
+Line 1057: The property name _ExtentY in SCLabel1 is invalid.
+Line 1058: The property name _StockProps in SCLabel1 is invalid.
+Line 1069: The property name Caption in SCLabel1 is invalid.
+Line 1070: The property name Alignment in SCLabel1 is invalid.
+Line 1072: The property name WordWrap in SCLabel1 is invalid.

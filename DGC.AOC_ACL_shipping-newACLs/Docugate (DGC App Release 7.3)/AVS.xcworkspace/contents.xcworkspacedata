@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../Docugate (DGV AVS Version 1.0.7)"
+      name = "Docugate (DGV AVS Version 1.0.7)">
+      <FileRef
+         location = "group:Activity.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:Activity.h">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.APS">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.clw">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.dsp">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.dsw">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.h">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.ncb">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.opt">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.plg">
+      </FileRef>
+      <FileRef
+         location = "group:AVS.rc">
+      </FileRef>
+      <FileRef
+         location = "group:AVSDlg.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:AVSDlg.h">
+      </FileRef>
+      <FileRef
+         location = "group:IniEx.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:IniEx.h">
+      </FileRef>
+      <FileRef
+         location = "group:MyDatabase.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:MyDatabase.h">
+      </FileRef>
+      <Group
+         location = "group:res"
+         name = "res">
+         <FileRef
+            location = "group:AVS.ico">
+         </FileRef>
+         <FileRef
+            location = "group:AVS.rc2">
+         </FileRef>
+         <FileRef
+            location = "group:vssver.scc">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:resource.h">
+      </FileRef>
+      <FileRef
+         location = "group:StdAfx.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:StdAfx.h">
+      </FileRef>
+   </Group>
+</Workspace>

@@ -1,0 +1,31 @@
+﻿Build started 12/27/2011 1:56:16 PM.
+Project "Z:\myoung\Docugate Sources\DGC\Docugate (DGC App Release 7.4)\TheApp.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file ".\Release\TheApp.lastbuildstate".
+InitializeBuildStatus:
+  Touching ".\Release\TheApp.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\support\include /Z7 /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\TheApp.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(227): error C2365: 'ScopeLevelInterface' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(557) : see declaration of 'ScopeLevelInterface'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(228): error C2365: 'ScopeLevelLink' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(558) : see declaration of 'ScopeLevelLink'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(229): error C2365: 'ScopeLevelSubnet' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(559) : see declaration of 'ScopeLevelSubnet'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(230): error C2365: 'ScopeLevelAdmin' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(560) : see declaration of 'ScopeLevelAdmin'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(231): error C2365: 'ScopeLevelSite' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(561) : see declaration of 'ScopeLevelSite'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(232): error C2365: 'ScopeLevelOrganization' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(562) : see declaration of 'ScopeLevelOrganization'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(234): error C2365: 'ScopeLevelGlobal' : redefinition; previous definition was 'enumerator'
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(563) : see declaration of 'ScopeLevelGlobal'
+Z:\myoung\Docugate Sources\DGC\support\include\iptypes.h(234): error C2371: 'SCOPE_LEVEL' : redefinition; different basic types
+          C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h(565) : see declaration of 'SCOPE_LEVEL'
+Done Building Project "Z:\myoung\Docugate Sources\DGC\Docugate (DGC App Release 7.4)\TheApp.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.32

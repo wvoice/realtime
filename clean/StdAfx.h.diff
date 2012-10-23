@@ -1,0 +1,47 @@
+--- StdAfx.h	2010-11-18 16:58:02.000000000 -0700
++++ ../~Docugate (DGC App Release 7.3)/StdAfx.h	2011-12-14 22:45:36.000000000 -0700
+@@ -21,16 +21,27 @@
+ #endif // _AFX_NO_AFXCMN_SUPPORT
+ 
+ 
++// Windows Header Files:
++#include <windows.h>
++
++// C RunTime Header Files
++#include <stdlib.h>
++#include <malloc.h>
++#include <memory.h>
++#include <tchar.h>
++
+ // TODO: reference additional headers your program requires here
+ #include <iostream>
+ #include <winbase.h>
+-#include <tchar.h>
+ #include <stdio.h>
+ #include <io.h>
+ #include "ipworks.h"
+ #include "IniEx.h"
+ #include "activeaccounts.h"
+ 
++// Local Header Files
++#include "ActivationTimer.h"
++
+ 
+ const char strModule[]  = "DGC_MCR";
+ const char strVersion[] = "7.3";
+@@ -147,6 +158,7 @@
+ 	int         UnitValueEnabled;
+ 	char        UnitValue[10];
+ 	char		UnitGUID[51];
++	char		UnitOUGUID[51];
+ 	char		InsertGUID[51];
+ 	int			plCounter[5];
+ 	ULONG       maxspend;
+@@ -222,6 +234,7 @@
+ 	int         UnitValueEnabled;
+ 	char        UnitValue[10];
+ 	char	    UnitGUID[51];
++	char		UnitOUGUID[51];
+ 	float  	    pl1CustomCost;
+ 	float  	    pl2CustomCost;
+ 	float  	    pl3CustomCost;

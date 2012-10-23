@@ -1,0 +1,21 @@
+--- Resource.h	2010-11-18 16:58:02.000000000 -0700
++++ ../~Docugate (DGC App Release 7.3)/Resource.h	2011-08-29 05:29:54.000000000 -0600
+@@ -6,6 +6,18 @@
+ #define IDS_VERSION                     2
+ #define IDS_MODULE                      3
+ 
++//
++#define IDR_MAINFRAME					128
++#define IDD_ACTIVATIONTIMERDEMO_DIALOG		102
++#define IDD_ABOUTBOX					103
++#define IDS_APP_TITLE					103
++#define IDM_ABOUT						104
++#define IDM_EXIT						105
++#define IDI_ACTIVATIONTIMERDEMO	            107
++#define IDI_SMALL						108
++#define IDC_ACTIVATIONTIMERDEMO	            109
++#define IDC_MYICON						2
++
+ // Next default values for new objects
+ // 
+ #ifdef APSTUDIO_INVOKED

@@ -1,0 +1,980 @@
+ DGC_MCR
+
+ Timestamp is 4eecb95e (Sat Dec 17 08:46:38 2011)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000197a2H .text                   CODE
+ 0001:000197b0 00002325H .text$x                 CODE
+ 0001:0001bad5 0001000bH .textbss                CODE
+ 0002:00000000 0000404bH .rdata                  DATA
+ 0002:00004050 00000151H .rdata$r                DATA
+ 0002:000041a8 000020a7H .xdata$x                DATA
+ 0002:0000624f 00000000H .edata                  DATA
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000138H .CRT$XCU                DATA
+ 0003:0000023c 00000104H .CRT$XCZ                DATA
+ 0003:00000340 00000104H .CRT$XIA                DATA
+ 0003:00000444 00000104H .CRT$XIZ                DATA
+ 0003:00000550 000002c9H .data                   DATA
+ 0003:00000820 000146d0H .bss                    DATA
+ 0004:00000000 000000a0H .idata$2                DATA
+ 0004:000000a0 00000014H .idata$3                DATA
+ 0004:000000b4 000004bcH .idata$4                DATA
+ 0004:00000570 000004bcH .idata$5                DATA
+ 0004:00000a2c 0000071cH .idata$6                DATA
+ 0005:00000000 000001c0H .rsrc$01                DATA
+ 0005:000001c0 000004e6H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000770       ??0Thread@@IAE@PAX@Z       00401770 f   ActivationTimer.obj
+ 0001:000007e0       ??_GThread@@MAEPAXI@Z      004017e0 f i ActivationTimer.obj
+ 0001:000007e0       ??_EThread@@MAEPAXI@Z      004017e0 f i ActivationTimer.obj
+ 0001:00000850       ??1Thread@@MAE@XZ          00401850 f   ActivationTimer.obj
+ 0001:00000900       ??0ThreadList@@IAE@PAX@Z   00401900 f   ActivationTimer.obj
+ 0001:00000a20       ??_GThreadList@@MAEPAXI@Z  00401a20 f i ActivationTimer.obj
+ 0001:00000a20       ??_EThreadList@@MAEPAXI@Z  00401a20 f i ActivationTimer.obj
+ 0001:00000a90       ?AppendThread@ThreadList@@IAEHPAX@Z 00401a90 f   ActivationTimer.obj
+ 0001:00000bb0       ?CloseThreadObject@ThreadList@@IAEHH@Z 00401bb0 f   ActivationTimer.obj
+ 0001:00000d00       ?GetNumOfThreads@ThreadList@@IBEHXZ 00401d00 f   ActivationTimer.obj
+ 0001:00000d40       ?IsThreadActive@ThreadList@@IBE_NH@Z 00401d40 f   ActivationTimer.obj
+ 0001:00000dd0       ??AThreadList@@IBEPAUThread@@H@Z 00401dd0 f   ActivationTimer.obj
+ 0001:00000e60       ??1ThreadList@@MAE@XZ      00401e60 f   ActivationTimer.obj
+ 0001:00000f20       ??0Task@@IAE@KPAX0@Z       00401f20 f   ActivationTimer.obj
+ 0001:00001030       ??_GTask@@MAEPAXI@Z        00402030 f i ActivationTimer.obj
+ 0001:00001030       ??_ETask@@MAEPAXI@Z        00402030 f i ActivationTimer.obj
+ 0001:000010a0       ??1Task@@MAE@XZ            004020a0 f   ActivationTimer.obj
+ 0001:00001130       ?Execute@Task@@IAEXXZ      00402130 f   ActivationTimer.obj
+ 0001:00001210       ??0TaskList@@IAE@KPAX0@Z   00402210 f   ActivationTimer.obj
+ 0001:00001350       ??_GTaskList@@MAEPAXI@Z    00402350 f i ActivationTimer.obj
+ 0001:00001350       ??_ETaskList@@MAEPAXI@Z    00402350 f i ActivationTimer.obj
+ 0001:000013c0       ??ATaskList@@IBEPAVTask@@H@Z 004023c0 f   ActivationTimer.obj
+ 0001:00001450       ?GetNumOfTasks@TaskList@@IBEHXZ 00402450 f   ActivationTimer.obj
+ 0001:00001490       ?GetTaskTimeout@TaskList@@IBEKH@Z 00402490 f   ActivationTimer.obj
+ 0001:000014e0       ?AppendTask@TaskList@@IAEHKPAX0@Z 004024e0 f   ActivationTimer.obj
+ 0001:00001610       ?DeleteTask@TaskList@@IAEHH@Z 00402610 f   ActivationTimer.obj
+ 0001:00001750       ?CallTask@TaskList@@IAEXH@Z 00402750 f   ActivationTimer.obj
+ 0001:000017b0       ??1TaskList@@MAE@XZ        004027b0 f   ActivationTimer.obj
+ 0001:00001870       ??0ActivationTimer@@QAE@KPAX0@Z 00402870 f   ActivationTimer.obj
+ 0001:00001a10       ??_GActivationTimer@@UAEPAXI@Z 00402a10 f i ActivationTimer.obj
+ 0001:00001a10       ??_EActivationTimer@@UAEPAXI@Z 00402a10 f i ActivationTimer.obj
+ 0001:00001a80       ??1ActivationTimer@@UAE@XZ 00402a80 f   ActivationTimer.obj
+ 0001:00001b20       ?AddTask@ActivationTimer@@QAEHKPAX0@Z 00402b20 f   ActivationTimer.obj
+ 0001:00001be0       ?RemoveTask@ActivationTimer@@QAEHH@Z 00402be0 f   ActivationTimer.obj
+ 0001:00001cd0       ?GetNumOfTasks@ActivationTimer@@QBEHXZ 00402cd0 f   ActivationTimer.obj
+ 0001:00001d20       ?ExecAppropriateFunc@ActivationTimer@@KAXXZ 00402d20 f   ActivationTimer.obj
+ 0001:00001e10       ?RecalcTimerInterval@ActivationTimer@@IAEXXZ 00402e10 f   ActivationTimer.obj
+ 0001:00001f70       ?Halt@ActivationTimer@@QAEXXZ 00402f70 f   ActivationTimer.obj
+ 0001:00001fe0       ?Restart@ActivationTimer@@QAEXXZ 00402fe0 f   ActivationTimer.obj
+ 0001:00002050       ?TimerProc@ActivationTimer@@KGXPAUHWND__@@IIK@Z 00403050 f   ActivationTimer.obj
+ 0001:00002090       ?Reset@ActivationTimer@@QAEXXZ 00403090 f   ActivationTimer.obj
+ 0001:000021d0       ??0CActiveAccounts@@QAE@XZ 004031d0 f   ActiveAccounts.obj
+ 0001:00002290       ??_GCActiveAccounts@@UAEPAXI@Z 00403290 f i ActiveAccounts.obj
+ 0001:00002290       ??_ECActiveAccounts@@UAEPAXI@Z 00403290 f i ActiveAccounts.obj
+ 0001:00002300       ??1CActiveAccounts@@UAE@XZ 00403300 f   ActiveAccounts.obj
+ 0001:000023b0       ?IsAccountActive@CActiveAccounts@@QAEHPAD@Z 004033b0 f   ActiveAccounts.obj
+ 0001:00002450       ?AddActiveAccount@CActiveAccounts@@QAEHPAD@Z 00403450 f   ActiveAccounts.obj
+ 0001:000024e0       ?RemoveActiveAccount@CActiveAccounts@@QAEHPAD@Z 004034e0 f   ActiveAccounts.obj
+ 0001:000026a0       ??1CMyDatabase@@QAE@XZ     004036a0 f   Database.obj
+ 0001:00002770       ??0CMyDatabase@@QAE@XZ     00403770 f   Database.obj
+ 0001:00002870       ?GetIniPath@CMyDatabase@@QAEHXZ 00403870 f   Database.obj
+ 0001:00002920       ?ReadStationsIni@CMyDatabase@@QAEHXZ 00403920 f   Database.obj
+ 0001:00002c60       ?ReadStationsFromTable@CMyDatabase@@QAEHAAVCDatabase@@@Z 00403c60 f   Database.obj
+ 0001:00003480       ??0CODBCFieldInfo@@QAE@XZ  00404480 f i Database.obj
+ 0001:000034d0       ??1CODBCFieldInfo@@QAE@XZ  004044d0 f i Database.obj
+ 0001:00003520       ?GetStationCustomPL@CMyDatabase@@QAEXAAU_TagStation@@AAVCDatabase@@H@Z 00404520 f   Database.obj
+ 0001:00003b30       ?GetUnitOrCurrency@CMyDatabase@@QAEHAAVCDatabase@@@Z 00404b30 f   Database.obj
+ 0001:00003d00       ?ReadIni@CMyDatabase@@QAE?AVCString@@XZ 00404d00 f   Database.obj
+ 0001:00003d80       ?OpenConnection@CMyDatabase@@QAEHAAVCDatabase@@@Z 00404d80 f   Database.obj
+ 0001:00003f30       ?OpenConnection@CMyDatabase@@QAEHAAVCDatabase@@H@Z 00404f30 f   Database.obj
+ 0001:000040c0       ?OpenConnection@CMyDatabase@@QAEHAAVCDatabase@@HH@Z 004050c0 f   Database.obj
+ 0001:00004260       ?CheckHandle@CMyDatabase@@QAEHAAVCDatabase@@H@Z 00405260 f   Database.obj
+ 0001:00004460       ?CloseConnection@CMyDatabase@@QAEHAAVCDatabase@@H@Z 00405460 f   Database.obj
+ 0001:000045a0       ?CloseConnection@CMyDatabase@@QAEHAAVCDatabase@@@Z 004055a0 f   Database.obj
+ 0001:000046e0       ?GetGroup@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004056e0 f   Database.obj
+ 0001:00004b20       ?GetInsertGuid@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00405b20 f   Database.obj
+ 0001:00004d40       ?GetAccMaxSpend@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00405d40 f   Database.obj
+ 0001:00005030       ?GetOUMaxSpend@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00406030 f   Database.obj
+ 0001:00005320       ?GetGlobalMaxSpend@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00406320 f   Database.obj
+ 0001:00005600       ?GetAccount@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00406600 f   Database.obj
+ 0001:00005a50       ?GetCopier@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00406a50 f   Database.obj
+ 0001:00005de0       ?VerifyClient@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@H@Z 00406de0 f   Database.obj
+ 0001:000060a0       ?VerifyMatter@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@H@Z 004070a0 f   Database.obj
+ 0001:00006370       ?GetStation@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@H@Z 00407370 f   Database.obj
+ 0001:00006a00       ?GetAccountID@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00407a00 f   Database.obj
+ 0001:00006ca0       ?GetOfflineAccountID@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00407ca0 f   Database.obj
+ 0001:00006f20       ?GetDeviceID@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00407f20 f   Database.obj
+ 0001:00007200       ?UpdateCopier@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00408200 f   Database.obj
+ 0001:000072e0       ?UpdateOfflineCopier@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004082e0 f   Database.obj
+ 0001:00007440       ?UpdateAccount@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00408440 f   Database.obj
+ 0001:00007590       ?UpdateOfflineAccount@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00408590 f   Database.obj
+ 0001:00007750       ?LogCopyJob@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00408750 f   Database.obj
+ 0001:00007920       ?LogJournel@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00408920 f   Database.obj
+ 0001:00007af0       ?LogCopyJobPL@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00408af0 f   Database.obj
+ 0001:00007c80       ?Handle_ServiceDown@CMyDatabase@@QAEXAAVCDatabase@@@Z 00408c80 f   Database.obj
+ 0001:00007cb0       ?Handle_ServiceUp@CMyDatabase@@QAEXAAVCDatabase@@@Z 00408cb0 f   Database.obj
+ 0001:00007ce0       ?RemoveAllActiveSessions@CMyDatabase@@QAEXAAVCDatabase@@@Z 00408ce0 f   Database.obj
+ 0001:00007df0       ?DeleteActiveSession@CMyDatabase@@QAEXPADAAVCDatabase@@@Z 00408df0 f   Database.obj
+ 0001:00007f90       ?AddActiveSession@CMyDatabase@@QAEXPADAAVCDatabase@@@Z 00408f90 f   Database.obj
+ 0001:00008100       ?IsActiveSession@CMyDatabase@@QAEHPADAAVCDatabase@@@Z 00409100 f   Database.obj
+ 0001:00008390       ?Handle_PingedConnection@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00409390 f   Database.obj
+ 0001:00008730       ?Handle_DroppedConnection@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00409730 f   Database.obj
+ 0001:000088c0       ?Handle_SessionActive@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@@Z 004098c0 f   Database.obj
+ 0001:00008a40       ?Handle_SessionClosed@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@@Z 00409a40 f   Database.obj
+ 0001:00008bc0       ?Handle_SessionIdle@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@@Z 00409bc0 f   Database.obj
+ 0001:00008d40       ?Handle_NewConnection@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00409d40 f   Database.obj
+ 0001:00008f00       ?UpdateSchema@CMyDatabase@@QAEHAAVCDatabase@@@Z 00409f00 f   Database.obj
+ 0001:000090e0       ?NetCashActivationThread@@YAIPAX@Z 0040a0e0 f   Discovery.obj
+ 0001:00009290       ??0CIniEx@@QAE@H@Z         0040a290 f   IniEx.obj
+ 0001:000093d0       ??_GCIniEx@@UAEPAXI@Z      0040a3d0 f i IniEx.obj
+ 0001:000093d0       ??_ECIniEx@@UAEPAXI@Z      0040a3d0 f i IniEx.obj
+ 0001:00009440       ??1CIniEx@@UAE@XZ          0040a440 f   IniEx.obj
+ 0001:00009550       ?OpenAtExeDirectory@CIniEx@@QAEHPBDHHHH@Z 0040a550 f   IniEx.obj
+ 0001:00009730       ?Open@CIniEx@@QAEHPBDHHHH@Z 0040a730 f   IniEx.obj
+ 0001:0000a090       ?GetValue@CIniEx@@QAE?AVCString@@V2@@Z 0040b090 f   IniEx.obj
+ 0001:0000a1a0       ?GetValue@CIniEx@@QAE?AVCString@@V2@00@Z 0040b1a0 f   IniEx.obj
+ 0001:0000a470       ?LookupKey@CIniEx@@AAEHHPAVCString@@@Z 0040b470 f   IniEx.obj
+ 0001:0000a5b0       ?LookupSection@CIniEx@@AAEHPAVCString@@@Z 0040b5b0 f   IniEx.obj
+ 0001:0000a6b0       ?SetValue@CIniEx@@QAEXVCString@@0@Z 0040b6b0 f   IniEx.obj
+ 0001:0000a7b0       ?SetValue@CIniEx@@QAEXVCString@@00@Z 0040b7b0 f   IniEx.obj
+ 0001:0000aad0       ?WriteFile@CIniEx@@QAE?AVCString@@H@Z 0040bad0 f   IniEx.obj
+ 0001:0000af50       ?GetWriteWhenChange@CIniEx@@QAEHXZ 0040bf50 f   IniEx.obj
+ 0001:0000af90       ?SetWriteWhenChange@CIniEx@@QAEXH@Z 0040bf90 f   IniEx.obj
+ 0001:0000afd0       ?SetBackupFileName@CIniEx@@QAEXAAVCString@@@Z 0040bfd0 f   IniEx.obj
+ 0001:0000b020       ?FindBackupFile@CIniEx@@AAEXXZ 0040c020 f   IniEx.obj
+ 0001:0000b280       ?ResetContent@CIniEx@@QAEXXZ 0040c280 f   IniEx.obj
+ 0001:0000b480       ?RemoveKey@CIniEx@@QAEHVCString@@0@Z 0040c480 f   IniEx.obj
+ 0001:0000b600       ?RemoveKey@CIniEx@@QAEHVCString@@@Z 0040c600 f   IniEx.obj
+ 0001:0000b6e0       ?RemoveSection@CIniEx@@QAEHVCString@@@Z 0040c6e0 f   IniEx.obj
+ 0001:0000b8d0       ?CompareStrings@CIniEx@@AAEHPAVCString@@0@Z 0040c8d0 f   IniEx.obj
+ 0001:0000b950       ?GrowIfNecessary@CIniEx@@AAEXXZ 0040c950 f   IniEx.obj
+ 0001:0000ba90       ?GetSections@CIniEx@@QAEXAAVCStringArray@@@Z 0040ca90 f   IniEx.obj
+ 0001:0000bb70       ?GetKeysInSection@CIniEx@@QAEXVCString@@AAVCStringArray@@@Z 0040cb70 f   IniEx.obj
+ 0001:0000bca0       ?GetIniPath@CIniEx@@QAE?AVCString@@XZ 0040cca0 f   IniEx.obj
+ 0001:0000c020       ?WriteLog@@YAXPAD0@Z       0040d020 f   Logger.obj
+ 0001:0000c4b0       ?WriteLog@@YAXAAVCString@@PAD@Z 0040d4b0 f   Logger.obj
+ 0001:0000d2c0       _main                      0040e2c0 f   TheApp.obj
+ 0001:0000db30       ??0CHandler@@QAE@H@Z       0040eb30 f   Worker.obj
+ 0001:0000dd90       ?FireDataIn@CHandler@@UAEHAAPADAAGAAH@Z 0040ed90 f i Worker.obj
+ 0001:0000f4e0       ?FireDisconnected@CHandler@@UAEHAAGAAPAD@Z 004104e0 f i Worker.obj
+ 0001:0000f690       ?FireError@CHandler@@UAEHAAGAAPAD@Z 00410690 f i Worker.obj
+ 0001:0000f760       ??_ECHandler@@UAEPAXI@Z    00410760 f i Worker.obj
+ 0001:0000f760       ??_GCHandler@@UAEPAXI@Z    00410760 f i Worker.obj
+ 0001:0000f7d0       ??1CHandler@@UAE@XZ        004107d0 f   Worker.obj
+ 0001:0000fc10       ?WorkerThread@@YAIPAX@Z    00410c10 f   Worker.obj
+ 0001:00013190       ?InitIdleMinutes@CHandler@@QAEXJ@Z 00414190 f i Worker.obj
+ 0001:00013210       ?GetDeadConnSpan@CHandler@@QAEJXZ 00414210 f i Worker.obj
+ 0001:000132b0       ?StartCopierSession@@YAXAAVCHandler@@@Z 004142b0 f   Worker.obj
+ 0001:000139b0       ?HandleIdler@@YAHAAVCTime@@JJ@Z 004149b0 f   Worker.obj
+ 0001:00013b50       ?SetBalance@@YAXAAVCHandler@@G@Z 00414b50 f   Worker.obj
+ 0001:00013c40       ?SetHighBalance@@YAXAAVCHandler@@K@Z 00414c40 f   Worker.obj
+ 0001:00013d40       ?SetPriceLine@@YAHAAVCHandler@@@Z 00414d40 f   Worker.obj
+ 0001:000142e0       ?PingNat@@YAXAAVCHandler@@@Z 004152e0 f   Worker.obj
+ 0001:00014390       ?Reset@@YAHAAVCHandler@@@Z 00415390 f   Worker.obj
+ 0001:00014450       ?SetDelay@@YAHAAVCHandler@@@Z 00415450 f   Worker.obj
+ 0001:000145e0       ?SetTime@@YAHAAVCHandler@@@Z 004155e0 f   Worker.obj
+ 0001:00014800       ?ShowError@@YAXAAVCHandler@@PAD@Z 00415800 f   Worker.obj
+ 0001:00014980       ?SetInitial@@YAHAAVCHandler@@@Z 00415980 f   Worker.obj
+ 0001:00014b50       ?SetBadData@@YAHAAVCHandler@@@Z 00415b50 f   Worker.obj
+ 0001:00014cf0       ?SetOffline@@YAXAAVCHandler@@@Z 00415cf0 f   Worker.obj
+ 0001:00014f20       ?SetDatabaseError@@YAXAAVCHandler@@PAD@Z 00415f20 f   Worker.obj
+ 0001:00015130       ?SetAuthenticate1@@YAHAAVCHandler@@@Z 00416130 f   Worker.obj
+ 0001:000152c0       ?SetAuthenticate2@@YAHAAVCHandler@@@Z 004162c0 f   Worker.obj
+ 0001:00015490       ?RequestLocation@@YAHAAVCHandler@@@Z 00416490 f   Worker.obj
+ 0001:00015620       ?RequestGateway@@YAHAAVCHandler@@@Z 00416620 f   Worker.obj
+ 0001:000157b0       ?RequestMac@@YAHAAVCHandler@@@Z 004167b0 f   Worker.obj
+ 0001:00015940       ?ProcessingOffLine@@YAXAAVCHandler@@@Z 00416940 f   Worker.obj
+ 0001:00015d50       ?RequestMask@@YAHAAVCHandler@@@Z 00416d50 f   Worker.obj
+ 0001:00015ee0       ?RequestAddress@@YAHAAVCHandler@@@Z 00416ee0 f   Worker.obj
+ 0001:00016070       ?SetKeyBoard@@YAHAAVCHandler@@H@Z 00417070 f   Worker.obj
+ 0001:00016210       ?SetCurrency@@YAHAAVCHandler@@@Z 00417210 f   Worker.obj
+ 0001:000163c0       ?EndCopierSession@@YAXAAVCHandler@@@Z 004173c0 f   Worker.obj
+ 0001:00016470       ?SetupGetAccount@@YAXAAVCHandler@@@Z 00417470 f   Worker.obj
+ 0001:000168e0       ?SetupGetClient@@YAXAAVCHandler@@@Z 004178e0 f   Worker.obj
+ 0001:00016d50       ?SetupGetMatter@@YAXAAVCHandler@@@Z 00417d50 f   Worker.obj
+ 0001:000171c0       ?SetupGetPassword@@YAXAAVCHandler@@@Z 004181c0 f   Worker.obj
+ 0001:000175f0       ?HandleCharge@@YAXAAU_NetcashDevice@@@Z 004185f0 f   Worker.obj
+ 0001:000176e0       ?FireConnected@IPPortA@@UAEHAAGAAPAD@Z 004186e0 f i Worker.obj
+ 0001:00017720       ?FireReadyToSend@IPPortA@@UAEHXZ 00418720 f i Worker.obj
+ 0001:00017750       ?GetConnected@IPPortA@@QAEHXZ 00418750 f i Worker.obj
+ 0001:000177b0       ?SetConnected@IPPortA@@QAEHH@Z 004187b0 f i Worker.obj
+ 0001:00017820       ?SetDataToSend@IPPortA@@QAEHPBDI@Z 00418820 f i Worker.obj
+ 0001:00017880       ?SetRemoteHost@IPPortA@@QAEHPBD@Z 00418880 f i Worker.obj
+ 0001:000178f0       ?SetRemotePort@IPPortA@@QAEHG@Z 004188f0 f i Worker.obj
+ 0001:00017960       ?SetTimeout@IPPortA@@QAEHH@Z 00418960 f i Worker.obj
+ 0001:000179d0       ?DoEvents@IPPortA@@QAEHXZ  004189d0 f i Worker.obj
+ 0001:00017a40       ?Send@IPPortA@@QAEHPADI@Z  00418a40 f i Worker.obj
+ 0001:00017ac0       ??0IPPort@@QAE@PBD@Z       00418ac0 f i Worker.obj
+ 0001:00017b20       ?FireDataIn@IPPortA@@UAEHAAPADAAGAAH@Z 00418b20 f i Worker.obj
+ 0001:00017b60       ?FireDisconnected@IPPortA@@UAEHAAGAAPAD@Z 00418b60 f i Worker.obj
+ 0001:00017ba0       ?FireError@IPPortA@@UAEHAAGAAPAD@Z 00418ba0 f i Worker.obj
+ 0001:00017be0       ??0IPPortA@@QAE@PBD@Z      00418be0 f i Worker.obj
+ 0001:00017c50       ?dSink@IPPortA@@CAHPAXHHQAPAXQAI@Z 00418c50 f i Worker.obj
+ 0001:00017ea0       ??_GIPPortA@@UAEPAXI@Z     00418ea0 f i Worker.obj
+ 0001:00017ea0       ??_EIPPortA@@UAEPAXI@Z     00418ea0 f i Worker.obj
+ 0001:00017f10       ??1IPPortA@@UAE@XZ         00418f10 f i Worker.obj
+ 0001:00017f70       ??_EIPPort@@UAEPAXI@Z      00418f70 f i Worker.obj
+ 0001:00017f70       ??_GIPPort@@UAEPAXI@Z      00418f70 f i Worker.obj
+ 0001:00017fe0       ??1IPPort@@UAE@XZ          00418fe0 f i Worker.obj
+ 0001:00018024       ?Packet2Buffer@@YGJPAU_NetcashPacket@@PAE@Z 00419024 f   netcashapi:NETCASHAPI.dll
+ 0001:0001802a       ?Buffer2Packet@@YGJJPAEPAU_NetcashPacket@@@Z 0041902a f   netcashapi:NETCASHAPI.dll
+ 0001:00018030       _IPPort_Get                00419030 f   ipworks5:ipworks5.dll
+ 0001:00018036       _IPPort_Set                00419036 f   ipworks5:ipworks5.dll
+ 0001:0001803c       _IPPort_Do                 0041903c f   ipworks5:ipworks5.dll
+ 0001:00018042       _IPPort_Create             00419042 f   ipworks5:ipworks5.dll
+ 0001:00018048       _IPPort_Destroy            00419048 f   ipworks5:ipworks5.dll
+ 0001:0001804e       _CloseHandle@4             0041904e f   kernel32:KERNEL32.dll
+ 0001:00018054       _TerminateThread@8         00419054 f   kernel32:KERNEL32.dll
+ 0001:0001805a       _GetExitCodeThread@8       0041905a f   kernel32:KERNEL32.dll
+ 0001:00018060       _CreateThread@24           00419060 f   kernel32:KERNEL32.dll
+ 0001:00018066       _lstrcpynA@12              00419066 f   kernel32:KERNEL32.dll
+ 0001:0001806c       _WaitForSingleObject@8     0041906c f   kernel32:KERNEL32.dll
+ 0001:00018072       _GetCurrentDirectoryA@8    00419072 f   kernel32:KERNEL32.dll
+ 0001:00018078       _CopyFileA@12              00419078 f   kernel32:KERNEL32.dll
+ 0001:0001807e       _FindNextFileA@8           0041907e f   kernel32:KERNEL32.dll
+ 0001:00018084       _FindFirstFileA@8          00419084 f   kernel32:KERNEL32.dll
+ 0001:0001808a       _GetModuleFileNameA@12     0041908a f   kernel32:KERNEL32.dll
+ 0001:00018090       _DeleteFileA@4             00419090 f   kernel32:KERNEL32.dll
+ 0001:00018096       _CreateEventA@16           00419096 f   kernel32:KERNEL32.dll
+ 0001:0001809c       _GetCurrentThreadId@0      0041909c f   kernel32:KERNEL32.dll
+ 0001:000180a2       _GetModuleHandleA@4        004190a2 f   kernel32:KERNEL32.dll
+ 0001:000180a8       _GetCommandLineA@0         004190a8 f   kernel32:KERNEL32.dll
+ 0001:000180ae       _GetComputerNameA@8        004190ae f   kernel32:KERNEL32.dll
+ 0001:000180b4       _lstrcpyA@8                004190b4 f   kernel32:KERNEL32.dll
+ 0001:000180ba       _Sleep@4                   004190ba f   kernel32:KERNEL32.dll
+ 0001:000180c0       _lstrlenA@4                004190c0 f   kernel32:KERNEL32.dll
+ 0001:000180c6       _KillTimer@8               004190c6 f   user32:USER32.dll
+ 0001:000180cc       _SetTimer@16               004190cc f   user32:USER32.dll
+ 0001:000180d2       ??3@YAXPAX@Z               004190d2 f   mfc42d:MFC42D.DLL
+ 0001:000180d8       ??2@YAPAXI@Z               004190d8 f   mfc42d:MFC42D.DLL
+ 0001:000180de       ??1CCriticalSection@@UAE@XZ 004190de f   mfc42d:MFC42D.DLL
+ 0001:000180e4       ??1CStringList@@UAE@XZ     004190e4 f   mfc42d:MFC42D.DLL
+ 0001:000180ea       ?RemoveAll@CStringList@@QAEXXZ 004190ea f   mfc42d:MFC42D.DLL
+ 0001:000180f0       ??0CCriticalSection@@QAE@XZ 004190f0 f   mfc42d:MFC42D.DLL
+ 0001:000180f6       ??0CStringList@@QAE@H@Z    004190f6 f   mfc42d:MFC42D.DLL
+ 0001:000180fc       ?Find@CStringList@@QBEPAU__POSITION@@PBDPAU2@@Z 004190fc f   mfc42d:MFC42D.DLL
+ 0001:00018102       ?Lock@CCriticalSection@@QAEHXZ 00419102 f   mfc42d:MFC42D.DLL
+ 0001:00018108       ?AddHead@CStringList@@QAEPAU__POSITION@@PBD@Z 00419108 f   mfc42d:MFC42D.DLL
+ 0001:0001810e       ?RemoveAt@CStringList@@QAEXPAU__POSITION@@@Z 0041910e f   mfc42d:MFC42D.DLL
+ 0001:00018114       ??1CString@@QAE@XZ         00419114 f   mfc42d:MFC42D.DLL
+ 0001:0001811a       ??4CString@@QAEABV0@PBD@Z  0041911a f   mfc42d:MFC42D.DLL
+ 0001:00018120       ?Empty@CString@@QAEXXZ     00419120 f   mfc42d:MFC42D.DLL
+ 0001:00018126       ??0CString@@QAE@XZ         00419126 f   mfc42d:MFC42D.DLL
+ 0001:0001812c       ??4CString@@QAEABV0@ABV0@@Z 0041912c f   mfc42d:MFC42D.DLL
+ 0001:00018132       ??BCString@@QBEPBDXZ       00419132 f   mfc42d:MFC42D.DLL
+ 0001:00018138       ?Replace@CString@@QAEHDD@Z 00419138 f   mfc42d:MFC42D.DLL
+ 0001:0001813e       ?GetLength@CString@@QBEHXZ 0041913e f   mfc42d:MFC42D.DLL
+ 0001:00018144       ??0CString@@QAE@ABV0@@Z    00419144 f   mfc42d:MFC42D.DLL
+ 0001:0001814a       ??0CString@@QAE@PBD@Z      0041914a f   mfc42d:MFC42D.DLL
+ 0001:00018150       ?GetAt@CStringArray@@QBE?AVCString@@H@Z 00419150 f   mfc42d:MFC42D.DLL
+ 0001:00018156       ?GetUpperBound@CStringArray@@QBEHXZ 00419156 f   mfc42d:MFC42D.DLL
+ 0001:0001815c       ?Delete@CException@@QAEXXZ 0041915c f   mfc42d:MFC42D.DLL
+ 0001:00018162       ?CompareNoCase@CString@@QBEHPBD@Z 00419162 f   mfc42d:MFC42D.DLL
+ 0001:00018168       ?Format@CString@@QAAXPBDZZ 00419168 f   mfc42d:MFC42D.DLL
+ 0001:0001816e       ?IsEmpty@CString@@QBEHXZ   0041916e f   mfc42d:MFC42D.DLL
+ 0001:00018174       ?Unlock@CCriticalSection@@UAEHXZ 00419174 f   mfc42d:MFC42D.DLL
+ 0001:0001817a       ?Replace@CString@@QAEHPBD0@Z 0041917a f   mfc42d:MFC42D.DLL
+ 0001:00018180       ?AfxBeginThread@@YGPAVCWinThread@@P6AIPAX@Z0HIKPAU_SECURITY_ATTRIBUTES@@@Z 00419180 f   mfc42d:MFC42D.DLL
+ 0001:00018186       ??1CStringArray@@UAE@XZ    00419186 f   mfc42d:MFC42D.DLL
+ 0001:0001818c       ??0CStringArray@@QAE@XZ    0041918c f   mfc42d:MFC42D.DLL
+ 0001:00018192       ??YCString@@QAEABV0@PBD@Z  00419192 f   mfc42d:MFC42D.DLL
+ 0001:00018198       ?Left@CString@@QBE?AV1@H@Z 00419198 f   mfc42d:MFC42D.DLL
+ 0001:0001819e       ?ReverseFind@CString@@QBEHD@Z 0041919e f   mfc42d:MFC42D.DLL
+ 0001:000181a4       ??3CObject@@SGXPAXPBDH@Z   004191a4 f   mfc42d:MFC42D.DLL
+ 0001:000181aa       ??4CString@@QAEABV0@D@Z    004191aa f   mfc42d:MFC42D.DLL
+ 0001:000181b0       ?Close@CStdioFile@@UAEXXZ  004191b0 f   mfc42d:MFC42D.DLL
+ 0001:000181b6       ?SetAtGrow@CStringArray@@QAEXHABVCString@@@Z 004191b6 f   mfc42d:MFC42D.DLL
+ 0001:000181bc       ?Add@CStringArray@@QAEHABVCString@@@Z 004191bc f   mfc42d:MFC42D.DLL
+ 0001:000181c2       ?Mid@CString@@QBE?AV1@H@Z  004191c2 f   mfc42d:MFC42D.DLL
+ 0001:000181c8       ?Find@CString@@QBEHPBD@Z   004191c8 f   mfc42d:MFC42D.DLL
+ 0001:000181ce       ?Mid@CString@@QBE?AV1@HH@Z 004191ce f   mfc42d:MFC42D.DLL
+ 0001:000181d4       ?Right@CString@@QBE?AV1@H@Z 004191d4 f   mfc42d:MFC42D.DLL
+ 0001:000181da       ??8@YG_NABVCString@@PBD@Z  004191da f   mfc42d:MFC42D.DLL
+ 0001:000181e0       ?ReadString@CStdioFile@@UAEHAAVCString@@@Z 004191e0 f   mfc42d:MFC42D.DLL
+ 0001:000181e6       ?SeekToBegin@CFile@@QAEXXZ 004191e6 f   mfc42d:MFC42D.DLL
+ 0001:000181ec       ??2CObject@@SGPAXIPBDH@Z   004191ec f   mfc42d:MFC42D.DLL
+ 0001:000181f2       ??1CFileException@@UAE@XZ  004191f2 f   mfc42d:MFC42D.DLL
+ 0001:000181f8       ??1CStdioFile@@UAE@XZ      004191f8 f   mfc42d:MFC42D.DLL
+ 0001:000181fe       ?Open@CStdioFile@@UAEHPBDIPAVCFileException@@@Z 004191fe f   mfc42d:MFC42D.DLL
+ 0001:00018204       ??0CStdioFile@@QAE@XZ      00419204 f   mfc42d:MFC42D.DLL
+ 0001:0001820a       ??0CFileException@@QAE@HJPBD@Z 0041920a f   mfc42d:MFC42D.DLL
+ 0001:00018210       ?Delete@CString@@QAEHHH@Z  00419210 f   mfc42d:MFC42D.DLL
+ 0001:00018216       ?AfxAssertFailedLine@@YGHPBDH@Z 00419216 f   mfc42d:MFC42D.DLL
+ 0001:0001821c       ?GetSize@CStringArray@@QBEHXZ 0041921c f   mfc42d:MFC42D.DLL
+ 0001:00018222       ?SetAt@CStringArray@@QAEXHABVCString@@@Z 00419222 f   mfc42d:MFC42D.DLL
+ 0001:00018228       ?WriteString@CStdioFile@@UAEXPBD@Z 00419228 f   mfc42d:MFC42D.DLL
+ 0001:0001822e       ??6CDumpContext@@QAEAAV0@PBD@Z 0041922e f   mfc42d:MFC42D.DLL
+ 0001:00018234       ?RemoveAll@CStringArray@@QAEXXZ 00419234 f   mfc42d:MFC42D.DLL
+ 0001:0001823a       ?RemoveAt@CStringArray@@QAEXHH@Z 0041923a f   mfc42d:MFC42D.DLL
+ 0001:00018240       ?Compare@CString@@QBEHPBD@Z 00419240 f   mfc42d:MFC42D.DLL
+ 0001:00018246       ??1CFile@@UAE@XZ           00419246 f   mfc42d:MFC42D.DLL
+ 0001:0001824c       ?Format@CTime@@QBE?AVCString@@PBD@Z 0041924c f   mfc42d:MFC42D.DLL
+ 0001:00018252       ??0CTime@@QAE@ABV0@@Z      00419252 f   mfc42d:MFC42D.DLL
+ 0001:00018258       ?GetTickCount@CTime@@SG?AV1@XZ 00419258 f   mfc42d:MFC42D.DLL
+ 0001:0001825e       ?Close@CFile@@UAEXXZ       0041925e f   mfc42d:MFC42D.DLL
+ 0001:00018264       ?SeekToEnd@CFile@@QAEKXZ   00419264 f   mfc42d:MFC42D.DLL
+ 0001:0001826a       ?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 0041926a f   mfc42d:MFC42D.DLL
+ 0001:00018270       ??0CFile@@QAE@XZ           00419270 f   mfc42d:MFC42D.DLL
+ 0001:00018276       ??0CWinApp@@QAE@PBD@Z      00419276 f   mfc42d:MFC42D.DLL
+ 0001:0001827c       ??1CWinApp@@UAE@XZ         0041927c f   mfc42d:MFC42D.DLL
+ 0001:00018282       ??2@YAPAXIPBDH@Z           00419282 f   mfc42d:MFC42D.DLL
+ 0001:00018288       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 00419288 f   mfc42d:MFC42D.DLL
+ 0001:0001828e       ??0CTimeSpan@@QAE@XZ       0041928e f   mfc42d:MFC42D.DLL
+ 0001:00018294       ??0CTime@@QAE@XZ           00419294 f   mfc42d:MFC42D.DLL
+ 0001:0001829a       ??4CTime@@QAEABV0@ABV0@@Z  0041929a f   mfc42d:MFC42D.DLL
+ 0001:000182a0       ?GetTotalMinutes@CTimeSpan@@QBEJXZ 004192a0 f   mfc42d:MFC42D.DLL
+ 0001:000182a6       ?GetSeconds@CTimeSpan@@QBEHXZ 004192a6 f   mfc42d:MFC42D.DLL
+ 0001:000182ac       ??4CTimeSpan@@QAEABV0@ABV0@@Z 004192ac f   mfc42d:MFC42D.DLL
+ 0001:000182b2       ??GCTime@@QBE?AVCTimeSpan@@V0@@Z 004192b2 f   mfc42d:MFC42D.DLL
+ 0001:000182b8       ??0CTimeSpan@@QAE@ABV0@@Z  004192b8 f   mfc42d:MFC42D.DLL
+ 0001:000182be       ?GetSecond@CTime@@QBEHXZ   004192be f   mfc42d:MFC42D.DLL
+ 0001:000182c4       ?GetMinute@CTime@@QBEHXZ   004192c4 f   mfc42d:MFC42D.DLL
+ 0001:000182ca       ?GetHour@CTime@@QBEHXZ     004192ca f   mfc42d:MFC42D.DLL
+ 0001:000182d0       ?GetDay@CTime@@QBEHXZ      004192d0 f   mfc42d:MFC42D.DLL
+ 0001:000182d6       ?GetMonth@CTime@@QBEHXZ    004192d6 f   mfc42d:MFC42D.DLL
+ 0001:000182dc       ?GetYear@CTime@@QBEHXZ     004192dc f   mfc42d:MFC42D.DLL
+ 0001:000182e2       __chkesp                   004192e2 f   msvcrtd:MSVCRTD.dll
+ 0001:000182e8       ___CxxFrameHandler         004192e8 f   msvcrtd:MSVCRTD.dll
+ 0001:000182f0       __onexit                   004192f0 f   msvcrtd:atonexit.obj
+ 0001:00018330       _atexit                    00419330 f   msvcrtd:atonexit.obj
+ 0001:00018348       _sscanf                    00419348 f   msvcrtd:MSVCRTD.dll
+ 0001:00018350       ??0type_info@@AAE@ABV0@@Z  00419350 f   msvcrtd:ti_inst.obj
+ 0001:00018370       ??_Gtype_info@@UAEPAXI@Z   00419370 f i msvcrtd:ti_inst.obj
+ 0001:00018370       ??_Etype_info@@UAEPAXI@Z   00419370 f i msvcrtd:ti_inst.obj
+ 0001:000183a0       ??4type_info@@AAEAAV0@ABV0@@Z 004193a0 f   msvcrtd:ti_inst.obj
+ 0001:000183b0       _strncpy                   004193b0 f   msvcrtd:MSVCRTD.dll
+ 0001:000183b6       _atof                      004193b6 f   msvcrtd:MSVCRTD.dll
+ 0001:000183bc       _atoi                      004193bc f   msvcrtd:MSVCRTD.dll
+ 0001:000183c2       _printf                    004193c2 f   msvcrtd:MSVCRTD.dll
+ 0001:000183c8       _sprintf                   004193c8 f   msvcrtd:MSVCRTD.dll
+ 0001:000183ce       __ftol                     004193ce f   msvcrtd:MSVCRTD.dll
+ 0001:000183d4       _atol                      004193d4 f   msvcrtd:MSVCRTD.dll
+ 0001:000183da       _strlen                    004193da f   msvcrtd:MSVCRTD.dll
+ 0001:000183e0       ___p___argv                004193e0 f   msvcrtd:MSVCRTD.dll
+ 0001:000183e6       _malloc                    004193e6 f   msvcrtd:MSVCRTD.dll
+ 0001:000183ec       __msize                    004193ec f   msvcrtd:MSVCRTD.dll
+ 0001:000183f2       _realloc                   004193f2 f   msvcrtd:MSVCRTD.dll
+ 0001:000183f8       __splitpath                004193f8 f   msvcrtd:MSVCRTD.dll
+ 0001:000183fe       _memset                    004193fe f   msvcrtd:MSVCRTD.dll
+ 0001:00018404       _fclose                    00419404 f   msvcrtd:MSVCRTD.dll
+ 0001:0001840a       _fputs                     0041940a f   msvcrtd:MSVCRTD.dll
+ 0001:00018410       _fopen                     00419410 f   msvcrtd:MSVCRTD.dll
+ 0001:00018416       _strstr                    00419416 f   msvcrtd:MSVCRTD.dll
+ 0001:0001841c       _memcpy                    0041941c f   msvcrtd:MSVCRTD.dll
+ 0001:00018430       __chkstk                   00419430 f   msvcrtd:chkstk.obj
+ 0001:00018430       __alloca_probe             00419430 f   msvcrtd:chkstk.obj
+ 0001:00018460       _mainCRTStartup            00419460 f   msvcrtd:crtexe.obj
+ 0001:000185a8       ___dllonexit               004195a8 f   msvcrtd:MSVCRTD.dll
+ 0001:000185ae       ??1type_info@@UAE@XZ       004195ae f   msvcrtd:MSVCRTD.dll
+ 0001:000185b4       __exit                     004195b4 f   msvcrtd:MSVCRTD.dll
+ 0001:000185ba       __XcptFilter               004195ba f   msvcrtd:MSVCRTD.dll
+ 0001:000185c0       _exit                      004195c0 f   msvcrtd:MSVCRTD.dll
+ 0001:000185c6       ___p___initenv             004195c6 f   msvcrtd:MSVCRTD.dll
+ 0001:000185cc       ___getmainargs             004195cc f   msvcrtd:MSVCRTD.dll
+ 0001:000185d2       __initterm                 004195d2 f   msvcrtd:MSVCRTD.dll
+ 0001:000185e0       __setdefaultprecision      004195e0 f   msvcrtd:fp8.obj
+ 0001:000185f8       ___setusermatherr          004195f8 f   msvcrtd:MSVCRTD.dll
+ 0001:00018600       __matherr                  00419600 f   msvcrtd:merr.obj
+ 0001:00018610       __setargv                  00419610 f   msvcrtd:dllargv.obj
+ 0001:00018616       ___p__commode              00419616 f   msvcrtd:MSVCRTD.dll
+ 0001:0001861c       ___p__fmode                0041961c f   msvcrtd:MSVCRTD.dll
+ 0001:00018622       ___set_app_type            00419622 f   msvcrtd:MSVCRTD.dll
+ 0001:00018628       __except_handler3          00419628 f   msvcrtd:MSVCRTD.dll
+ 0001:0001862e       __controlfp                0041962e f   msvcrtd:MSVCRTD.dll
+ 0001:00018634       ??1CRecordset@@UAE@XZ      00419634 f   mfcd42d:MFCD42D.DLL
+ 0001:0001863a       ?Close@CRecordset@@UAEXXZ  0041963a f   mfcd42d:MFCD42D.DLL
+ 0001:00018640       ?IsOpen@CRecordset@@QBEHXZ 00419640 f   mfcd42d:MFCD42D.DLL
+ 0001:00018646       ?MoveNext@CRecordset@@QAEXXZ 00419646 f   mfcd42d:MFCD42D.DLL
+ 0001:0001864c       ?GetODBCFieldInfo@CRecordset@@QAEXFAAUCODBCFieldInfo@@@Z 0041964c f   mfcd42d:MFCD42D.DLL
+ 0001:00018652       ?GetFieldValue@CRecordset@@QAEXFAAVCString@@@Z 00419652 f   mfcd42d:MFCD42D.DLL
+ 0001:00018658       ?IsEOF@CRecordset@@QBEHXZ  00419658 f   mfcd42d:MFCD42D.DLL
+ 0001:0001865e       ?GetODBCFieldCount@CRecordset@@QBEFXZ 0041965e f   mfcd42d:MFCD42D.DLL
+ 0001:00018664       ?Open@CRecordset@@UAEHIPBDK@Z 00419664 f   mfcd42d:MFCD42D.DLL
+ 0001:0001866a       ??0CRecordset@@QAE@PAVCDatabase@@@Z 0041966a f   mfcd42d:MFCD42D.DLL
+ 0001:00018670       ?SetLoginTimeout@CDatabase@@QAEXK@Z 00419670 f   mfcd42d:MFCD42D.DLL
+ 0001:00018676       ?IsOpen@CDatabase@@QBEHXZ  00419676 f   mfcd42d:MFCD42D.DLL
+ 0001:0001867c       ?ExecuteSQL@CDatabase@@QAEXPBD@Z 0041967c f   mfcd42d:MFCD42D.DLL
+ 0001:00018682       ??1CDatabase@@UAE@XZ       00419682 f   mfcd42d:MFCD42D.DLL
+ 0001:00018688       ??0CDatabase@@QAE@XZ       00419688 f   mfcd42d:MFCD42D.DLL
+ 0001:0001868e       ??0Init@ios_base@std@@QAE@XZ 0041968e f   msvcprtd:MSVCP60D.dll
+ 0001:00018694       ??1Init@ios_base@std@@QAE@XZ 00419694 f   msvcprtd:MSVCP60D.dll
+ 0001:0001869a       ??0_Winit@std@@QAE@XZ      0041969a f   msvcprtd:MSVCP60D.dll
+ 0001:000186a0       ??1_Winit@std@@QAE@XZ      004196a0 f   msvcprtd:MSVCP60D.dll
+ 0001:000186a6       ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z 004196a6 f   msvcprtd:MSVCP60D.dll
+ 0001:000186ac       ??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 004196ac f   msvcprtd:MSVCP60D.dll
+ 0001:000186b2       ?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z 004196b2 f   msvcprtd:MSVCP60D.dll
+ 0001:000186c0       __strcmpi                  004196c0 f   msvcrtd:MSVCRTD.dll
+ 0001:000186c6       __stricmp                  004196c6 f   msvcrtd:MSVCRTD.dll
+ 0001:0001bae0       __enc$textbss$begin        0041cae0     <linker-defined>
+ 0001:0002bae0       __enc$textbss$end          0042cae0     <linker-defined>
+ 0002:0000001c       ??_7Thread@@6B@            0042d01c     ActivationTimer.obj
+ 0002:00000020       ??_7ThreadList@@6B@        0042d020     ActivationTimer.obj
+ 0002:00000024       ??_7Task@@6B@              0042d024     ActivationTimer.obj
+ 0002:00000028       ??_7TaskList@@6B@          0042d028     ActivationTimer.obj
+ 0002:0000002c       ??_7ActivationTimer@@6B@   0042d02c     ActivationTimer.obj
+ 0002:00000030       ??_7CActiveAccounts@@6B@   0042d030     ActiveAccounts.obj
+ 0002:00000034       ??_C@_01PLJA@0?$AA@        0042d034     Database.obj
+ 0002:00000038       ??_C@_04KAEN@1?400?$AA@    0042d038     Database.obj
+ 0002:00000040       ??_C@_0BH@JJFD@?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$AA@ 0042d040     Database.obj
+ 0002:0000005c       ??_C@_0N@GKJB@MCR?9STATIONS?$AA@ 0042d05c     Database.obj
+ 0002:0000006c       ??_C@_00A@?$AA@            0042d06c     Database.obj
+ 0002:00000070       ??_C@_0BM@OKHO@CMyDatabase?3?3GetAccount?$CI?$CFs?$CJ?$AA@ 0042d070     Database.obj
+ 0002:00000094       ??_C@_0BH@NKAI@CTLUNIT_PULSE_IDLE_MIN?$AA@ 0042d094     Database.obj
+ 0002:000000b0       ??_C@_0BE@HOO@CTLUNIT_KEYBRD_MODE?$AA@ 0042d0b0     Database.obj
+ 0002:000000c8       ??_C@_0BI@IPFI@CTLUNIT_COPYPIN_ENABLED?$AA@ 0042d0c8     Database.obj
+ 0002:000000e4       ??_C@_0BD@EMKP@CTLUNIT_CONN_RESET?$AA@ 0042d0e4     Database.obj
+ 0002:000000fc       ??_C@_0BD@PHBL@CTLUNIT_REQ_MATTER?$AA@ 0042d0fc     Database.obj
+ 0002:00000114       ??_C@_0BD@MLEO@CTLUNIT_REQ_CLIENT?$AA@ 0042d114     Database.obj
+ 0002:0000012c       ??_C@_0BA@GKNL@CTLUNIT_PORT_NO?$AA@ 0042d12c     Database.obj
+ 0002:00000140       ??_C@_0L@GGGH@CTLUNIT_IP?$AA@ 0042d140     Database.obj
+ 0002:00000150       ??_C@_0N@LMIL@CTLUNIT_GUID?$AA@ 0042d150     Database.obj
+ 0002:00000160       ??_C@_0EF@CCCD@SELECT?5?$CK?5FROM?5DOCUGATE_GENERAL_C@ 0042d160     Database.obj
+ 0002:000001b4       ??_C@_0CH@GHBF@SELECT?5?$CK?5FROM?5DOCUGATE_GENERAL_C@ 0042d1b4     Database.obj
+ 0002:000001e4       ??_C@_0DA@IJPI@CMyDatabase?3?3GetStationCustomPL?$CI@ 0042d1e4     Database.obj
+ 0002:00000220       ??_C@_0DO@EKNN@CMyDatabase?3?3GetStationCustomPL?$CI@ 0042d220     Database.obj
+ 0002:0000026c       ??_C@_03LAFH@PL4?$AA@      0042d26c     Database.obj
+ 0002:00000270       ??_C@_03OFLC@PL3?$AA@      0042d270     Database.obj
+ 0002:00000274       ??_C@_03EPCF@PL2?$AA@      0042d274     Database.obj
+ 0002:00000278       ??_C@_03LAJM@PL1?$AA@      0042d278     Database.obj
+ 0002:0000027c       ??_C@_07IKEP@ENABLED?$AA@  0042d27c     Database.obj
+ 0002:00000288       ??_C@_0CE@EEDN@CMyDatabase?3?3GetStationCustomPL?$CI@ 0042d288     Database.obj
+ 0002:000002b4       ??_C@_0EL@CLEB@SELECT?5?$CK?5FROM?5DOCUGATE_GENERAL_C@ 0042d2b4     Database.obj
+ 0002:00000310       ??_C@_0CD@OACJ@CMyDatabase?3?3GetUnitOrCurrency?$CI?$CF@ 0042d310     Database.obj
+ 0002:0000033c       ??_C@_0FA@CKNF@SELECT?5GLOBALS_UNITVALUE?0GLOBALS@ 0042d33c     Database.obj
+ 0002:0000039c       ??_C@_03HHKO@?$CFs?6?$AA@  0042d39c     Database.obj
+ 0002:000003a0       ??_C@_0CA@KGGF@CMyDatabase?3?3OpenConnection?$CI?$CFs?$CJ?$AA@ 0042d3a0     Database.obj
+ 0002:000003c8       ??_C@_0BN@NPAL@CMyDatabase?3?3CheckHandle?$CI?$CFs?$CJ?$AA@ 0042d3c8     Database.obj
+ 0002:000003ec       ??_C@_0BC@DOKK@SELECT?5GETDATE?$CI?$CJ?$DL?$AA@ 0042d3ec     Database.obj
+ 0002:00000404       ??_C@_0CB@CHCL@CMyDatabase?3?3CloseConnection?$CI?$CFs?$CJ@ 0042d404     Database.obj
+ 0002:0000042c       ??_C@_0BK@GHNG@CMyDatabase?3?3GetGroup?$CI?$CFs?$CJ?$AA@ 0042d42c     Database.obj
+ 0002:0000044c       ??_C@_0IB@EPFI@SELECT?5OU_DEFAULT_CLIENT?0OU_DEFA@ 0042d44c     Database.obj
+ 0002:000004e8       ??_C@_0P@IJLI@SELECT?5NEWID?$CI?$CJ?$AA@ 0042d4e8     Database.obj
+ 0002:000004fc       ??_C@_0CA@DFEO@CMyDatabase?3?3GetAccMaxSpend?$CI?$CFs?$CJ?$AA@ 0042d4fc     Database.obj
+ 0002:00000524       ??_C@_0EP@KOCJ@SELECT?5ENABLED?0AMOUNT?5FROM?5DOCUG@ 0042d524     Database.obj
+ 0002:00000584       ??_C@_0EN@IIHI@SELECT?5ENABLED?0AMOUNT?5FROM?5DOCUG@ 0042d584     Database.obj
+ 0002:000005e0       ??_C@_0EO@FPEF@SELECT?5GLOBALS_MAXSPEND_ENABLED?0@ 0042d5e0     Database.obj
+ 0002:00000640       ??_C@_0IO@HII@SELECT?5ACC_DEFAULT_CLIENT?0ACC_DE@ 0042d640     Database.obj
+ 0002:000006ec       ??_C@_0BL@FPIM@CMyDatabase?3?3GetCopier?$CI?$CFs?$CJ?$AA@ 0042d6ec     Database.obj
+ 0002:0000070c       ??_C@_0FB@LANB@SELECT?5?5DEVICENAME?0LOCATION?0LOCK@ 0042d70c     Database.obj
+ 0002:00000770       ??_C@_0BO@GCLA@CMyDatabase?3?3VerifyClient?$CI?$CFs?$CJ?$AA@ 0042d770     Database.obj
+ 0002:00000794       ??_C@_0DO@PJO@SELECT?5COUNT?$CI?$CK?$CJ?5FROM?5DOCUGATE_GE@ 0042d794     Database.obj
+ 0002:000007e0       ??_C@_0BO@FKPO@CMyDatabase?3?3VerifyMatter?$CI?$CFs?$CJ?$AA@ 0042d7e0     Database.obj
+ 0002:00000804       ??_C@_0FA@LKBM@SELECT?5COUNT?$CI?$CK?$CJ?5FROM?5DOCUGATE_CM@ 0042d804     Database.obj
+ 0002:00000864       ??_C@_0BM@KKLM@CMyDatabase?3?3GetStation?$CI?$CFs?$CJ?$AA@ 0042d864     Database.obj
+ 0002:00000888       __real@8@00000000000000000000 0042d888     Database.obj
+ 0002:00000894       ??_C@_0HI@HCCA@SELECT?5GLOBALS_SFBW?0?5GLOBALS_LFB@ 0042d894     Database.obj
+ 0002:00000924       ??_C@_0BO@ODPE@CMyDatabase?3?3GetAccountID?$CI?$CFs?$CJ?$AA@ 0042d924     Database.obj
+ 0002:00000948       ??_C@_02DILL@?$CFs?$AA@    0042d948     Database.obj
+ 0002:0000094c       ??_C@_0EG@OMID@SELECT?5ACC_ACC_GUID?5FROM?5DOCUGAT@ 0042d94c     Database.obj
+ 0002:000009a0       ??_C@_0FN@DBGI@SELECT?5ACC_ACC_GUID?5FROM?5DOCUGAT@ 0042d9a0     Database.obj
+ 0002:00000a10       ??_C@_0CF@CDDL@CMyDatabase?3?3GetOffLineAccountID@ 0042da10     Database.obj
+ 0002:00000a3c       ??_C@_0DD@KO@SELECT?5ACCOUNTID?5FROM?5ACCOUNTS?5W@ 0042da3c     Database.obj
+ 0002:00000a7c       ??_C@_0BN@LKFB@CMyDatabase?3?3GetDeviceID?$CI?$CFs?$CJ?$AA@ 0042da7c     Database.obj
+ 0002:00000aa0       ??_C@_0EK@JIOC@SELECT?5DEVICEID?0USECOLOR?5FROM?5SM@ 0042daa0     Database.obj
+ 0002:00000af8       ??_C@_0BO@COCD@CMyDatabase?3?3UpdateCopier?$CI?$CFs?$CJ?$AA@ 0042daf8     Database.obj
+ 0002:00000b1c       ??_C@_0CF@NBFA@CMyDatabase?3?3UpdateOffLineCopier@ 0042db1c     Database.obj
+ 0002:00000b48       ??_C@_0EI@HNLG@UPDATE?5DEVICES?5SET?5CURRENTCOUNT?5@ 0042db48     Database.obj
+ 0002:00000ba0       ??_C@_0BP@BFAP@CMyDatabase?3?3UpdateAccount?$CI?$CFs?$CJ?$AA@ 0042dba0     Database.obj
+ 0002:00000bc8       ??_C@_0EJ@IHOF@UPDATE?5DOCUGATE_GENERAL_ACC?5SET?5@ 0042dbc8     Database.obj
+ 0002:00000c20       ??_C@_0CG@PFPA@CMyDatabase?3?3UpdateOffLineAccoun@ 0042dc20     Database.obj
+ 0002:00000c50       ??_C@_0EA@KPEC@UPDATE?5ACCOUNTS?5SET?5BALANCE?5?$DN?5BA@ 0042dc50     Database.obj
+ 0002:00000c9c       ??_C@_0EA@GICM@UPDATE?5ACCOUNTS?5SET?5BALANCE?5?$DN?5BA@ 0042dc9c     Database.obj
+ 0002:00000ce8       ??_C@_0BM@FMPE@CMyDatabase?3?3LogCopyJob?$CI?$CFs?$CJ?$AA@ 0042dce8     Database.obj
+ 0002:00000d0c       ??_C@_0BCC@FPHL@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0042dd0c     Database.obj
+ 0002:00000e68       ??_C@_0BM@JPDM@CMyDatabase?3?3LogJournel?$CI?$CFs?$CJ?$AA@ 0042de68     Database.obj
+ 0002:00000e8c       ??_C@_0HG@MOFC@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0042de8c     Database.obj
+ 0002:00000f1c       ??_C@_0BO@OOEE@MCR?5Unit?5?$CFs?0?5?$CD?5of?5Copies?5?$DN?5?$CFd?$AA@ 0042df1c     Database.obj
+ 0002:00000f40       ??_C@_0FO@PBJL@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0042df40     Database.obj
+ 0002:00000fb0       ??_C@_0CK@NNMN@CMyDatabase?3?3RemoveActiveCopySes@ 0042dfb0     Database.obj
+ 0002:00000fe4       ??_C@_0CM@LBAA@DELETE?5FROM?5DOCUGATE_GENERAL_ACT@ 0042dfe4     Database.obj
+ 0002:00001018       ??_C@_0CJ@HJCD@CMyDatabase?3?3DeleteActiveCopySes@ 0042e018     Database.obj
+ 0002:0000104c       ??_C@_0EC@BHJC@DELETE?5FROM?5DOCUGATE_GENERAL_ACT@ 0042e04c     Database.obj
+ 0002:0000109c       ??_C@_0CG@KNLI@CMyDatabase?3?3AddActiveCopySessio@ 0042e09c     Database.obj
+ 0002:000010cc       ??_C@_0EF@PNMO@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0042e0cc     Database.obj
+ 0002:00001120       ??_C@_0CB@DHMP@CMyDatabase?3?3IsActiveSession?$CI?$CFs?$CJ@ 0042e120     Database.obj
+ 0002:00001148       ??_C@_0FL@MD@SELECT?5count?$CI?$CK?$CJ?5as?5SessionCount?5@ 0042e148     Database.obj
+ 0002:000011b8       ??_C@_0CJ@GBLD@CMyDatabase?3?3Handle_PingedConnec@ 0042e1b8     Database.obj
+ 0002:000011ec       ??_C@_05JKGC@NOW?$CI?$CJ?$AA@ 0042e1ec     Database.obj
+ 0002:000011f4       ??_C@_09BIJN@GETDATE?$CI?$CJ?$AA@ 0042e1f4     Database.obj
+ 0002:00001200       ??_C@_0EK@IFLO@UPDATE?5SMARTPRINT_STATIONS?5SET?5S@ 0042e200     Database.obj
+ 0002:00001258       ??_C@_0JA@PFAN@UPDATE?5SMARTPRINT_STATIONS?5SET?5S@ 0042e258     Database.obj
+ 0002:00001304       ??_C@_0IO@HOMH@INSERT?5INTO?5SMARTPRINT_STATIONS?5@ 0042e304     Database.obj
+ 0002:000013b0       ??_C@_0EP@CBPO@SELECT?5count?$CI?$CK?$CJ?5as?5MyCOUNTER?5FRO@ 0042e3b0     Database.obj
+ 0002:00001410       ??_C@_0CK@FBPN@CMyDatabase?3?3Handle_DroppedConne@ 0042e410     Database.obj
+ 0002:00001444       ??_C@_0FJ@DMIG@UPDATE?5SMARTPRINT_STATIONS?5SET?5S@ 0042e444     Database.obj
+ 0002:000014b0       ??_C@_0CG@HJLP@CMyDatabase?3?3Handle_SessionActiv@ 0042e4b0     Database.obj
+ 0002:000014e0       ??_C@_0FJ@PIOG@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0042e4e0     Database.obj
+ 0002:0000154c       ??_C@_0FI@PMGN@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0042e54c     Database.obj
+ 0002:000015b8       ??_C@_0CG@KEHH@CMyDatabase?3?3Handle_SessionClose@ 0042e5b8     Database.obj
+ 0002:000015e8       ??_C@_0FI@MILI@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0042e5e8     Database.obj
+ 0002:00001654       ??_C@_0CE@JOEO@CMyDatabase?3?3Handle_SessionIdle?$CI@ 0042e654     Database.obj
+ 0002:00001680       ??_C@_0FG@KLCI@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0042e680     Database.obj
+ 0002:000016e8       ??_C@_0CG@HFJB@CMyDatabase?3?3Handle_NewConnectio@ 0042e6e8     Database.obj
+ 0002:00001718       ??_C@_0GA@OBJE@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0042e718     Database.obj
+ 0002:0000178c       ??_C@_0BO@ILDL@CMyDatabase?3?3UpdateSchema?$CI?$CFs?$CJ?$AA@ 0042e78c     Database.obj
+ 0002:000017b0       ??_C@_0LF@EHF@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 0042e7b0     Database.obj
+ 0002:0000188c       ??_C@_0LH@ODI@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 0042e88c     Database.obj
+ 0002:00001968       ??_C@_0LJ@CCJG@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 0042e968     Database.obj
+ 0002:00001a48       ??_C@_0LN@GAAM@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 0042ea48     Database.obj
+ 0002:00001b2c       ??_C@_0FM@INKG@DG?5Control?$CI1027?$CJ?5Monitor?5Thread?5@ 0042eb2c     Discovery.obj
+ 0002:00001b9c       ??_7CIniEx@@6B@            0042eb9c     IniEx.obj
+ 0002:00001ba0       ??_C@_01PCFE@?2?$AA@       0042eba0     IniEx.obj
+ 0002:00001ba4       ??_C@_01KPOD@?$DN?$AA@     0042eba4     IniEx.obj
+ 0002:00001ba8       ??_C@_01FIMD@?$FN?$AA@     0042eba8     IniEx.obj
+ 0002:00001bac       ??_C@_01KHLB@?$FL?$AA@     0042ebac     IniEx.obj
+ 0002:00001bb0       ??_C@_07OJDM@?$CFs?$CFs?$CFs?6?$AA@ 0042ebb0     IniEx.obj
+ 0002:00001bbc       ??_C@_05NIPM@?$FL?$CFs?$FN?6?$AA@ 0042ebbc     IniEx.obj
+ 0002:00001bc4       ??_C@_0DA@JJJ@ERROR?$CB?$CB?$CB?$CB?3?5The?5file?5could?5not?5op@ 0042ebc4     IniEx.obj
+ 0002:00001c00       ??_C@_07EGPA@?$CFs?4?$CF?43d?$AA@ 0042ec00     IniEx.obj
+ 0002:00001c0c       ??_C@_03DCMC@?$CK?4?$CK?$AA@ 0042ec0c     IniEx.obj
+ 0002:00001c10       ??_C@_0CH@MDF@?$CFs?2program?5files?2realtime?2docuga@ 0042ec10     IniEx.obj
+ 0002:00001c50       ??_C@_0N@ILDM@?$CFs?0?$CFs?0?$CFs?0?$CFs?6?$AA@ 0042ec50     Logger.obj
+ 0002:00001c60       ??_C@_02JBML@?$CFc?$AA@    0042ec60     Logger.obj
+ 0002:00001c64       ??_C@_01FNLH@a?$AA@        0042ec64     Logger.obj
+ 0002:00001c68       ??_C@_06KKCN@?$CFs?$CFs?$CFs?$AA@ 0042ec68     Logger.obj
+ 0002:00001c70       ??_C@_0EA@JMNI@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DL?5Active?5conn@ 0042ec70     TheApp.obj
+ 0002:00001cbc       ??_C@_0DJ@OPAM@Thread?5ID?3?$CFd?$DL?5Thread?5started?5for@ 0042ecbc     TheApp.obj
+ 0002:00001d00       ??_C@_0CE@BHBM@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLDatabase?5Clo@ 0042ed00     TheApp.obj
+ 0002:00001d2c       ??_C@_0DM@FBKP@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLService?5Star@ 0042ed2c     TheApp.obj
+ 0002:00001d74       ??_C@_0CM@OPG@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLDatabase?5Sch@ 0042ed74     TheApp.obj
+ 0002:00001da8       ??_C@_0CK@PHP@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLDatabase?5Ope@ 0042eda8     TheApp.obj
+ 0002:00001ddc       ??_C@_0EH@KGHI@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DL?5Failed?5to?5e@ 0042eddc     TheApp.obj
+ 0002:00001e34       ??_C@_0M@CDAJ@DGC_MCR?4log?$AA@ 0042ee34     TheApp.obj
+ 0002:00001e44       ??_C@_0P@KNKH@DGC_MCR_?$CFs?4log?$AA@ 0042ee44     TheApp.obj
+ 0002:00001e58       ??_C@_0FJ@NFEJ@Driver?$DN?$HLSQL?5Server?$HN?$DLServer?$DN?$CFs?$DLDa@ 0042ee58     TheApp.obj
+ 0002:00001ec4       ??_C@_0EB@MPLA@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLNeed?5the?5Hos@ 0042eec4     TheApp.obj
+ 0002:00001f14       ??_C@_0CH@DBEI@Fatal?5Error?3?5MFC?5initialization?5@ 0042ef14     TheApp.obj
+ 0002:00001f48       ??_C@_0DC@OAMH@DG?5Control?5?$CI?$CFs?$CJ?3?5No?5Database?5Con@ 0042ef48     Worker.obj
+ 0002:00001f84       ??_C@_0BN@GAAC@No?5Database?5Connection?5?$EA?5?$CFs?6?$AA@ 0042ef84     Worker.obj
+ 0002:00001fa8       ??_7CHandler@@6B@          0042efa8     Worker.obj
+ 0002:00001fc4       ??_C@_0IB@NBDG@3150433541414E584333334635353235@ 0042efc4     Worker.obj
+ 0002:00002060       ??_C@_0CL@NHFO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ma@ 0042f060     Worker.obj
+ 0002:00002094       ??_C@_0CL@GKPG@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Cl@ 0042f094     Worker.obj
+ 0002:000020c8       ??_C@_0CN@JBKN@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Pa@ 0042f0c8     Worker.obj
+ 0002:00002100       ??_C@_0CL@NJKI@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ac@ 0042f100     Worker.obj
+ 0002:00002134       ??_C@_05HIBB@CLEAR?$AA@    0042f134     Worker.obj
+ 0002:0000213c       ??_C@_02IALM@UP?$AA@       0042f13c     Worker.obj
+ 0002:00002140       ??_C@_04MFOA@DOWN?$AA@     0042f140     Worker.obj
+ 0002:00002148       ??_C@_0BH@IELM@Station?5Location?5?$DN?5?$CFs?6?$AA@ 0042f148     Worker.obj
+ 0002:00002164       ??_C@_0BD@OJKA@Location?5received?6?$AA@ 0042f164     Worker.obj
+ 0002:0000217c       ??_C@_0BC@JKM@Gateway?5received?6?$AA@ 0042f17c     Worker.obj
+ 0002:00002194       ??_C@_0P@PJBH@Mask?5received?6?$AA@ 0042f194     Worker.obj
+ 0002:000021a8       ??_C@_0M@IBML@?$CFd?4?$CFd?4?$CFd?4?$CFd?$AA@ 0042f1a8     Worker.obj
+ 0002:000021b8       ??_C@_0BC@OJBM@Address?5received?6?$AA@ 0042f1b8     Worker.obj
+ 0002:000021d0       ??_C@_0BH@OMHN@Currency?5Ack?5received?6?$AA@ 0042f1d0     Worker.obj
+ 0002:000021ec       ??_C@_0P@EFBK@Session?3?5$?$CF?42f?$AA@ 0042f1ec     Worker.obj
+ 0002:00002200       ??_C@_0BC@PNAP@Session?3?5?$CFd?5Units?$AA@ 0042f200     Worker.obj
+ 0002:00002218       ??_C@_0P@EFEJ@Balance?3?5$?$CF?42f?$AA@ 0042f218     Worker.obj
+ 0002:0000222c       ??_C@_0BC@POPL@Balance?3?5?$CFd?5Units?$AA@ 0042f22c     Worker.obj
+ 0002:00002244       ??_C@_0DK@IANA@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5MC@ 0042f244     Worker.obj
+ 0002:0000228c       ??_C@_0CE@NCK@HOST?5Session?5Terminated?5clean?5?9?5@ 0042f28c     Worker.obj
+ 0002:000022b8       ??_C@_0DK@KOHB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5MC@ 0042f2b8     Worker.obj
+ 0002:00002300       ??_C@_0CD@OGEP@MCR?5Session?5Terminated?5clean?5?9?5?$CF@ 0042f300     Worker.obj
+ 0002:0000232c       ??_C@_0P@FBMK@Clock?5Set?5Ack?6?$AA@ 0042f32c     Worker.obj
+ 0002:00002340       ??_C@_0BE@FOCP@Delay?5Ack?5received?6?$AA@ 0042f340     Worker.obj
+ 0002:00002358       ??_C@_0O@HMLF@Mac?5received?6?$AA@ 0042f358     Worker.obj
+ 0002:00002368       ??_C@_0BK@DMJK@Offline?5Max?5Ack?5received?6?$AA@ 0042f368     Worker.obj
+ 0002:00002388       ??_C@_0BL@KGKE@Offline?5mode?5Ack?5received?6?$AA@ 0042f388     Worker.obj
+ 0002:000023a8       ??_C@_0CL@FKNN@Display?5At?5ack?5received?5for?5Row?5@ 0042f3a8     Worker.obj
+ 0002:000023dc       ??_C@_07MBKB@COPYJOB?$AA@  0042f3dc     Worker.obj
+ 0002:000023e8       ??_C@_07CNPM@UNKNOWN?$AA@  0042f3e8     Worker.obj
+ 0002:000023f4       ??_C@_0CG@GLND@OffLine?5Count?5Rcved?0?5?$CFd?5Transact@ 0042f3f4     Worker.obj
+ 0002:00002424       ??_C@_0DG@PKMC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ab@ 0042f424     Worker.obj
+ 0002:00002464       ??_C@_0DE@PKOC@Connection?5was?5Terminated?5?9?5Acti@ 0042f464     Worker.obj
+ 0002:000024a4       ??_C@_0DB@ECGC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ab@ 0042f4a4     Worker.obj
+ 0002:000024e0       ??_C@_0CE@EJJB@Thread?5ID?3?$CFd?$DLThread?5Terminated?5?$EA@ 0042f4e0     Worker.obj
+ 0002:0000250c       ??_C@_0BI@PEEL@Thread?5Terminated?5?$EA?5?$CFs?6?$AA@ 0042f50c     Worker.obj
+ 0002:00002528       ??_C@_0DN@MIHF@Thread?5ID?3?$CFd?$DLTCPIP?5Connection?5Di@ 0042f528     Worker.obj
+ 0002:00002574       ??_C@_0CH@KJGL@Thread?5Disconnected?5?$EA?5?$CFs?5?9?5Resul@ 0042f574     Worker.obj
+ 0002:000025a4       ??_C@_0DJ@ODCK@Thread?5ID?3?$CFd?$DLTCPIP?5Connection?5Di@ 0042f5a4     Worker.obj
+ 0002:000025e8       ??_C@_0BL@FPNK@Thread?5Disconnecting?5?$EA?5?$CFs?6?$AA@ 0042f5e8     Worker.obj
+ 0002:00002608       ??_C@_0GB@HNHJ@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042f608     Worker.obj
+ 0002:0000267c       ??_C@_0DJ@DAHP@No?5Response?5to?5set?5SetPriceLine?$CI@ 0042f67c     Worker.obj
+ 0002:000026c0       ??_C@_0DF@HNAK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 0042f6c0     Worker.obj
+ 0002:00002700       ??_C@_0BL@BLF@Calling?5SetPriceLine?5?$EA?5?$CFs?6?$AA@ 0042f700     Worker.obj
+ 0002:00002720       ??_C@_02JBAA@?$CFf?$AA@    0042f720     Worker.obj
+ 0002:00002724       __real@4@4005c800000000000000 0042f724     Worker.obj
+ 0002:00002728       ??_C@_0P@CFEM@Error?3?5DG?90008?$AA@ 0042f728     Worker.obj
+ 0002:0000273c       ??_C@_0P@CEBB@Error?3?5DG?90007?$AA@ 0042f73c     Worker.obj
+ 0002:00002750       ??_C@_0P@HBDP@Error?3?5DG?90005?$AA@ 0042f750     Worker.obj
+ 0002:00002764       ??_C@_0P@IPNL@Error?3?5DG?90009?$AA@ 0042f764     Worker.obj
+ 0002:00002778       ??_C@_0BA@GM@Error?3?5DG?90001a?$AA@ 0042f778     Worker.obj
+ 0002:0000278c       ??_C@_0P@NLGD@Error?3?5DG?90001?$AA@ 0042f78c     Worker.obj
+ 0002:000027a0       ??_C@_0BL@FDAD@Account?5Already?5Logged?5On?6?$AA@ 0042f7a0     Worker.obj
+ 0002:000027c0       ??_C@_0P@NLKI@Error?3?5DG?90004?$AA@ 0042f7c0     Worker.obj
+ 0002:000027d4       ??_C@_0BO@HGJK@No?5Account?5Located?5for?5ID?5?$CFs?6?$AA@ 0042f7d4     Worker.obj
+ 0002:000027f8       ??_C@_0GB@MKIE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042f7f8     Worker.obj
+ 0002:0000286c       ??_C@_0DJ@CKIN@No?5Response?5to?5set?5SetKeyBoard?$CI0@ 0042f86c     Worker.obj
+ 0002:000028b0       ??_C@_0DF@CECE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 0042f8b0     Worker.obj
+ 0002:000028f0       ??_C@_0BN@NBGE@Calling?5SetKeyBoard?$CI0?$CJ?5?$EA?5?$CFs?6?$AA@ 0042f8f0     Worker.obj
+ 0002:00002914       ??_C@_0GF@MHLD@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042f914     Worker.obj
+ 0002:00002990       ??_C@_0DN@GCLO@No?5Response?5to?5set?5SetAuthentica@ 0042f990     Worker.obj
+ 0002:000029dc       ??_C@_0DJ@LBFP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 0042f9dc     Worker.obj
+ 0002:00002a20       ??_C@_0CB@ICKO@Calling?5SetAuthenticate2?$CI?$CJ?5?$EA?5?$CFs?6@ 0042fa20     Worker.obj
+ 0002:00002a48       ??_C@_0GF@FFMC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042fa48     Worker.obj
+ 0002:00002ac4       ??_C@_0DN@KFFN@No?5Response?5to?5set?5SetAuthentica@ 0042fac4     Worker.obj
+ 0002:00002b10       ??_C@_0DJ@EHGE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 0042fb10     Worker.obj
+ 0002:00002b54       ??_C@_0CB@MEHG@Calling?5SetAuthenticate1?$CI?$CJ?5?$EA?5?$CFs?6@ 0042fb54     Worker.obj
+ 0002:00002b7c       ??_C@_0P@GHFO@Error?3?5DG?90010?$AA@ 0042fb7c     Worker.obj
+ 0002:00002b90       ??_C@_0EP@CPPI@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042fb90     Worker.obj
+ 0002:00002bf0       ??_C@_0BN@OAFF@no?5Database?5Connection?5?$EA?5?$CFs?6?$AA@ 0042fbf0     Worker.obj
+ 0002:00002c14       ??_C@_0EJ@BNMK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Au@ 0042fc14     Worker.obj
+ 0002:00002c6c       ??_C@_0CN@NDA@Thread?5ID?$DN?$CFs?0Address?$DN?$CFs?0State?$DNNo@ 0042fc6c     Worker.obj
+ 0002:00002ca4       ??_C@_0DG@MMHH@Thread?5ID?$DN?$CFs?0Address?$DN?$CFs?0State?$DNNo@ 0042fca4     Worker.obj
+ 0002:00002ce4       ??_C@_0DH@IAH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Id@ 0042fce4     Worker.obj
+ 0002:00002d28       ??_C@_0CA@OPLC@Idle?5Connection?5Detected?5?5?$EA?5?$CFs?6?$AA@ 0042fd28     Worker.obj
+ 0002:00002d50       ??_C@_0FP@IGPP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042fd50     Worker.obj
+ 0002:00002dc4       ??_C@_0DD@KJLN@No?5Response?5to?5SetBadData?$CI?$CJ?5with@ 0042fdc4     Worker.obj
+ 0002:00002e04       ??_C@_0DD@FFFB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 0042fe04     Worker.obj
+ 0002:00002e44       ??_C@_0BL@HKLE@Calling?5SetBadData?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 0042fe44     Worker.obj
+ 0002:00002e64       ??_C@_0FN@FJOI@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042fe64     Worker.obj
+ 0002:00002ed4       ??_C@_0DF@LCBH@No?5Response?5to?5set?5SetDelay?$CI?$CJ?5wi@ 0042fed4     Worker.obj
+ 0002:00002f14       ??_C@_0DB@DJHN@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 0042ff14     Worker.obj
+ 0002:00002f50       ??_C@_0BJ@BIHH@Calling?5SetDelay?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 0042ff50     Worker.obj
+ 0002:00002f70       ??_C@_0GA@KEJO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0042ff70     Worker.obj
+ 0002:00002fe4       ??_C@_0DI@JNN@No?5Response?5to?5set?5SetCurrency?$CI?$CJ@ 0042ffe4     Worker.obj
+ 0002:00003028       ??_C@_0DE@HIAK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00430028     Worker.obj
+ 0002:00003068       ??_C@_0BK@FMPF@Calling?5SetCurrency?5?$EA?5?$CFs?6?$AA@ 00430068     Worker.obj
+ 0002:00003088       ??_C@_0GD@EKKB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00430088     Worker.obj
+ 0002:00003100       ??_C@_0DF@FIJA@no?5response?5to?5RequestAddress?5wi@ 00430100     Worker.obj
+ 0002:00003140       ??_C@_0DB@PCGH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00430140     Worker.obj
+ 0002:0000317c       ??_C@_0BJ@FJJH@Requesting?5Address?5?$EA?5?$CFs?6?$AA@ 0043017c     Worker.obj
+ 0002:0000319c       ??_C@_0GA@COEE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0043019c     Worker.obj
+ 0002:00003210       ??_C@_0DC@ONIG@no?5response?5to?5RequestMask?5withi@ 00430210     Worker.obj
+ 0002:0000324c       ??_C@_0CO@IDNP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 0043024c     Worker.obj
+ 0002:00003284       ??_C@_0BG@GOOE@Requesting?5Mask?5?$EA?5?$CFs?6?$AA@ 00430284     Worker.obj
+ 0002:000032a0       ??_C@_0GD@FLD@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004302a0     Worker.obj
+ 0002:00003318       ??_C@_0DF@EBMO@no?5response?5to?5RequestGateway?5wi@ 00430318     Worker.obj
+ 0002:00003358       ??_C@_0DB@LINN@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00430358     Worker.obj
+ 0002:00003394       ??_C@_0BJ@EAM@Requesting?5Gateway?5?$EA?5?$CFs?6?$AA@ 00430394     Worker.obj
+ 0002:000033b4       ??_C@_0FP@BIKP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004303b4     Worker.obj
+ 0002:00003428       ??_C@_0DB@NBD@no?5response?5to?5requestMac?5within@ 00430428     Worker.obj
+ 0002:00003464       ??_C@_0CN@FHBH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00430464     Worker.obj
+ 0002:0000349c       ??_C@_0BF@BOGM@Requesting?5Mac?5?$EA?5?$CFs?6?$AA@ 0043049c     Worker.obj
+ 0002:000034b8       ??_C@_0GE@GGDO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004304b8     Worker.obj
+ 0002:00003530       ??_C@_0DL@PGOI@no?5response?5to?5RequestLocation?5t@ 00430530     Worker.obj
+ 0002:00003578       ??_C@_0DC@LDGH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00430578     Worker.obj
+ 0002:000035b4       ??_C@_0BK@EOKE@Requesting?5Location?5?$EA?5?$CFs?6?$AA@ 004305b4     Worker.obj
+ 0002:000035d4       ??_C@_0FP@LOHO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004305d4     Worker.obj
+ 0002:00003648       ??_C@_0DD@LK@No?5response?5to?5SetInitial?$CI?$CJ?5with@ 00430648     Worker.obj
+ 0002:00003688       ??_C@_0DD@NIPF@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00430688     Worker.obj
+ 0002:000036c8       ??_C@_0BL@HGJP@Calling?5SetInitial?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 004306c8     Worker.obj
+ 0002:000036e8       ??_C@_0FM@BEK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004306e8     Worker.obj
+ 0002:00003758       ??_C@_0DA@LGAP@No?5response?5to?5SetTime?$CI?$CJ?5within?5@ 00430758     Worker.obj
+ 0002:00003794       ??_C@_0DA@HILB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00430794     Worker.obj
+ 0002:000037d0       ??_C@_0BI@GOJO@Calling?5SetTime?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 004307d0     Worker.obj
+ 0002:000037ec       ??_C@_0GA@LENK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004307ec     Worker.obj
+ 0002:00003860       ??_C@_0DE@JHKA@no?5response?5to?5SetKeyBoard?$CI?$CJ?5wit@ 00430860     Worker.obj
+ 0002:000038a0       ??_C@_0DE@LMAC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 004308a0     Worker.obj
+ 0002:000038e0       ??_C@_0BE@JIHD@SetKeyboard?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 004308e0     Worker.obj
+ 0002:000038f8       ??_C@_0DD@EICB@Dead?5Connection?5Detected?5?9?5Activ@ 004308f8     Worker.obj
+ 0002:00003938       ??_C@_0CG@PPMP@Thread?5ID?3?$CFd?$DLDead?5Connection?5Det@ 00430938     Worker.obj
+ 0002:00003968       ??_C@_0BK@HNHP@Dead?5Conn?5Detected?5?5?$EA?5?$CFs?6?$AA@ 00430968     Worker.obj
+ 0002:00003988       ??_C@_0BH@DECL@Thread?5ID?3?$CFd?$DLPong?5Sent?$AA@ 00430988     Worker.obj
+ 0002:000039a4       ??_C@_0BF@ECJK@Fire?5Connected?5?$EA?5?$CFs?6?$AA@ 004309a4     Worker.obj
+ 0002:000039c0       ??_C@_0CH@BLFF@Thread?5ID?3?$CFd?$DLTCP?1IP?5Connection?5S@ 004309c0     Worker.obj
+ 0002:000039f0       ??_C@_0BO@JGKF@Connection?5Failed?5?$EA?5?$CFs?5?9?5?$CI?$CFd?$CJ?$AA@ 004309f0     Worker.obj
+ 0002:00003a14       ??_C@_0CK@ECLP@Thread?5ID?3?$CFd?$DLTCP?1IP?5Connection?5F@ 00430a14     Worker.obj
+ 0002:00003a48       ??_C@_02MECO@?$CFd?$AA@    00430a48     Worker.obj
+ 0002:00003a4c       ??_C@_0CJ@DCFM@Thread?5ID?3?$CFd?$DLDatabase?5Connection@ 00430a4c     Worker.obj
+ 0002:00003a80       ??_C@_0CI@BMNG@Thread?5ID?3?$CFd?$DLDatabase?5Connection@ 00430a80     Worker.obj
+ 0002:00003ab0       ??_C@_0DB@KNAH@Thread?5ID?3?$CFd?$DLStation?5Address?3?$CFs?5@ 00430ab0     Worker.obj
+ 0002:00003aec       ??_C@_0BB@EILC@Session?3?50?5Units?$AA@ 00430aec     Worker.obj
+ 0002:00003b00       ??_C@_0P@HOLG@Session?3?5$0?400?$AA@ 00430b00     Worker.obj
+ 0002:00003b14       ??_C@_0BD@IOAL@Press?5CLEAR?5to?5End?$AA@ 00430b14     Worker.obj
+ 0002:00003b2c       ??_C@_0BB@PJDJ@Copier?5Activated?$AA@ 00430b2c     Worker.obj
+ 0002:00003b40       ??_C@_01FBAH@1?$AA@        00430b40     Worker.obj
+ 0002:00003b44       ??_C@_0BC@ICPB@Set?5Balance?5?$DN?5?$CFd?6?$AA@ 00430b44     Worker.obj
+ 0002:00003b5c       ??_C@_0P@FCHD@Price?$CI4?$CJ?5?$DN?5?$CFd?6?$AA@ 00430b5c     Worker.obj
+ 0002:00003b70       ??_C@_0P@KKLK@Price?$CI3?$CJ?5?$DN?5?$CFd?6?$AA@ 00430b70     Worker.obj
+ 0002:00003b84       ??_C@_0P@OCJE@Price?$CI2?$CJ?5?$DN?5?$CFd?6?$AA@ 00430b84     Worker.obj
+ 0002:00003b98       ??_C@_0P@DKOH@Price?$CI1?$CJ?5?$DN?5?$CFd?6?$AA@ 00430b98     Worker.obj
+ 0002:00003bac       ??_C@_0BB@KPDJ@Initializing?5?$CB?$CB?$CB?$AA@ 00430bac     Worker.obj
+ 0002:00003bc0       ??_C@_0BE@KGJ@Database?5Exception?3?$AA@ 00430bc0     Worker.obj
+ 0002:00003bd8       ??_C@_0BE@DBCK@Authorizing?5Usage?5?$CB?$AA@ 00430bd8     Worker.obj
+ 0002:00003bf0       ??_C@_0CE@MDIA@Processing?5?$CFd?5OffLine?5Transactio@ 00430bf0     Worker.obj
+ 0002:00003c1c       ??_C@_0BA@PDIF@Process?5Offline?$AA@ 00430c1c     Worker.obj
+ 0002:00003c30       ??_C@_05PGEK@ALPHA?$AA@    00430c30     Worker.obj
+ 0002:00003c38       ??_C@_0L@BPOP@Account?5?$CD?3?$AA@ 00430c38     Worker.obj
+ 0002:00003c48       ??_C@_0BC@PILJ@Account?5?$CD?5?$CG?5ENTER?$AA@ 00430c48     Worker.obj
+ 0002:00003c60       ??_C@_0BE@KIIA@Swipe?5Badge?5or?5Type?$AA@ 00430c60     Worker.obj
+ 0002:00003c78       ??_C@_0BB@MOFL@DocuGate?5Systems?$AA@ 00430c78     Worker.obj
+ 0002:00003c8c       ??_C@_0L@NFDB@?5Client?5?$CD?3?$AA@ 00430c8c     Worker.obj
+ 0002:00003c9c       ??_C@_0BC@DHNO@?5Client?5?$CD?5?$CG?5ENTER?$AA@ 00430c9c     Worker.obj
+ 0002:00003cb4       ??_C@_0BC@DDIP@?5if?5required?5type?$AA@ 00430cb4     Worker.obj
+ 0002:00003ccc       ??_C@_0L@JLBP@?5Matter?5?$CD?3?$AA@ 00430ccc     Worker.obj
+ 0002:00003cdc       ??_C@_0BC@OHBG@?5Matter?5?$CD?5?$CG?5ENTER?$AA@ 00430cdc     Worker.obj
+ 0002:00003cf4       ??_C@_0BC@LNL@?5If?5required?5type?$AA@ 00430cf4     Worker.obj
+ 0002:00003d0c       ??_C@_0N@HGII@?5copy?5pin?5?$CD?3?$AA@ 00430d0c     Worker.obj
+ 0002:00003d1c       ??_C@_0O@CMDI@?5Enter?5PIN?5?$CD?3?$AA@ 00430d1c     Worker.obj
+ 0002:00003d2c       ??_C@_0BC@KOHH@?5copy?5pin?5?$CG?5ENTER?$AA@ 00430d2c     Worker.obj
+ 0002:00003d44       ??_C@_0BD@NEEI@?5Enter?5PIN?5?$CG?5ENTER?$AA@ 00430d44     Worker.obj
+ 0002:00003d5c       ??_C@_0BC@BPLN@?5Please?5type?5your?$AA@ 00430d5c     Worker.obj
+ 0002:00003d74       ??_C@_05ODGO@DEBIT?$AA@    00430d74     Worker.obj
+ 0002:00003d7c       ??_C@_08CDEN@NOCHARGE?$AA@ 00430d7c     Worker.obj
+ 0002:00003d88       ??_C@_06BLHK@CREDIT?$AA@   00430d88     Worker.obj
+ 0002:00003d90       ??_7IPPort@@6B@            00430d90     Worker.obj
+ 0002:00003dac       ??_7IPPortA@@6B@           00430dac     Worker.obj
+ 0002:00003dc8       _IID_IDocHostUIHandlerDispatch 00430dc8     mfcs42d:stdafx.obj
+ 0002:00003dd8       _IID_IInternalConnection   00430dd8     mfcs42d:stdafx.obj
+ 0002:00003de8       _IID_IAxWinAmbientDispatch 00430de8     mfcs42d:stdafx.obj
+ 0002:00003df8       _IID_IAxWinHostWindow      00430df8     mfcs42d:stdafx.obj
+ 0002:00003e08       _IID_IRegistrar            00430e08     mfcs42d:stdafx.obj
+ 0002:00003e18       _CLSID_Registrar           00430e18     mfcs42d:stdafx.obj
+ 0002:00003e28       _LIBID_ATLLib              00430e28     mfcs42d:stdafx.obj
+ 0002:00003e3c       ??_7type_info@@6B@         00430e3c     msvcrtd:ti_inst.obj
+ 0002:00004050       ??_R1A@?0A@A@type_info@@8  00431050     msvcrtd:ti_inst.obj
+ 0002:00004068       ??_R2type_info@@8          00431068     msvcrtd:ti_inst.obj
+ 0002:00004070       ??_R3type_info@@8          00431070     msvcrtd:ti_inst.obj
+ 0002:00004080       ??_R4type_info@@6B@        00431080     msvcrtd:ti_inst.obj
+ 0003:00000000       ___xc_a                    00434000     msvcrtd:cinitexe.obj
+ 0003:0000023c       ___xc_z                    0043423c     msvcrtd:cinitexe.obj
+ 0003:00000340       ___xi_a                    00434340     msvcrtd:cinitexe.obj
+ 0003:00000444       ___xi_z                    00434444     msvcrtd:cinitexe.obj
+ 0003:000005b0       ??_R0PAVCDBException@@@8   004345b0     Database.obj
+ 0003:00000628       ??_R0PAVCFileException@@@8 00434628     IniEx.obj
+ 0003:0000064c       ?__LINE__Var@?1??Open@CIniEx@@QAEHPBDHHHH@Z@4FA 0043464c     IniEx.obj
+ 0003:00000650       ?__LINE__Var@?1??LookupKey@CIniEx@@AAEHHPAVCString@@@Z@4FA 00434650     IniEx.obj
+ 0003:00000654       ?__LINE__Var@?1??SetValue@CIniEx@@QAEXVCString@@00@Z@4FA 00434654     IniEx.obj
+ 0003:000006b0       ?Length@@3KA               004346b0     TheApp.obj
+ 0003:000006c4       ?__LINE__Var@?1??main@@9@4FA 004346c4     TheApp.obj
+ 0003:000006c8       ?GUID_ATLVer30@ATL@@3U_GUID@@A 004346c8     mfcs42d:stdafx.obj
+ 0003:000006e0       ??_R0?AVtype_info@@@8      004346e0     msvcrtd:ti_inst.obj
+ 0003:00000700       ___defaultmatherr          00434700     msvcrtd:merr.obj
+ 0003:00000820       ?curTimeout@ActivationTimer@@1KA 00434820     ActivationTimer.obj
+ 0003:00000824       ?maxTimeout@ActivationTimer@@1KA 00434824     ActivationTimer.obj
+ 0003:00000828       ?minTimeout@ActivationTimer@@1KA 00434828     ActivationTimer.obj
+ 0003:0000082c       ?TimerId@ActivationTimer@@1IA 0043482c     ActivationTimer.obj
+ 0003:00000830       ?listOfTasks@ActivationTimer@@1PAVTaskList@@A 00434830     ActivationTimer.obj
+ 0003:00000838       ?m_DBLock@@3VCCriticalSection@@A 00434838     Database.obj
+ 0003:00000868       ?mWriteLog@@3VCCriticalSection@@A 00434868     Logger.obj
+ 0003:00000898       ?m_ActiveAccounts@@3VCActiveAccounts@@A 00434898     TheApp.obj
+ 0003:000008dc       ?m_gLogFileName@@3PADA     004348dc     TheApp.obj
+ 0003:000009e0       ?m_gConnect@@3VCString@@A  004349e0     TheApp.obj
+ 0003:000009e8       ?m_gIni@@3VCIniEx@@A       004349e8     TheApp.obj
+ 0003:00000a38       ?m_gStationArray@@3VCStringArray@@A 00434a38     TheApp.obj
+ 0003:00000a4c       ?hGlobalThreadWait@@3PAXA  00434a4c     TheApp.obj
+ 0003:00000a50       ?ThisMachineName@@3PADA    00434a50     TheApp.obj
+ 0003:00000a60       ?ProcessLock@@3VCCriticalSection@@A 00434a60     TheApp.obj
+ 0003:00000a88       ?theApp@@3VCWinApp@@A      00434a88     TheApp.obj
+ 0003:00000b50       ?_Message@@3PADA           00434b50     TheApp.obj
+ 0003:00000c50       ?_Result@@3PADA            00434c50     TheApp.obj
+ 0003:00000d50       ?Stations@@3PAU_TagStation@@A 00434d50     TheApp.obj
+ 0003:00014e9c       ?u@@3T__unnamed@@A         00448e9c     Worker.obj
+ 0003:00014ea0       __afxForceEXCLUDE          00448ea0     mfcs42d:nolib.obj
+ 0003:00014ea4       ?ATL_CREATE_OBJECT@CComApartment@ATL@@2IA 00448ea4     mfcs42d:stdafx.obj
+ 0003:00014ea8       ?m_libid@CComModule@ATL@@2U_GUID@@A 00448ea8     mfcs42d:stdafx.obj
+ 0003:00014eb8       ?_pModule@ATL@@3PAVCComModule@1@A 00448eb8     mfcs42d:stdafx.obj
+ 0003:00014ebc       __afxForceSTDAFX           00448ebc     mfcs42d:stdafx.obj
+ 0003:00014ec0       __dowildcard               00448ec0     msvcrtd:wildcard.obj
+ 0003:00014ec4       __newmode                  00448ec4     msvcrtd:_newmode.obj
+ 0003:00014ec8       __commode                  00448ec8     msvcrtd:xncommod.obj
+ 0003:00014ecc       __fmode                    00448ecc     msvcrtd:xtxtmode.obj
+ 0003:00014ed0       __adjust_fdiv              00448ed0     <common>
+ 0003:00014edc       ___onexitend               00448edc     <common>
+ 0003:00014eec       ___onexitbegin             00448eec     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_NETCASHAPI 00449000     netcashapi:NETCASHAPI.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_ipworks5 00449014     ipworks5:ipworks5.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_KERNEL32 00449028     kernel32:KERNEL32.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_USER32 0044903c     user32:USER32.dll
+ 0004:00000050       __IMPORT_DESCRIPTOR_MFC42D 00449050     mfc42d:MFC42D.DLL
+ 0004:00000064       __IMPORT_DESCRIPTOR_MSVCRTD 00449064     msvcrtd:MSVCRTD.dll
+ 0004:00000078       __IMPORT_DESCRIPTOR_MFCD42D 00449078     mfcd42d:MFCD42D.DLL
+ 0004:0000008c       __IMPORT_DESCRIPTOR_MSVCP60D 0044908c     msvcprtd:MSVCP60D.dll
+ 0004:000000a0       __NULL_IMPORT_DESCRIPTOR   004490a0     netcashapi:NETCASHAPI.dll
+ 0004:00000570       __imp__GetCurrentDirectoryA@8 00449570     kernel32:KERNEL32.dll
+ 0004:00000574       __imp__lstrlenA@4          00449574     kernel32:KERNEL32.dll
+ 0004:00000578       __imp__Sleep@4             00449578     kernel32:KERNEL32.dll
+ 0004:0000057c       __imp__lstrcpyA@8          0044957c     kernel32:KERNEL32.dll
+ 0004:00000580       __imp__GetComputerNameA@8  00449580     kernel32:KERNEL32.dll
+ 0004:00000584       __imp__GetCommandLineA@0   00449584     kernel32:KERNEL32.dll
+ 0004:00000588       __imp__GetModuleHandleA@4  00449588     kernel32:KERNEL32.dll
+ 0004:0000058c       __imp__GetCurrentThreadId@0 0044958c     kernel32:KERNEL32.dll
+ 0004:00000590       __imp__CreateEventA@16     00449590     kernel32:KERNEL32.dll
+ 0004:00000594       __imp__CloseHandle@4       00449594     kernel32:KERNEL32.dll
+ 0004:00000598       __imp__TerminateThread@8   00449598     kernel32:KERNEL32.dll
+ 0004:0000059c       __imp__GetExitCodeThread@8 0044959c     kernel32:KERNEL32.dll
+ 0004:000005a0       __imp__CreateThread@24     004495a0     kernel32:KERNEL32.dll
+ 0004:000005a4       __imp__lstrcpynA@12        004495a4     kernel32:KERNEL32.dll
+ 0004:000005a8       __imp__WaitForSingleObject@8 004495a8     kernel32:KERNEL32.dll
+ 0004:000005ac       __imp__CopyFileA@12        004495ac     kernel32:KERNEL32.dll
+ 0004:000005b0       __imp__FindNextFileA@8     004495b0     kernel32:KERNEL32.dll
+ 0004:000005b4       __imp__FindFirstFileA@8    004495b4     kernel32:KERNEL32.dll
+ 0004:000005b8       __imp__GetModuleFileNameA@12 004495b8     kernel32:KERNEL32.dll
+ 0004:000005bc       __imp__DeleteFileA@4       004495bc     kernel32:KERNEL32.dll
+ 0004:000005c0       \177KERNEL32_NULL_THUNK_DATA 004495c0     kernel32:KERNEL32.dll
+ 0004:000005fc       __imp_??0CTimeSpan@@QAE@ABV0@@Z 004495fc     mfc42d:MFC42D.DLL
+ 0004:00000600       __imp_?GetSecond@CTime@@QBEHXZ 00449600     mfc42d:MFC42D.DLL
+ 0004:00000604       __imp_?GetMinute@CTime@@QBEHXZ 00449604     mfc42d:MFC42D.DLL
+ 0004:00000608       __imp_?GetHour@CTime@@QBEHXZ 00449608     mfc42d:MFC42D.DLL
+ 0004:0000060c       __imp_?GetDay@CTime@@QBEHXZ 0044960c     mfc42d:MFC42D.DLL
+ 0004:00000610       __imp_?GetMonth@CTime@@QBEHXZ 00449610     mfc42d:MFC42D.DLL
+ 0004:00000614       __imp_?GetYear@CTime@@QBEHXZ 00449614     mfc42d:MFC42D.DLL
+ 0004:00000618       __imp_?RemoveAt@CStringArray@@QAEXHH@Z 00449618     mfc42d:MFC42D.DLL
+ 0004:0000061c       __imp_??GCTime@@QBE?AVCTimeSpan@@V0@@Z 0044961c     mfc42d:MFC42D.DLL
+ 0004:00000620       __imp_??4CTimeSpan@@QAEABV0@ABV0@@Z 00449620     mfc42d:MFC42D.DLL
+ 0004:00000624       __imp_?GetSeconds@CTimeSpan@@QBEHXZ 00449624     mfc42d:MFC42D.DLL
+ 0004:00000628       __imp_??3@YAXPAX@Z         00449628     mfc42d:MFC42D.DLL
+ 0004:0000062c       __imp_??2@YAPAXI@Z         0044962c     mfc42d:MFC42D.DLL
+ 0004:00000630       __imp_??1CCriticalSection@@UAE@XZ 00449630     mfc42d:MFC42D.DLL
+ 0004:00000634       __imp_??1CStringList@@UAE@XZ 00449634     mfc42d:MFC42D.DLL
+ 0004:00000638       __imp_?RemoveAll@CStringList@@QAEXXZ 00449638     mfc42d:MFC42D.DLL
+ 0004:0000063c       __imp_??0CCriticalSection@@QAE@XZ 0044963c     mfc42d:MFC42D.DLL
+ 0004:00000640       __imp_??0CStringList@@QAE@H@Z 00449640     mfc42d:MFC42D.DLL
+ 0004:00000644       __imp_?Find@CStringList@@QBEPAU__POSITION@@PBDPAU2@@Z 00449644     mfc42d:MFC42D.DLL
+ 0004:00000648       __imp_?Lock@CCriticalSection@@QAEHXZ 00449648     mfc42d:MFC42D.DLL
+ 0004:0000064c       __imp_?AddHead@CStringList@@QAEPAU__POSITION@@PBD@Z 0044964c     mfc42d:MFC42D.DLL
+ 0004:00000650       __imp_?RemoveAt@CStringList@@QAEXPAU__POSITION@@@Z 00449650     mfc42d:MFC42D.DLL
+ 0004:00000654       __imp_??1CString@@QAE@XZ   00449654     mfc42d:MFC42D.DLL
+ 0004:00000658       __imp_??4CString@@QAEABV0@PBD@Z 00449658     mfc42d:MFC42D.DLL
+ 0004:0000065c       __imp_?Empty@CString@@QAEXXZ 0044965c     mfc42d:MFC42D.DLL
+ 0004:00000660       __imp_??0CString@@QAE@XZ   00449660     mfc42d:MFC42D.DLL
+ 0004:00000664       __imp_??4CString@@QAEABV0@ABV0@@Z 00449664     mfc42d:MFC42D.DLL
+ 0004:00000668       __imp_??BCString@@QBEPBDXZ 00449668     mfc42d:MFC42D.DLL
+ 0004:0000066c       __imp_?Replace@CString@@QAEHDD@Z 0044966c     mfc42d:MFC42D.DLL
+ 0004:00000670       __imp_?GetLength@CString@@QBEHXZ 00449670     mfc42d:MFC42D.DLL
+ 0004:00000674       __imp_??0CString@@QAE@ABV0@@Z 00449674     mfc42d:MFC42D.DLL
+ 0004:00000678       __imp_??0CString@@QAE@PBD@Z 00449678     mfc42d:MFC42D.DLL
+ 0004:0000067c       __imp_?GetAt@CStringArray@@QBE?AVCString@@H@Z 0044967c     mfc42d:MFC42D.DLL
+ 0004:00000680       __imp_?GetUpperBound@CStringArray@@QBEHXZ 00449680     mfc42d:MFC42D.DLL
+ 0004:00000684       __imp_?Delete@CException@@QAEXXZ 00449684     mfc42d:MFC42D.DLL
+ 0004:00000688       __imp_?CompareNoCase@CString@@QBEHPBD@Z 00449688     mfc42d:MFC42D.DLL
+ 0004:0000068c       __imp_?Format@CString@@QAAXPBDZZ 0044968c     mfc42d:MFC42D.DLL
+ 0004:00000690       __imp_?IsEmpty@CString@@QBEHXZ 00449690     mfc42d:MFC42D.DLL
+ 0004:00000694       __imp_?Unlock@CCriticalSection@@UAEHXZ 00449694     mfc42d:MFC42D.DLL
+ 0004:00000698       __imp_?Replace@CString@@QAEHPBD0@Z 00449698     mfc42d:MFC42D.DLL
+ 0004:0000069c       __imp_?AfxBeginThread@@YGPAVCWinThread@@P6AIPAX@Z0HIKPAU_SECURITY_ATTRIBUTES@@@Z 0044969c     mfc42d:MFC42D.DLL
+ 0004:000006a0       __imp_??1CStringArray@@UAE@XZ 004496a0     mfc42d:MFC42D.DLL
+ 0004:000006a4       __imp_??0CStringArray@@QAE@XZ 004496a4     mfc42d:MFC42D.DLL
+ 0004:000006a8       __imp_??YCString@@QAEABV0@PBD@Z 004496a8     mfc42d:MFC42D.DLL
+ 0004:000006ac       __imp_?Left@CString@@QBE?AV1@H@Z 004496ac     mfc42d:MFC42D.DLL
+ 0004:000006b0       __imp_?ReverseFind@CString@@QBEHD@Z 004496b0     mfc42d:MFC42D.DLL
+ 0004:000006b4       __imp_??3CObject@@SGXPAXPBDH@Z 004496b4     mfc42d:MFC42D.DLL
+ 0004:000006b8       __imp_??4CString@@QAEABV0@D@Z 004496b8     mfc42d:MFC42D.DLL
+ 0004:000006bc       __imp_?Close@CStdioFile@@UAEXXZ 004496bc     mfc42d:MFC42D.DLL
+ 0004:000006c0       __imp_?SetAtGrow@CStringArray@@QAEXHABVCString@@@Z 004496c0     mfc42d:MFC42D.DLL
+ 0004:000006c4       __imp_?Add@CStringArray@@QAEHABVCString@@@Z 004496c4     mfc42d:MFC42D.DLL
+ 0004:000006c8       __imp_?Mid@CString@@QBE?AV1@H@Z 004496c8     mfc42d:MFC42D.DLL
+ 0004:000006cc       __imp_?Find@CString@@QBEHPBD@Z 004496cc     mfc42d:MFC42D.DLL
+ 0004:000006d0       __imp_?Mid@CString@@QBE?AV1@HH@Z 004496d0     mfc42d:MFC42D.DLL
+ 0004:000006d4       __imp_?Right@CString@@QBE?AV1@H@Z 004496d4     mfc42d:MFC42D.DLL
+ 0004:000006d8       __imp_??8@YG_NABVCString@@PBD@Z 004496d8     mfc42d:MFC42D.DLL
+ 0004:000006dc       __imp_?ReadString@CStdioFile@@UAEHAAVCString@@@Z 004496dc     mfc42d:MFC42D.DLL
+ 0004:000006e0       __imp_?SeekToBegin@CFile@@QAEXXZ 004496e0     mfc42d:MFC42D.DLL
+ 0004:000006e4       __imp_??2CObject@@SGPAXIPBDH@Z 004496e4     mfc42d:MFC42D.DLL
+ 0004:000006e8       __imp_??1CFileException@@UAE@XZ 004496e8     mfc42d:MFC42D.DLL
+ 0004:000006ec       __imp_??1CStdioFile@@UAE@XZ 004496ec     mfc42d:MFC42D.DLL
+ 0004:000006f0       __imp_?Open@CStdioFile@@UAEHPBDIPAVCFileException@@@Z 004496f0     mfc42d:MFC42D.DLL
+ 0004:000006f4       __imp_??0CStdioFile@@QAE@XZ 004496f4     mfc42d:MFC42D.DLL
+ 0004:000006f8       __imp_??0CFileException@@QAE@HJPBD@Z 004496f8     mfc42d:MFC42D.DLL
+ 0004:000006fc       __imp_?Delete@CString@@QAEHHH@Z 004496fc     mfc42d:MFC42D.DLL
+ 0004:00000700       __imp_?AfxAssertFailedLine@@YGHPBDH@Z 00449700     mfc42d:MFC42D.DLL
+ 0004:00000704       __imp_?GetSize@CStringArray@@QBEHXZ 00449704     mfc42d:MFC42D.DLL
+ 0004:00000708       __imp_?SetAt@CStringArray@@QAEXHABVCString@@@Z 00449708     mfc42d:MFC42D.DLL
+ 0004:0000070c       __imp_?WriteString@CStdioFile@@UAEXPBD@Z 0044970c     mfc42d:MFC42D.DLL
+ 0004:00000710       __imp_??6CDumpContext@@QAEAAV0@PBD@Z 00449710     mfc42d:MFC42D.DLL
+ 0004:00000714       __imp_?afxDump@@3VCDumpContext@@A 00449714     mfc42d:MFC42D.DLL
+ 0004:00000718       __imp_?RemoveAll@CStringArray@@QAEXXZ 00449718     mfc42d:MFC42D.DLL
+ 0004:0000071c       __imp_?GetTotalMinutes@CTimeSpan@@QBEJXZ 0044971c     mfc42d:MFC42D.DLL
+ 0004:00000720       __imp_?Compare@CString@@QBEHPBD@Z 00449720     mfc42d:MFC42D.DLL
+ 0004:00000724       __imp_??1CFile@@UAE@XZ     00449724     mfc42d:MFC42D.DLL
+ 0004:00000728       __imp_?Format@CTime@@QBE?AVCString@@PBD@Z 00449728     mfc42d:MFC42D.DLL
+ 0004:0000072c       __imp_??0CTime@@QAE@ABV0@@Z 0044972c     mfc42d:MFC42D.DLL
+ 0004:00000730       __imp_?GetTickCount@CTime@@SG?AV1@XZ 00449730     mfc42d:MFC42D.DLL
+ 0004:00000734       __imp_?Close@CFile@@UAEXXZ 00449734     mfc42d:MFC42D.DLL
+ 0004:00000738       __imp_?SeekToEnd@CFile@@QAEKXZ 00449738     mfc42d:MFC42D.DLL
+ 0004:0000073c       __imp_?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 0044973c     mfc42d:MFC42D.DLL
+ 0004:00000740       __imp_??0CFile@@QAE@XZ     00449740     mfc42d:MFC42D.DLL
+ 0004:00000744       __imp_??0CWinApp@@QAE@PBD@Z 00449744     mfc42d:MFC42D.DLL
+ 0004:00000748       __imp_??1CWinApp@@UAE@XZ   00449748     mfc42d:MFC42D.DLL
+ 0004:0000074c       __imp_??2@YAPAXIPBDH@Z     0044974c     mfc42d:MFC42D.DLL
+ 0004:00000750       __imp_?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 00449750     mfc42d:MFC42D.DLL
+ 0004:00000754       __imp_??0CTimeSpan@@QAE@XZ 00449754     mfc42d:MFC42D.DLL
+ 0004:00000758       __imp_??0CTime@@QAE@XZ     00449758     mfc42d:MFC42D.DLL
+ 0004:0000075c       __imp_??4CTime@@QAEABV0@ABV0@@Z 0044975c     mfc42d:MFC42D.DLL
+ 0004:00000760       \177MFC42D_NULL_THUNK_DATA 00449760     mfc42d:MFC42D.DLL
+ 0004:000007d0       __imp_??0CDatabase@@QAE@XZ 004497d0     mfcd42d:MFCD42D.DLL
+ 0004:000007d4       __imp_?ExecuteSQL@CDatabase@@QAEXPBD@Z 004497d4     mfcd42d:MFCD42D.DLL
+ 0004:000007d8       __imp_?IsOpen@CDatabase@@QBEHXZ 004497d8     mfcd42d:MFCD42D.DLL
+ 0004:000007dc       __imp_?SetLoginTimeout@CDatabase@@QAEXK@Z 004497dc     mfcd42d:MFCD42D.DLL
+ 0004:000007e0       __imp_??0CRecordset@@QAE@PAVCDatabase@@@Z 004497e0     mfcd42d:MFCD42D.DLL
+ 0004:000007e4       __imp_?Open@CRecordset@@UAEHIPBDK@Z 004497e4     mfcd42d:MFCD42D.DLL
+ 0004:000007e8       __imp_?GetODBCFieldCount@CRecordset@@QBEFXZ 004497e8     mfcd42d:MFCD42D.DLL
+ 0004:000007ec       __imp_?IsEOF@CRecordset@@QBEHXZ 004497ec     mfcd42d:MFCD42D.DLL
+ 0004:000007f0       __imp_?GetFieldValue@CRecordset@@QAEXFAAVCString@@@Z 004497f0     mfcd42d:MFCD42D.DLL
+ 0004:000007f4       __imp_?GetODBCFieldInfo@CRecordset@@QAEXFAAUCODBCFieldInfo@@@Z 004497f4     mfcd42d:MFCD42D.DLL
+ 0004:000007f8       __imp_?MoveNext@CRecordset@@QAEXXZ 004497f8     mfcd42d:MFCD42D.DLL
+ 0004:000007fc       __imp_?IsOpen@CRecordset@@QBEHXZ 004497fc     mfcd42d:MFCD42D.DLL
+ 0004:00000800       __imp_?Close@CRecordset@@UAEXXZ 00449800     mfcd42d:MFCD42D.DLL
+ 0004:00000804       __imp_??1CRecordset@@UAE@XZ 00449804     mfcd42d:MFCD42D.DLL
+ 0004:00000808       __imp_??1CDatabase@@UAE@XZ 00449808     mfcd42d:MFCD42D.DLL
+ 0004:0000080c       \177MFCD42D_NULL_THUNK_DATA 0044980c     mfcd42d:MFCD42D.DLL
+ 0004:00000844       __imp_??0Init@ios_base@std@@QAE@XZ 00449844     msvcprtd:MSVCP60D.dll
+ 0004:00000848       __imp_??0_Winit@std@@QAE@XZ 00449848     msvcprtd:MSVCP60D.dll
+ 0004:0000084c       __imp_??1_Winit@std@@QAE@XZ 0044984c     msvcprtd:MSVCP60D.dll
+ 0004:00000850       __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z 00449850     msvcprtd:MSVCP60D.dll
+ 0004:00000854       __imp_??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 00449854     msvcprtd:MSVCP60D.dll
+ 0004:00000858       __imp_?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A 00449858     msvcprtd:MSVCP60D.dll
+ 0004:0000085c       __imp_?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z 0044985c     msvcprtd:MSVCP60D.dll
+ 0004:00000860       __imp_??1Init@ios_base@std@@QAE@XZ 00449860     msvcprtd:MSVCP60D.dll
+ 0004:00000864       \177MSVCP60D_NULL_THUNK_DATA 00449864     msvcprtd:MSVCP60D.dll
+ 0004:00000894       __imp___msize              00449894     msvcrtd:MSVCRTD.dll
+ 0004:00000898       __imp__realloc             00449898     msvcrtd:MSVCRTD.dll
+ 0004:0000089c       __imp___splitpath          0044989c     msvcrtd:MSVCRTD.dll
+ 0004:000008a0       __imp__memset              004498a0     msvcrtd:MSVCRTD.dll
+ 0004:000008a4       __imp__fclose              004498a4     msvcrtd:MSVCRTD.dll
+ 0004:000008a8       __imp__fputs               004498a8     msvcrtd:MSVCRTD.dll
+ 0004:000008ac       __imp__fopen               004498ac     msvcrtd:MSVCRTD.dll
+ 0004:000008b0       __imp__strncpy             004498b0     msvcrtd:MSVCRTD.dll
+ 0004:000008b4       __imp__memcpy              004498b4     msvcrtd:MSVCRTD.dll
+ 0004:000008b8       __imp____dllonexit         004498b8     msvcrtd:MSVCRTD.dll
+ 0004:000008bc       __imp___onexit             004498bc     msvcrtd:MSVCRTD.dll
+ 0004:000008c0       __imp_??1type_info@@UAE@XZ 004498c0     msvcrtd:MSVCRTD.dll
+ 0004:000008c4       __imp___exit               004498c4     msvcrtd:MSVCRTD.dll
+ 0004:000008c8       __imp___XcptFilter         004498c8     msvcrtd:MSVCRTD.dll
+ 0004:000008cc       __imp__malloc              004498cc     msvcrtd:MSVCRTD.dll
+ 0004:000008d0       __imp____p___initenv       004498d0     msvcrtd:MSVCRTD.dll
+ 0004:000008d4       __imp____getmainargs       004498d4     msvcrtd:MSVCRTD.dll
+ 0004:000008d8       __imp___initterm           004498d8     msvcrtd:MSVCRTD.dll
+ 0004:000008dc       __imp____setusermatherr    004498dc     msvcrtd:MSVCRTD.dll
+ 0004:000008e0       __imp___adjust_fdiv        004498e0     msvcrtd:MSVCRTD.dll
+ 0004:000008e4       __imp____p__commode        004498e4     msvcrtd:MSVCRTD.dll
+ 0004:000008e8       __imp____p__fmode          004498e8     msvcrtd:MSVCRTD.dll
+ 0004:000008ec       __imp____set_app_type      004498ec     msvcrtd:MSVCRTD.dll
+ 0004:000008f0       __imp___except_handler3    004498f0     msvcrtd:MSVCRTD.dll
+ 0004:000008f4       __imp___controlfp          004498f4     msvcrtd:MSVCRTD.dll
+ 0004:000008f8       __imp__sscanf              004498f8     msvcrtd:MSVCRTD.dll
+ 0004:000008fc       __imp____CxxFrameHandler   004498fc     msvcrtd:MSVCRTD.dll
+ 0004:00000900       __imp___chkesp             00449900     msvcrtd:MSVCRTD.dll
+ 0004:00000904       __imp__strcmpi             00449904     msvcrtd:MSVCRTD.dll
+ 0004:00000904       __imp___strcmpi            00449904     msvcrtd:MSVCRTD.dll
+ 0004:00000908       __imp____p___argv          00449908     msvcrtd:MSVCRTD.dll
+ 0004:0000090c       __imp__strlen              0044990c     msvcrtd:MSVCRTD.dll
+ 0004:00000910       __imp__atol                00449910     msvcrtd:MSVCRTD.dll
+ 0004:00000914       __imp___ftol               00449914     msvcrtd:MSVCRTD.dll
+ 0004:00000918       __imp__sprintf             00449918     msvcrtd:MSVCRTD.dll
+ 0004:0000091c       __imp__printf              0044991c     msvcrtd:MSVCRTD.dll
+ 0004:00000920       __imp__atoi                00449920     msvcrtd:MSVCRTD.dll
+ 0004:00000924       __imp__exit                00449924     msvcrtd:MSVCRTD.dll
+ 0004:00000928       __imp__atof                00449928     msvcrtd:MSVCRTD.dll
+ 0004:0000092c       __imp__strstr              0044992c     msvcrtd:MSVCRTD.dll
+ 0004:00000930       __imp__stricmp             00449930     msvcrtd:MSVCRTD.dll
+ 0004:00000930       __imp___stricmp            00449930     msvcrtd:MSVCRTD.dll
+ 0004:00000934       \177MSVCRTD_NULL_THUNK_DATA 00449934     msvcrtd:MSVCRTD.dll
+ 0004:00000980       __imp_?Buffer2Packet@@YGJJPAEPAU_NetcashPacket@@@Z 00449980     netcashapi:NETCASHAPI.dll
+ 0004:00000984       __imp_?Packet2Buffer@@YGJPAU_NetcashPacket@@PAE@Z 00449984     netcashapi:NETCASHAPI.dll
+ 0004:00000988       \177NETCASHAPI_NULL_THUNK_DATA 00449988     netcashapi:NETCASHAPI.dll
+ 0004:000009b4       __imp__KillTimer@8         004499b4     user32:USER32.dll
+ 0004:000009b8       __imp__SetTimer@16         004499b8     user32:USER32.dll
+ 0004:000009bc       \177USER32_NULL_THUNK_DATA 004499bc     user32:USER32.dll
+ 0004:000009e8       __imp__IPPort_Set          004499e8     ipworks5:ipworks5.dll
+ 0004:000009ec       __imp__IPPort_Get          004499ec     ipworks5:ipworks5.dll
+ 0004:000009f0       __imp__IPPort_Destroy      004499f0     ipworks5:ipworks5.dll
+ 0004:000009f4       __imp__IPPort_Do           004499f4     ipworks5:ipworks5.dll
+ 0004:000009f8       __imp__IPPort_Create       004499f8     ipworks5:ipworks5.dll
+ 0004:000009fc       \177ipworks5_NULL_THUNK_DATA 004499fc     ipworks5:ipworks5.dll
+
+ entry point at        0001:00018460
+

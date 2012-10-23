@@ -1,0 +1,1296 @@
+ DGC_MCR
+
+ Timestamp is 4fb923d7 (Sun May 20 11:03:19 2012)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000a8e0H .text                   CODE
+ 0001:0000a8e0 000008e0H .text$x                 CODE
+ 0002:00000000 00000208H .idata$5                DATA
+ 0002:00000208 000000d4H .rdata                  DATA
+ 0002:000002e0 00000044H .rdata$r                DATA
+ 0002:00000328 00001338H .xdata$x                DATA
+ 0002:00001660 00000078H .idata$2                DATA
+ 0002:000016d8 00000014H .idata$3                DATA
+ 0002:000016ec 00000208H .idata$4                DATA
+ 0002:000018f4 000004caH .idata$6                DATA
+ 0002:00001dbe 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 0000002cH .CRT$XCU                DATA
+ 0003:00000030 00000004H .CRT$XCZ                DATA
+ 0003:00000034 00000004H .CRT$XIA                DATA
+ 0003:00000038 00000004H .CRT$XIZ                DATA
+ 0003:00000040 000031b4H .data                   DATA
+ 0003:000031f8 0000e04cH .bss                    DATA
+ 0004:00000000 000000a0H .rsrc$01                DATA
+ 0004:000000a0 00000340H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ??0CActiveAccounts@@QAE@XZ 00401000 f   ActiveAccounts.obj
+ 0001:00000080       ??_GCActiveAccounts@@UAEPAXI@Z 00401080 f i ActiveAccounts.obj
+ 0001:00000080       ??_ECActiveAccounts@@UAEPAXI@Z 00401080 f i ActiveAccounts.obj
+ 0001:000000a0       ??1CActiveAccounts@@UAE@XZ 004010a0 f   ActiveAccounts.obj
+ 0001:00000120       ?IsAccountActive@CActiveAccounts@@QAEHPAD@Z 00401120 f   ActiveAccounts.obj
+ 0001:00000160       ?AddActiveAccount@CActiveAccounts@@QAEHPAD@Z 00401160 f   ActiveAccounts.obj
+ 0001:00000190       ?RemoveActiveAccount@CActiveAccounts@@QAEHPAD@Z 00401190 f   ActiveAccounts.obj
+ 0001:000001d0       ?AssertValid@CObject@@UBEXXZ 004011d0 f i ActiveAccounts.obj
+ 0001:000001e0       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 004011e0 f i ActiveAccounts.obj
+ 0001:000001e0       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 004011e0 f i ActiveAccounts.obj
+ 0001:000001f0       ?Unlock@CSyncObject@@UAEHJPAJ@Z 004011f0 f i ActiveAccounts.obj
+ 0001:00000200       ??_GCCriticalSection@@UAEPAXI@Z 00401200 f i ActiveAccounts.obj
+ 0001:00000200       ??_ECCriticalSection@@UAEPAXI@Z 00401200 f i ActiveAccounts.obj
+ 0001:00000220       ??1CCriticalSection@@UAE@XZ 00401220 f i ActiveAccounts.obj
+ 0001:00000240       ?Lock@CCriticalSection@@UAEHK@Z 00401240 f i ActiveAccounts.obj
+ 0001:00000260       ?Unlock@CCriticalSection@@UAEHXZ 00401260 f i ActiveAccounts.obj
+ 0001:000002b0       ??1CMyDatabase@@QAE@XZ     004012b0 f   Database.obj
+ 0001:00000330       ??0CMyDatabase@@QAE@XZ     00401330 f   Database.obj
+ 0001:000003d0       ?ReadStationsFromTable@CMyDatabase@@QAEHAAVCDatabase@@@Z 004013d0 f   Database.obj
+ 0001:00000760       ??1CODBCFieldInfo@@QAE@XZ  00401760 f i Database.obj
+ 0001:00000770       ?GetStationCustomPL@CMyDatabase@@QAEXAAU_TagStation@@AAVCDatabase@@H@Z 00401770 f   Database.obj
+ 0001:00000a50       ?GetUnitOrCurrency@CMyDatabase@@QAEHAAVCDatabase@@@Z 00401a50 f   Database.obj
+ 0001:00000b50       ?ReadIni@CMyDatabase@@QAE?AVCString@@XZ 00401b50 f   Database.obj
+ 0001:00000b80       ?OpenConnection@CMyDatabase@@QAEHAAVCDatabase@@@Z 00401b80 f   Database.obj
+ 0001:00000c60       ?OpenConnection@CMyDatabase@@QAEHAAVCDatabase@@H@Z 00401c60 f   Database.obj
+ 0001:00000d20       ?CheckHandle@CMyDatabase@@QAEHAAVCDatabase@@H@Z 00401d20 f   Database.obj
+ 0001:00000e40       ?CloseConnection@CMyDatabase@@QAEHAAVCDatabase@@H@Z 00401e40 f   Database.obj
+ 0001:00000ef0       ?CloseConnection@CMyDatabase@@QAEHAAVCDatabase@@@Z 00401ef0 f   Database.obj
+ 0001:00000fa0       ?GetGroup@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00401fa0 f   Database.obj
+ 0001:000011a0       ?GetInsertGuid@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004021a0 f   Database.obj
+ 0001:000012d0       ?GetAccMaxSpend@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004022d0 f   Database.obj
+ 0001:00001460       ?GetAt@CStringArray@@QBE?AVCString@@H@Z 00402460 f i Database.obj
+ 0001:00001490       ?GetOUMaxSpend@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00402490 f   Database.obj
+ 0001:00001620       ?GetGlobalMaxSpend@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00402620 f   Database.obj
+ 0001:000017a0       ?GetAccount@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004027a0 f   Database.obj
+ 0001:000019b0       ?VerifyClient@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@H@Z 004029b0 f   Database.obj
+ 0001:00001b50       ?VerifyMatter@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@H@Z 00402b50 f   Database.obj
+ 0001:00001d00       ?GetStation@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@H@Z 00402d00 f   Database.obj
+ 0001:00002020       ?GetAccountID@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00403020 f   Database.obj
+ 0001:000021a0       ?GetOfflineAccountID@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004031a0 f   Database.obj
+ 0001:000022f0       ?UpdateCopier@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004032f0 f   Database.obj
+ 0001:00002320       ?UpdateOfflineCopier@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00403320 f   Database.obj
+ 0001:00002400       ?UpdateAccount@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00403400 f   Database.obj
+ 0001:000024e0       ?UpdateOfflineAccount@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004034e0 f   Database.obj
+ 0001:000025e0       ?LogCopyJob@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004035e0 f   Database.obj
+ 0001:000026f0       ?LogJournel@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004036f0 f   Database.obj
+ 0001:00002810       ?LogCopyJobPL@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00403810 f   Database.obj
+ 0001:00002900       ?Handle_ServiceUp@CMyDatabase@@QAEXAAVCDatabase@@@Z 00403900 f   Database.obj
+ 0001:00002910       ?RemoveAllActiveSessions@CMyDatabase@@QAEXAAVCDatabase@@@Z 00403910 f   Database.obj
+ 0001:000029b0       ?DeleteActiveSession@CMyDatabase@@QAEXPADAAVCDatabase@@@Z 004039b0 f   Database.obj
+ 0001:00002ab0       ?AddActiveSession@CMyDatabase@@QAEXPADAAVCDatabase@@@Z 00403ab0 f   Database.obj
+ 0001:00002b80       ?IsActiveSession@CMyDatabase@@QAEHPADAAVCDatabase@@@Z 00403b80 f   Database.obj
+ 0001:00002cd0       ?Handle_DroppedConnection@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 00403cd0 f   Database.obj
+ 0001:00002dd0       ?Handle_SessionActive@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@@Z 00403dd0 f   Database.obj
+ 0001:00002ec0       ?CtlUnitACL@CMyDatabase@@QAEHAAU_NetcashDevice@@AAVCDatabase@@@Z 00403ec0 f   Database.obj
+ 0001:00003200       ?Handle_SessionClosed@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@@Z 00404200 f   Database.obj
+ 0001:000032f0       ?Handle_SessionIdle@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@@Z 004042f0 f   Database.obj
+ 0001:000033e0       ?Handle_NewConnection@CMyDatabase@@QAEXAAU_NetcashDevice@@AAVCDatabase@@H@Z 004043e0 f   Database.obj
+ 0001:000034f0       ?UpdateSchema@CMyDatabase@@QAEHAAVCDatabase@@@Z 004044f0 f   Database.obj
+ 0001:00003610       ??0CCriticalSection@@QAE@XZ 00404610 f i Database.obj
+ 0001:00003630       ?NetCashActivationThread@@YAIPAX@Z 00404630 f   Discovery.obj
+ 0001:00003700       ??0CIniEx@@QAE@H@Z         00404700 f   IniEx.obj
+ 0001:000037a0       ??_GCIniEx@@UAEPAXI@Z      004047a0 f i IniEx.obj
+ 0001:000037a0       ??_ECIniEx@@UAEPAXI@Z      004047a0 f i IniEx.obj
+ 0001:000037c0       ??1CIniEx@@UAE@XZ          004047c0 f   IniEx.obj
+ 0001:00003870       ?WriteFile@CIniEx@@QAE?AVCString@@H@Z 00404870 f   IniEx.obj
+ 0001:00003b00       ?FindBackupFile@CIniEx@@AAEXXZ 00404b00 f   IniEx.obj
+ 0001:00003c30       ?ResetContent@CIniEx@@QAEXXZ 00404c30 f   IniEx.obj
+ 0001:00003cd0       ??1CException@@UAE@XZ      00404cd0 f i IniEx.obj
+ 0001:00003ce0       ??_GCObject@@UAEPAXI@Z     00404ce0 f i IniEx.obj
+ 0001:00003ce0       ??_ECObject@@UAEPAXI@Z     00404ce0 f i IniEx.obj
+ 0001:00003d00       ??_ECFileException@@UAEPAXI@Z 00404d00 f i IniEx.obj
+ 0001:00003d00       ??_GCFileException@@UAEPAXI@Z 00404d00 f i IniEx.obj
+ 0001:00003d20       ??1CFileException@@UAE@XZ  00404d20 f i IniEx.obj
+ 0001:00003db0       ?WriteLog@@YAXPAD0@Z       00404db0 f   Logger.obj
+ 0001:000040b0       ?WriteLog@@YAXAAVCString@@PAD@Z 004050b0 f   Logger.obj
+ 0001:000045f0       _main                      004055f0 f   TheApp.obj
+ 0001:00004a20       ??0CHandler@@QAE@H@Z       00405a20 f   Worker.obj
+ 0001:00004b70       ?FireDataIn@CHandler@@UAEHAAPADAAGAAH@Z 00405b70 f i Worker.obj
+ 0001:000056f0       ?FireDisconnected@CHandler@@UAEHAAGAAPAD@Z 004066f0 f i Worker.obj
+ 0001:000057c0       ?FireError@CHandler@@UAEHAAGAAPAD@Z 004067c0 f i Worker.obj
+ 0001:00005820       ??_GCHandler@@UAEPAXI@Z    00406820 f i Worker.obj
+ 0001:00005820       ??_ECHandler@@UAEPAXI@Z    00406820 f i Worker.obj
+ 0001:00005840       ??1CHandler@@UAE@XZ        00406840 f   Worker.obj
+ 0001:00005ae0       ?WorkerThread@@YAIPAX@Z    00406ae0 f   Worker.obj
+ 0001:000078f0       ?StartCopierSession@@YAXAAVCHandler@@@Z 004088f0 f   Worker.obj
+ 0001:00007e70       ??GCTime@@QBE?AVCTimeSpan@@V0@@Z 00408e70 f i Worker.obj
+ 0001:00007e90       ?HandleIdler@@YAHAAVCTime@@JJ@Z 00408e90 f   Worker.obj
+ 0001:00007f90       ?SetHighBalance@@YAXAAVCHandler@@K@Z 00408f90 f   Worker.obj
+ 0001:00008050       ?SetPriceLine@@YAHAAVCHandler@@@Z 00409050 f   Worker.obj
+ 0001:00008330       ?PingNat@@YAXAAVCHandler@@@Z 00409330 f   Worker.obj
+ 0001:000083c0       ?SetDelay@@YAHAAVCHandler@@@Z 004093c0 f   Worker.obj
+ 0001:000084e0       ?SetTime@@YAHAAVCHandler@@@Z 004094e0 f   Worker.obj
+ 0001:00008680       ?ResetConnection@@YAHAAVCHandler@@@Z 00409680 f   Worker.obj
+ 0001:000087a0       ?ShowError@@YAXAAVCHandler@@PAD@Z 004097a0 f   Worker.obj
+ 0001:000088d0       ?SetInitial@@YAHAAVCHandler@@@Z 004098d0 f   Worker.obj
+ 0001:00008a10       ?SetBadData@@YAHAAVCHandler@@@Z 00409a10 f   Worker.obj
+ 0001:00008b30       ?SetAuthenticate1@@YAHAAVCHandler@@@Z 00409b30 f   Worker.obj
+ 0001:00008c40       ?SetAuthenticate2@@YAHAAVCHandler@@@Z 00409c40 f   Worker.obj
+ 0001:00008d80       ?RequestLocation@@YAHAAVCHandler@@@Z 00409d80 f   Worker.obj
+ 0001:00008e90       ?RequestGateway@@YAHAAVCHandler@@@Z 00409e90 f   Worker.obj
+ 0001:00008fa0       ?RequestMac@@YAHAAVCHandler@@@Z 00409fa0 f   Worker.obj
+ 0001:000090b0       ?RequestMask@@YAHAAVCHandler@@@Z 0040a0b0 f   Worker.obj
+ 0001:000091c0       ?RequestAddress@@YAHAAVCHandler@@@Z 0040a1c0 f   Worker.obj
+ 0001:000092d0       ?SetKeyBoard@@YAHAAVCHandler@@H@Z 0040a2d0 f   Worker.obj
+ 0001:00009400       ?SetCurrency@@YAHAAVCHandler@@@Z 0040a400 f   Worker.obj
+ 0001:00009520       ?SetupGetAccount@@YAXAAVCHandler@@@Z 0040a520 f   Worker.obj
+ 0001:000098c0       ?SetupGetClient@@YAXAAVCHandler@@@Z 0040a8c0 f   Worker.obj
+ 0001:00009c60       ?SetupGetMatter@@YAXAAVCHandler@@@Z 0040ac60 f   Worker.obj
+ 0001:0000a000       ?SetupGetPassword@@YAXAAVCHandler@@@Z 0040b000 f   Worker.obj
+ 0001:0000a380       ?HandleCharge@@YAXAAU_NetcashDevice@@@Z 0040b380 f   Worker.obj
+ 0001:0000a3e0       ?FireDataIn@IPPortA@@UAEHAAPADAAGAAH@Z 0040b3e0 f i Worker.obj
+ 0001:0000a3f0       ?FireConnected@IPPortA@@UAEHAAGAAPAD@Z 0040b3f0 f i Worker.obj
+ 0001:0000a3f0       ?FireDisconnected@IPPortA@@UAEHAAGAAPAD@Z 0040b3f0 f i Worker.obj
+ 0001:0000a3f0       ?FireError@IPPortA@@UAEHAAGAAPAD@Z 0040b3f0 f i Worker.obj
+ 0001:0000a400       ?FireReadyToSend@IPPortA@@UAEHXZ 0040b400 f i Worker.obj
+ 0001:0000a410       ?dSink@IPPortA@@CAHPAXHHQAPAXQAI@Z 0040b410 f i Worker.obj
+ 0001:0000a500       ??_GIPPortA@@UAEPAXI@Z     0040b500 f i Worker.obj
+ 0001:0000a500       ??_EIPPortA@@UAEPAXI@Z     0040b500 f i Worker.obj
+ 0001:0000a530       ??_GIPPort@@UAEPAXI@Z      0040b530 f i Worker.obj
+ 0001:0000a530       ??_EIPPort@@UAEPAXI@Z      0040b530 f i Worker.obj
+ 0001:0000a550       ??1IPPort@@UAE@XZ          0040b550 f i Worker.obj
+ 0001:0000a570       ?Packet2Buffer@@YGJPAU_NetcashPacket@@PAE@Z 0040b570 f   netcashapi:NETCASHAPI.dll
+ 0001:0000a576       ?Buffer2Packet@@YGJJPAEPAU_NetcashPacket@@@Z 0040b576 f   netcashapi:NETCASHAPI.dll
+ 0001:0000a57c       _IPPort_Create             0040b57c f   ipworks5:ipworks5.dll
+ 0001:0000a582       _IPPort_Do                 0040b582 f   ipworks5:ipworks5.dll
+ 0001:0000a588       _IPPort_Destroy            0040b588 f   ipworks5:ipworks5.dll
+ 0001:0000a58e       _IPPort_Set                0040b58e f   ipworks5:ipworks5.dll
+ 0001:0000a594       _IPPort_Get                0040b594 f   ipworks5:ipworks5.dll
+ 0001:0000a59a       ?GetRuntimeClass@CCriticalSection@@UBEPAUCRuntimeClass@@XZ 0040b59a f   mfc42:MFC42.DLL
+ 0001:0000a5a0       ??1CStringList@@UAE@XZ     0040b5a0 f   mfc42:MFC42.DLL
+ 0001:0000a5a6       ?RemoveAll@CStringList@@QAEXXZ 0040b5a6 f   mfc42:MFC42.DLL
+ 0001:0000a5ac       ??0CSyncObject@@QAE@PBD@Z  0040b5ac f   mfc42:MFC42.DLL
+ 0001:0000a5b2       ??0CStringList@@QAE@H@Z    0040b5b2 f   mfc42:MFC42.DLL
+ 0001:0000a5b8       ??3@YAXPAX@Z               0040b5b8 f   mfc42:MFC42.DLL
+ 0001:0000a5be       ??1CSyncObject@@UAE@XZ     0040b5be f   mfc42:MFC42.DLL
+ 0001:0000a5c4       ?Find@CStringList@@QBEPAU__POSITION@@PBDPAU2@@Z 0040b5c4 f   mfc42:MFC42.DLL
+ 0001:0000a5ca       ?AddHead@CStringList@@QAEPAU__POSITION@@PBD@Z 0040b5ca f   mfc42:MFC42.DLL
+ 0001:0000a5d0       ?RemoveAt@CStringList@@QAEXPAU__POSITION@@@Z 0040b5d0 f   mfc42:MFC42.DLL
+ 0001:0000a5d6       ??1CString@@QAE@XZ         0040b5d6 f   mfc42:MFC42.DLL
+ 0001:0000a5dc       ??4CString@@QAEABV0@PBD@Z  0040b5dc f   mfc42:MFC42.DLL
+ 0001:0000a5e2       ?Empty@CString@@QAEXXZ     0040b5e2 f   mfc42:MFC42.DLL
+ 0001:0000a5e8       ??0CString@@QAE@XZ         0040b5e8 f   mfc42:MFC42.DLL
+ 0001:0000a5ee       ??4CString@@QAEABV0@ABV0@@Z 0040b5ee f   mfc42:MFC42.DLL
+ 0001:0000a5f4       ??0CString@@QAE@ABV0@@Z    0040b5f4 f   mfc42:MFC42.DLL
+ 0001:0000a5fa       ??0CString@@QAE@PBD@Z      0040b5fa f   mfc42:MFC42.DLL
+ 0001:0000a600       ??1CRecordset@@UAE@XZ      0040b600 f   mfc42:MFC42.DLL
+ 0001:0000a606       ?Delete@CException@@QAEXXZ 0040b606 f   mfc42:MFC42.DLL
+ 0001:0000a60c       ?Close@CRecordset@@UAEXXZ  0040b60c f   mfc42:MFC42.DLL
+ 0001:0000a612       ?IsOpen@CRecordset@@QBEHXZ 0040b612 f   mfc42:MFC42.DLL
+ 0001:0000a618       ?GetODBCFieldInfo@CRecordset@@QAEXFAAUCODBCFieldInfo@@@Z 0040b618 f   mfc42:MFC42.DLL
+ 0001:0000a61e       ?GetFieldValue@CRecordset@@QAEXFAAVCString@@@Z 0040b61e f   mfc42:MFC42.DLL
+ 0001:0000a624       ?Open@CRecordset@@UAEHIPBDK@Z 0040b624 f   mfc42:MFC42.DLL
+ 0001:0000a62a       ?Format@CString@@QAAXPBDZZ 0040b62a f   mfc42:MFC42.DLL
+ 0001:0000a630       ??0CRecordset@@QAE@PAVCDatabase@@@Z 0040b630 f   mfc42:MFC42.DLL
+ 0001:0000a636       ?ExecuteSQL@CDatabase@@QAEXPBD@Z 0040b636 f   mfc42:MFC42.DLL
+ 0001:0000a63c       ?Replace@CString@@QAEHPBD0@Z 0040b63c f   mfc42:MFC42.DLL
+ 0001:0000a642       ?AfxBeginThread@@YGPAVCWinThread@@P6AIPAX@Z0HIKPAU_SECURITY_ATTRIBUTES@@@Z 0040b642 f   mfc42:MFC42.DLL
+ 0001:0000a648       ??2@YAPAXI@Z               0040b648 f   mfc42:MFC42.DLL
+ 0001:0000a64e       ??1CStringArray@@UAE@XZ    0040b64e f   mfc42:MFC42.DLL
+ 0001:0000a654       ??0CStringArray@@QAE@XZ    0040b654 f   mfc42:MFC42.DLL
+ 0001:0000a65a       ??YCString@@QAEABV0@PBD@Z  0040b65a f   mfc42:MFC42.DLL
+ 0001:0000a660       ?ReverseFind@CString@@QBEHD@Z 0040b660 f   mfc42:MFC42.DLL
+ 0001:0000a666       ?ReportError@CException@@UAEHII@Z 0040b666 f   mfc42:MFC42.DLL
+ 0001:0000a66c       ?GetErrorMessage@CFileException@@UAEHPADIPAI@Z 0040b66c f   mfc42:MFC42.DLL
+ 0001:0000a672       ?GetRuntimeClass@CFileException@@UBEPAUCRuntimeClass@@XZ 0040b672 f   mfc42:MFC42.DLL
+ 0001:0000a678       ?Close@CStdioFile@@UAEXXZ  0040b678 f   mfc42:MFC42.DLL
+ 0001:0000a67e       ??1CStdioFile@@UAE@XZ      0040b67e f   mfc42:MFC42.DLL
+ 0001:0000a684       ?Open@CStdioFile@@UAEHPBDIPAVCFileException@@@Z 0040b684 f   mfc42:MFC42.DLL
+ 0001:0000a68a       ??0CStdioFile@@QAE@XZ      0040b68a f   mfc42:MFC42.DLL
+ 0001:0000a690       ??0CException@@QAE@XZ      0040b690 f   mfc42:MFC42.DLL
+ 0001:0000a696       ?Delete@CString@@QAEHHH@Z  0040b696 f   mfc42:MFC42.DLL
+ 0001:0000a69c       ?WriteString@CStdioFile@@UAEXPBD@Z 0040b69c f   mfc42:MFC42.DLL
+ 0001:0000a6a2       ?SetSize@CStringArray@@QAEXHH@Z 0040b6a2 f   mfc42:MFC42.DLL
+ 0001:0000a6a8       ?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 0040b6a8 f   mfc42:MFC42.DLL
+ 0001:0000a6ae       ??1CFile@@UAE@XZ           0040b6ae f   mfc42:MFC42.DLL
+ 0001:0000a6b4       ?Format@CTime@@QBE?AVCString@@PBD@Z 0040b6b4 f   mfc42:MFC42.DLL
+ 0001:0000a6ba       ?GetTickCount@CTime@@SG?AV1@XZ 0040b6ba f   mfc42:MFC42.DLL
+ 0001:0000a6c0       ?Close@CFile@@UAEXXZ       0040b6c0 f   mfc42:MFC42.DLL
+ 0001:0000a6c6       ?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 0040b6c6 f   mfc42:MFC42.DLL
+ 0001:0000a6cc       ??0CFile@@QAE@XZ           0040b6cc f   mfc42:MFC42.DLL
+ 0001:0000a6d2       ??0CWinApp@@QAE@PBD@Z      0040b6d2 f   mfc42:MFC42.DLL
+ 0001:0000a6d8       ??1CWinApp@@UAE@XZ         0040b6d8 f   mfc42:MFC42.DLL
+ 0001:0000a6de       ??1CDatabase@@UAE@XZ       0040b6de f   mfc42:MFC42.DLL
+ 0001:0000a6e4       ??0CDatabase@@QAE@XZ       0040b6e4 f   mfc42:MFC42.DLL
+ 0001:0000a6ea       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 0040b6ea f   mfc42:MFC42.DLL
+ 0001:0000a6f0       ?GetLocalTm@CTime@@QBEPAUtm@@PAU2@@Z 0040b6f0 f   mfc42:MFC42.DLL
+ 0001:0000a6f6       ___CxxFrameHandler         0040b6f6 f   msvcrt:MSVCRT.dll
+ 0001:0000a700       __onexit                   0040b700 f   msvcrt:atonexit.obj
+ 0001:0000a72c       _atexit                    0040b72c f   msvcrt:atonexit.obj
+ 0001:0000a73e       ??_Gtype_info@@UAEPAXI@Z   0040b73e f i msvcrt:ti_inst.obj
+ 0001:0000a73e       ??_Etype_info@@UAEPAXI@Z   0040b73e f i msvcrt:ti_inst.obj
+ 0001:0000a75a       __ftol                     0040b75a f   msvcrt:MSVCRT.dll
+ 0001:0000a760       __alloca_probe             0040b760 f   msvcrt:chkstk.obj
+ 0001:0000a760       __chkstk                   0040b760 f   msvcrt:chkstk.obj
+ 0001:0000a78f       _mainCRTStartup            0040b78f f   msvcrt:crtexe.obj
+ 0001:0000a8a0       ___dllonexit               0040b8a0 f   msvcrt:MSVCRT.dll
+ 0001:0000a8a6       ??1type_info@@UAE@XZ       0040b8a6 f   msvcrt:MSVCRT.dll
+ 0001:0000a8ac       __XcptFilter               0040b8ac f   msvcrt:MSVCRT.dll
+ 0001:0000a8b2       __initterm                 0040b8b2 f   msvcrt:MSVCRT.dll
+ 0001:0000a8b8       __setdefaultprecision      0040b8b8 f   msvcrt:fp8.obj
+ 0001:0000a8ca       __matherr                  0040b8ca f   msvcrt:merr.obj
+ 0001:0000a8cd       __setargv                  0040b8cd f   msvcrt:dllargv.obj
+ 0001:0000a8ce       __except_handler3          0040b8ce f   msvcrt:MSVCRT.dll
+ 0001:0000a8d4       __controlfp                0040b8d4 f   msvcrt:MSVCRT.dll
+ 0002:00000000       __imp__lstrlenA@4          0040d000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__Sleep@4             0040d004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__lstrcpyA@8          0040d008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetComputerNameA@8  0040d00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetCommandLineA@0   0040d010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetModuleHandleA@4  0040d014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentThreadId@0 0040d018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__CreateEventA@16     0040d01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__InitializeCriticalSection@4 0040d020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__DeleteCriticalSection@4 0040d024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__EnterCriticalSection@4 0040d028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__LeaveCriticalSection@4 0040d02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__lstrcpynA@12        0040d030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__WaitForSingleObject@8 0040d034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__CopyFileA@12        0040d038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__FindNextFileA@8     0040d03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__FindFirstFileA@8    0040d040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetModuleFileNameA@12 0040d044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__DeleteFileA@4       0040d048     kernel32:KERNEL32.dll
+ 0002:0000004c       \177KERNEL32_NULL_THUNK_DATA 0040d04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_??0CFile@@QAE@XZ     0040d050     mfc42:MFC42.DLL
+ 0002:00000054       __imp_??0CWinApp@@QAE@PBD@Z 0040d054     mfc42:MFC42.DLL
+ 0002:00000058       __imp_??1CWinApp@@UAE@XZ   0040d058     mfc42:MFC42.DLL
+ 0002:0000005c       __imp_??1CDatabase@@UAE@XZ 0040d05c     mfc42:MFC42.DLL
+ 0002:00000060       __imp_??0CDatabase@@QAE@XZ 0040d060     mfc42:MFC42.DLL
+ 0002:00000064       __imp_?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 0040d064     mfc42:MFC42.DLL
+ 0002:00000068       __imp_?GetLocalTm@CTime@@QBEPAUtm@@PAU2@@Z 0040d068     mfc42:MFC42.DLL
+ 0002:0000006c       __imp_?GetRuntimeClass@CCriticalSection@@UBEPAUCRuntimeClass@@XZ 0040d06c     mfc42:MFC42.DLL
+ 0002:00000070       __imp_??1CStringList@@UAE@XZ 0040d070     mfc42:MFC42.DLL
+ 0002:00000074       __imp_?RemoveAll@CStringList@@QAEXXZ 0040d074     mfc42:MFC42.DLL
+ 0002:00000078       __imp_??0CSyncObject@@QAE@PBD@Z 0040d078     mfc42:MFC42.DLL
+ 0002:0000007c       __imp_??0CStringList@@QAE@H@Z 0040d07c     mfc42:MFC42.DLL
+ 0002:00000080       __imp_??3@YAXPAX@Z         0040d080     mfc42:MFC42.DLL
+ 0002:00000084       __imp_??1CSyncObject@@UAE@XZ 0040d084     mfc42:MFC42.DLL
+ 0002:00000088       __imp_?Find@CStringList@@QBEPAU__POSITION@@PBDPAU2@@Z 0040d088     mfc42:MFC42.DLL
+ 0002:0000008c       __imp_?AddHead@CStringList@@QAEPAU__POSITION@@PBD@Z 0040d08c     mfc42:MFC42.DLL
+ 0002:00000090       __imp_?RemoveAt@CStringList@@QAEXPAU__POSITION@@@Z 0040d090     mfc42:MFC42.DLL
+ 0002:00000094       __imp_??1CString@@QAE@XZ   0040d094     mfc42:MFC42.DLL
+ 0002:00000098       __imp_??4CString@@QAEABV0@PBD@Z 0040d098     mfc42:MFC42.DLL
+ 0002:0000009c       __imp_?Empty@CString@@QAEXXZ 0040d09c     mfc42:MFC42.DLL
+ 0002:000000a0       __imp_??0CString@@QAE@XZ   0040d0a0     mfc42:MFC42.DLL
+ 0002:000000a4       __imp_??4CString@@QAEABV0@ABV0@@Z 0040d0a4     mfc42:MFC42.DLL
+ 0002:000000a8       __imp_??0CString@@QAE@ABV0@@Z 0040d0a8     mfc42:MFC42.DLL
+ 0002:000000ac       __imp_??0CString@@QAE@PBD@Z 0040d0ac     mfc42:MFC42.DLL
+ 0002:000000b0       __imp_??1CRecordset@@UAE@XZ 0040d0b0     mfc42:MFC42.DLL
+ 0002:000000b4       __imp_?Delete@CException@@QAEXXZ 0040d0b4     mfc42:MFC42.DLL
+ 0002:000000b8       __imp_?Close@CRecordset@@UAEXXZ 0040d0b8     mfc42:MFC42.DLL
+ 0002:000000bc       __imp_?IsOpen@CRecordset@@QBEHXZ 0040d0bc     mfc42:MFC42.DLL
+ 0002:000000c0       __imp_?GetODBCFieldInfo@CRecordset@@QAEXFAAUCODBCFieldInfo@@@Z 0040d0c0     mfc42:MFC42.DLL
+ 0002:000000c4       __imp_?GetFieldValue@CRecordset@@QAEXFAAVCString@@@Z 0040d0c4     mfc42:MFC42.DLL
+ 0002:000000c8       __imp_?Open@CRecordset@@UAEHIPBDK@Z 0040d0c8     mfc42:MFC42.DLL
+ 0002:000000cc       __imp_?Format@CString@@QAAXPBDZZ 0040d0cc     mfc42:MFC42.DLL
+ 0002:000000d0       __imp_??0CRecordset@@QAE@PAVCDatabase@@@Z 0040d0d0     mfc42:MFC42.DLL
+ 0002:000000d4       __imp_?ExecuteSQL@CDatabase@@QAEXPBD@Z 0040d0d4     mfc42:MFC42.DLL
+ 0002:000000d8       __imp_?Replace@CString@@QAEHPBD0@Z 0040d0d8     mfc42:MFC42.DLL
+ 0002:000000dc       __imp_?AfxBeginThread@@YGPAVCWinThread@@P6AIPAX@Z0HIKPAU_SECURITY_ATTRIBUTES@@@Z 0040d0dc     mfc42:MFC42.DLL
+ 0002:000000e0       __imp_??2@YAPAXI@Z         0040d0e0     mfc42:MFC42.DLL
+ 0002:000000e4       __imp_??1CStringArray@@UAE@XZ 0040d0e4     mfc42:MFC42.DLL
+ 0002:000000e8       __imp_??0CStringArray@@QAE@XZ 0040d0e8     mfc42:MFC42.DLL
+ 0002:000000ec       __imp_??YCString@@QAEABV0@PBD@Z 0040d0ec     mfc42:MFC42.DLL
+ 0002:000000f0       __imp_?ReverseFind@CString@@QBEHD@Z 0040d0f0     mfc42:MFC42.DLL
+ 0002:000000f4       __imp_?ReportError@CException@@UAEHII@Z 0040d0f4     mfc42:MFC42.DLL
+ 0002:000000f8       __imp_?GetErrorMessage@CFileException@@UAEHPADIPAI@Z 0040d0f8     mfc42:MFC42.DLL
+ 0002:000000fc       __imp_?GetRuntimeClass@CFileException@@UBEPAUCRuntimeClass@@XZ 0040d0fc     mfc42:MFC42.DLL
+ 0002:00000100       __imp_?Close@CStdioFile@@UAEXXZ 0040d100     mfc42:MFC42.DLL
+ 0002:00000104       __imp_?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 0040d104     mfc42:MFC42.DLL
+ 0002:00000108       __imp_??1CStdioFile@@UAE@XZ 0040d108     mfc42:MFC42.DLL
+ 0002:0000010c       __imp_?Open@CStdioFile@@UAEHPBDIPAVCFileException@@@Z 0040d10c     mfc42:MFC42.DLL
+ 0002:00000110       __imp_??0CStdioFile@@QAE@XZ 0040d110     mfc42:MFC42.DLL
+ 0002:00000114       __imp_??0CException@@QAE@XZ 0040d114     mfc42:MFC42.DLL
+ 0002:00000118       __imp_?Delete@CString@@QAEHHH@Z 0040d118     mfc42:MFC42.DLL
+ 0002:0000011c       __imp_?WriteString@CStdioFile@@UAEXPBD@Z 0040d11c     mfc42:MFC42.DLL
+ 0002:00000120       __imp_?SetSize@CStringArray@@QAEXHH@Z 0040d120     mfc42:MFC42.DLL
+ 0002:00000124       __imp_?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 0040d124     mfc42:MFC42.DLL
+ 0002:00000128       __imp_??1CFile@@UAE@XZ     0040d128     mfc42:MFC42.DLL
+ 0002:0000012c       __imp_?Format@CTime@@QBE?AVCString@@PBD@Z 0040d12c     mfc42:MFC42.DLL
+ 0002:00000130       __imp_?GetTickCount@CTime@@SG?AV1@XZ 0040d130     mfc42:MFC42.DLL
+ 0002:00000134       __imp_?Close@CFile@@UAEXXZ 0040d134     mfc42:MFC42.DLL
+ 0002:00000138       \177MFC42_NULL_THUNK_DATA  0040d138     mfc42:MFC42.DLL
+ 0002:0000013c       __imp_??1Init@ios_base@std@@QAE@XZ 0040d13c     msvcprt:MSVCP60.dll
+ 0002:00000140       __imp_??0_Winit@std@@QAE@XZ 0040d140     msvcprt:MSVCP60.dll
+ 0002:00000144       __imp_??1_Winit@std@@QAE@XZ 0040d144     msvcprt:MSVCP60.dll
+ 0002:00000148       __imp_?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z 0040d148     msvcprt:MSVCP60.dll
+ 0002:0000014c       __imp_??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 0040d14c     msvcprt:MSVCP60.dll
+ 0002:00000150       __imp_?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A 0040d150     msvcprt:MSVCP60.dll
+ 0002:00000154       __imp_??0Init@ios_base@std@@QAE@XZ 0040d154     msvcprt:MSVCP60.dll
+ 0002:00000158       \177MSVCP60_NULL_THUNK_DATA 0040d158     msvcprt:MSVCP60.dll
+ 0002:0000015c       __imp___strcmpi            0040d15c     msvcrt:MSVCRT.dll
+ 0002:0000015c       __imp__strcmpi             0040d15c     msvcrt:MSVCRT.dll
+ 0002:00000160       __imp____CxxFrameHandler   0040d160     msvcrt:MSVCRT.dll
+ 0002:00000164       __imp___mbsicmp            0040d164     msvcrt:MSVCRT.dll
+ 0002:00000168       __imp__strncpy             0040d168     msvcrt:MSVCRT.dll
+ 0002:0000016c       __imp__atof                0040d16c     msvcrt:MSVCRT.dll
+ 0002:00000170       __imp__atoi                0040d170     msvcrt:MSVCRT.dll
+ 0002:00000174       __imp__printf              0040d174     msvcrt:MSVCRT.dll
+ 0002:00000178       __imp__sprintf             0040d178     msvcrt:MSVCRT.dll
+ 0002:0000017c       __imp___ftol               0040d17c     msvcrt:MSVCRT.dll
+ 0002:00000180       __imp__atol                0040d180     msvcrt:MSVCRT.dll
+ 0002:00000184       __imp___msize              0040d184     msvcrt:MSVCRT.dll
+ 0002:00000188       __imp___splitpath          0040d188     msvcrt:MSVCRT.dll
+ 0002:0000018c       __imp__fclose              0040d18c     msvcrt:MSVCRT.dll
+ 0002:00000190       __imp__fputs               0040d190     msvcrt:MSVCRT.dll
+ 0002:00000194       __imp__fopen               0040d194     msvcrt:MSVCRT.dll
+ 0002:00000198       __imp__strstr              0040d198     msvcrt:MSVCRT.dll
+ 0002:0000019c       __imp____dllonexit         0040d19c     msvcrt:MSVCRT.dll
+ 0002:000001a0       __imp___onexit             0040d1a0     msvcrt:MSVCRT.dll
+ 0002:000001a4       __imp_??1type_info@@UAE@XZ 0040d1a4     msvcrt:MSVCRT.dll
+ 0002:000001a8       __imp___exit               0040d1a8     msvcrt:MSVCRT.dll
+ 0002:000001ac       __imp___XcptFilter         0040d1ac     msvcrt:MSVCRT.dll
+ 0002:000001b0       __imp__exit                0040d1b0     msvcrt:MSVCRT.dll
+ 0002:000001b4       __imp____p___initenv       0040d1b4     msvcrt:MSVCRT.dll
+ 0002:000001b8       __imp____getmainargs       0040d1b8     msvcrt:MSVCRT.dll
+ 0002:000001bc       __imp___initterm           0040d1bc     msvcrt:MSVCRT.dll
+ 0002:000001c0       __imp____setusermatherr    0040d1c0     msvcrt:MSVCRT.dll
+ 0002:000001c4       __imp___adjust_fdiv        0040d1c4     msvcrt:MSVCRT.dll
+ 0002:000001c8       __imp____p__commode        0040d1c8     msvcrt:MSVCRT.dll
+ 0002:000001cc       __imp____p__fmode          0040d1cc     msvcrt:MSVCRT.dll
+ 0002:000001d0       __imp____set_app_type      0040d1d0     msvcrt:MSVCRT.dll
+ 0002:000001d4       __imp___except_handler3    0040d1d4     msvcrt:MSVCRT.dll
+ 0002:000001d8       __imp___controlfp          0040d1d8     msvcrt:MSVCRT.dll
+ 0002:000001dc       __imp__stricmp             0040d1dc     msvcrt:MSVCRT.dll
+ 0002:000001dc       __imp___stricmp            0040d1dc     msvcrt:MSVCRT.dll
+ 0002:000001e0       \177MSVCRT_NULL_THUNK_DATA 0040d1e0     msvcrt:MSVCRT.dll
+ 0002:000001e4       __imp_?Buffer2Packet@@YGJJPAEPAU_NetcashPacket@@@Z 0040d1e4     netcashapi:NETCASHAPI.dll
+ 0002:000001e8       __imp_?Packet2Buffer@@YGJPAU_NetcashPacket@@PAE@Z 0040d1e8     netcashapi:NETCASHAPI.dll
+ 0002:000001ec       \177NETCASHAPI_NULL_THUNK_DATA 0040d1ec     netcashapi:NETCASHAPI.dll
+ 0002:000001f0       __imp__IPPort_Do           0040d1f0     ipworks5:ipworks5.dll
+ 0002:000001f4       __imp__IPPort_Create       0040d1f4     ipworks5:ipworks5.dll
+ 0002:000001f8       __imp__IPPort_Destroy      0040d1f8     ipworks5:ipworks5.dll
+ 0002:000001fc       __imp__IPPort_Set          0040d1fc     ipworks5:ipworks5.dll
+ 0002:00000200       __imp__IPPort_Get          0040d200     ipworks5:ipworks5.dll
+ 0002:00000204       \177ipworks5_NULL_THUNK_DATA 0040d204     ipworks5:ipworks5.dll
+ 0002:00000208       ??_7CActiveAccounts@@6B@   0040d208     ActiveAccounts.obj
+ 0002:0000020c       ??_7CCriticalSection@@6B@  0040d20c     ActiveAccounts.obj
+ 0002:0000022c       __real@4@00000000000000000000 0040d22c     Database.obj
+ 0002:00000230       __real@8@00000000000000000000 0040d230     Database.obj
+ 0002:00000238       ??_7CIniEx@@6B@            0040d238     IniEx.obj
+ 0002:0000023c       ??_7CFileException@@6B@    0040d23c     IniEx.obj
+ 0002:00000258       ??_7CObject@@6B@           0040d258     IniEx.obj
+ 0002:0000027c       ??_7CHandler@@6B@          0040d27c     Worker.obj
+ 0002:00000294       ??_7IPPort@@6B@            0040d294     Worker.obj
+ 0002:000002ac       ??_7IPPortA@@6B@           0040d2ac     Worker.obj
+ 0002:000002c4       __real@4@4005c800000000000000 0040d2c4     Worker.obj
+ 0002:000002cc       ??_7type_info@@6B@         0040d2cc     msvcrt:ti_inst.obj
+ 0002:000002e0       ??_R1A@?0A@A@type_info@@8  0040d2e0     msvcrt:ti_inst.obj
+ 0002:000002f8       ??_R2type_info@@8          0040d2f8     msvcrt:ti_inst.obj
+ 0002:00000300       ??_R3type_info@@8          0040d300     msvcrt:ti_inst.obj
+ 0002:00000310       ??_R4type_info@@6B@        0040d310     msvcrt:ti_inst.obj
+ 0002:00001660       __IMPORT_DESCRIPTOR_NETCASHAPI 0040e660     netcashapi:NETCASHAPI.dll
+ 0002:00001674       __IMPORT_DESCRIPTOR_ipworks5 0040e674     ipworks5:ipworks5.dll
+ 0002:00001688       __IMPORT_DESCRIPTOR_KERNEL32 0040e688     kernel32:KERNEL32.dll
+ 0002:0000169c       __IMPORT_DESCRIPTOR_MFC42  0040e69c     mfc42:MFC42.DLL
+ 0002:000016b0       __IMPORT_DESCRIPTOR_MSVCRT 0040e6b0     msvcrt:MSVCRT.dll
+ 0002:000016c4       __IMPORT_DESCRIPTOR_MSVCP60 0040e6c4     msvcprt:MSVCP60.dll
+ 0002:000016d8       __NULL_IMPORT_DESCRIPTOR   0040e6d8     netcashapi:NETCASHAPI.dll
+ 0003:00000000       ___xc_a                    0040f000     msvcrt:cinitexe.obj
+ 0003:00000030       ___xc_z                    0040f030     msvcrt:cinitexe.obj
+ 0003:00000034       ___xi_a                    0040f034     msvcrt:cinitexe.obj
+ 0003:00000038       ___xi_z                    0040f038     msvcrt:cinitexe.obj
+ 0003:00000040       ??_C@_01PLJA@0?$AA@        0040f040     Database.obj
+ 0003:00000044       ??_C@_04KAEN@1?400?$AA@    0040f044     Database.obj
+ 0003:00000050       ??_R0PAVCDBException@@@8   0040f050     Database.obj
+ 0003:0000006c       ??_C@_0BM@OKHO@CMyDatabase?3?3GetAccount?$CI?$CFs?$CJ?$AA@ 0040f06c     Database.obj
+ 0003:00000088       ??_C@_0BH@NKAI@CTLUNIT_PULSE_IDLE_MIN?$AA@ 0040f088     Database.obj
+ 0003:000000a0       ??_C@_0BE@HOO@CTLUNIT_KEYBRD_MODE?$AA@ 0040f0a0     Database.obj
+ 0003:000000b4       ??_C@_0BI@IPFI@CTLUNIT_COPYPIN_ENABLED?$AA@ 0040f0b4     Database.obj
+ 0003:000000cc       ??_C@_0BD@EMKP@CTLUNIT_CONN_RESET?$AA@ 0040f0cc     Database.obj
+ 0003:000000e0       ??_C@_0BD@PHBL@CTLUNIT_REQ_MATTER?$AA@ 0040f0e0     Database.obj
+ 0003:000000f4       ??_C@_0BD@MLEO@CTLUNIT_REQ_CLIENT?$AA@ 0040f0f4     Database.obj
+ 0003:00000108       ??_C@_0BA@GKNL@CTLUNIT_PORT_NO?$AA@ 0040f108     Database.obj
+ 0003:00000118       ??_C@_0L@GGGH@CTLUNIT_IP?$AA@ 0040f118     Database.obj
+ 0003:00000124       ??_C@_0N@LMIL@CTLUNIT_GUID?$AA@ 0040f124     Database.obj
+ 0003:00000134       ??_C@_0EF@CCCD@SELECT?5?$CK?5FROM?5DOCUGATE_GENERAL_C@ 0040f134     Database.obj
+ 0003:0000017c       ??_C@_0CH@GHBF@SELECT?5?$CK?5FROM?5DOCUGATE_GENERAL_C@ 0040f17c     Database.obj
+ 0003:000001a4       ??_C@_0DA@IJPI@CMyDatabase?3?3GetStationCustomPL?$CI@ 0040f1a4     Database.obj
+ 0003:000001d4       ??_C@_0DO@EKNN@CMyDatabase?3?3GetStationCustomPL?$CI@ 0040f1d4     Database.obj
+ 0003:00000214       ??_C@_03LAFH@PL4?$AA@      0040f214     Database.obj
+ 0003:00000218       ??_C@_03OFLC@PL3?$AA@      0040f218     Database.obj
+ 0003:0000021c       ??_C@_03EPCF@PL2?$AA@      0040f21c     Database.obj
+ 0003:00000220       ??_C@_03LAJM@PL1?$AA@      0040f220     Database.obj
+ 0003:00000224       ??_C@_07IKEP@ENABLED?$AA@  0040f224     Database.obj
+ 0003:0000022c       ??_C@_0CE@EEDN@CMyDatabase?3?3GetStationCustomPL?$CI@ 0040f22c     Database.obj
+ 0003:00000250       ??_C@_0EL@CLEB@SELECT?5?$CK?5FROM?5DOCUGATE_GENERAL_C@ 0040f250     Database.obj
+ 0003:0000029c       ??_C@_0CD@OACJ@CMyDatabase?3?3GetUnitOrCurrency?$CI?$CF@ 0040f29c     Database.obj
+ 0003:000002c0       ??_C@_0FA@CKNF@SELECT?5GLOBALS_UNITVALUE?0GLOBALS@ 0040f2c0     Database.obj
+ 0003:00000310       ??_C@_03HHKO@?$CFs?6?$AA@  0040f310     Database.obj
+ 0003:00000314       ??_C@_0CA@KGGF@CMyDatabase?3?3OpenConnection?$CI?$CFs?$CJ?$AA@ 0040f314     Database.obj
+ 0003:00000334       ??_C@_0BN@NPAL@CMyDatabase?3?3CheckHandle?$CI?$CFs?$CJ?$AA@ 0040f334     Database.obj
+ 0003:00000354       ??_C@_0BC@DOKK@SELECT?5GETDATE?$CI?$CJ?$DL?$AA@ 0040f354     Database.obj
+ 0003:00000368       ??_C@_0CB@CHCL@CMyDatabase?3?3CloseConnection?$CI?$CFs?$CJ@ 0040f368     Database.obj
+ 0003:0000038c       ??_C@_0BK@GHNG@CMyDatabase?3?3GetGroup?$CI?$CFs?$CJ?$AA@ 0040f38c     Database.obj
+ 0003:000003a8       ??_C@_0IB@EPFI@SELECT?5OU_DEFAULT_CLIENT?0OU_DEFA@ 0040f3a8     Database.obj
+ 0003:0000042c       ??_C@_0P@IJLI@SELECT?5NEWID?$CI?$CJ?$AA@ 0040f42c     Database.obj
+ 0003:0000043c       ??_C@_0CA@DFEO@CMyDatabase?3?3GetAccMaxSpend?$CI?$CFs?$CJ?$AA@ 0040f43c     Database.obj
+ 0003:0000045c       ??_C@_0EP@KOCJ@SELECT?5ENABLED?0AMOUNT?5FROM?5DOCUG@ 0040f45c     Database.obj
+ 0003:000004ac       ??_C@_0EN@IIHI@SELECT?5ENABLED?0AMOUNT?5FROM?5DOCUG@ 0040f4ac     Database.obj
+ 0003:000004fc       ??_C@_0EO@FPEF@SELECT?5GLOBALS_MAXSPEND_ENABLED?0@ 0040f4fc     Database.obj
+ 0003:0000054c       ??_C@_0IO@HII@SELECT?5ACC_DEFAULT_CLIENT?0ACC_DE@ 0040f54c     Database.obj
+ 0003:000005dc       ??_C@_0BO@GCLA@CMyDatabase?3?3VerifyClient?$CI?$CFs?$CJ?$AA@ 0040f5dc     Database.obj
+ 0003:000005fc       ??_C@_0DO@PJO@SELECT?5COUNT?$CI?$CK?$CJ?5FROM?5DOCUGATE_GE@ 0040f5fc     Database.obj
+ 0003:0000063c       ??_C@_0BO@FKPO@CMyDatabase?3?3VerifyMatter?$CI?$CFs?$CJ?$AA@ 0040f63c     Database.obj
+ 0003:0000065c       ??_C@_0FA@LKBM@SELECT?5COUNT?$CI?$CK?$CJ?5FROM?5DOCUGATE_CM@ 0040f65c     Database.obj
+ 0003:000006ac       ??_C@_0BM@KKLM@CMyDatabase?3?3GetStation?$CI?$CFs?$CJ?$AA@ 0040f6ac     Database.obj
+ 0003:000006c8       ??_C@_0HI@HCCA@SELECT?5GLOBALS_SFBW?0?5GLOBALS_LFB@ 0040f6c8     Database.obj
+ 0003:00000740       ??_C@_0BO@ODPE@CMyDatabase?3?3GetAccountID?$CI?$CFs?$CJ?$AA@ 0040f740     Database.obj
+ 0003:00000760       ??_C@_02DILL@?$CFs?$AA@    0040f760     Database.obj
+ 0003:00000764       ??_C@_0EG@OMID@SELECT?5ACC_ACC_GUID?5FROM?5DOCUGAT@ 0040f764     Database.obj
+ 0003:000007ac       ??_C@_0FN@DBGI@SELECT?5ACC_ACC_GUID?5FROM?5DOCUGAT@ 0040f7ac     Database.obj
+ 0003:0000080c       ??_C@_0CF@CDDL@CMyDatabase?3?3GetOffLineAccountID@ 0040f80c     Database.obj
+ 0003:00000834       ??_C@_0DD@KO@SELECT?5ACCOUNTID?5FROM?5ACCOUNTS?5W@ 0040f834     Database.obj
+ 0003:00000868       ??_C@_0CF@NBFA@CMyDatabase?3?3UpdateOffLineCopier@ 0040f868     Database.obj
+ 0003:00000890       ??_C@_0EI@HNLG@UPDATE?5DEVICES?5SET?5CURRENTCOUNT?5@ 0040f890     Database.obj
+ 0003:000008d8       ??_C@_0BP@BFAP@CMyDatabase?3?3UpdateAccount?$CI?$CFs?$CJ?$AA@ 0040f8d8     Database.obj
+ 0003:000008f8       ??_C@_0EJ@IHOF@UPDATE?5DOCUGATE_GENERAL_ACC?5SET?5@ 0040f8f8     Database.obj
+ 0003:00000944       ??_C@_0CG@PFPA@CMyDatabase?3?3UpdateOffLineAccoun@ 0040f944     Database.obj
+ 0003:0000096c       ??_C@_0EA@GICM@UPDATE?5ACCOUNTS?5SET?5BALANCE?5?$DN?5BA@ 0040f96c     Database.obj
+ 0003:000009ac       ??_C@_0EA@KPEC@UPDATE?5ACCOUNTS?5SET?5BALANCE?5?$DN?5BA@ 0040f9ac     Database.obj
+ 0003:000009ec       ??_C@_0BM@FMPE@CMyDatabase?3?3LogCopyJob?$CI?$CFs?$CJ?$AA@ 0040f9ec     Database.obj
+ 0003:00000a08       ??_C@_0BCC@FPHL@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0040fa08     Database.obj
+ 0003:00000b2c       ??_C@_0BM@JPDM@CMyDatabase?3?3LogJournel?$CI?$CFs?$CJ?$AA@ 0040fb2c     Database.obj
+ 0003:00000b48       ??_C@_0HG@MOFC@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0040fb48     Database.obj
+ 0003:00000bc0       ??_C@_0BO@OOEE@MCR?5Unit?5?$CFs?0?5?$CD?5of?5Copies?5?$DN?5?$CFd?$AA@ 0040fbc0     Database.obj
+ 0003:00000be0       ??_C@_0FO@PBJL@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0040fbe0     Database.obj
+ 0003:00000c40       ??_C@_0CK@NNMN@CMyDatabase?3?3RemoveActiveCopySes@ 0040fc40     Database.obj
+ 0003:00000c6c       ??_C@_0CM@LBAA@DELETE?5FROM?5DOCUGATE_GENERAL_ACT@ 0040fc6c     Database.obj
+ 0003:00000c98       ??_C@_0CJ@HJCD@CMyDatabase?3?3DeleteActiveCopySes@ 0040fc98     Database.obj
+ 0003:00000cc4       ??_C@_0EC@BHJC@DELETE?5FROM?5DOCUGATE_GENERAL_ACT@ 0040fcc4     Database.obj
+ 0003:00000d08       ??_C@_0CG@KNLI@CMyDatabase?3?3AddActiveCopySessio@ 0040fd08     Database.obj
+ 0003:00000d30       ??_C@_0EF@PNMO@INSERT?5INTO?5DOCUGATE_GENERAL_ACT@ 0040fd30     Database.obj
+ 0003:00000d78       ??_C@_0CB@DHMP@CMyDatabase?3?3IsActiveSession?$CI?$CFs?$CJ@ 0040fd78     Database.obj
+ 0003:00000d9c       ??_C@_0FL@MD@SELECT?5count?$CI?$CK?$CJ?5as?5SessionCount?5@ 0040fd9c     Database.obj
+ 0003:00000df8       ??_C@_05JKGC@NOW?$CI?$CJ?$AA@ 0040fdf8     Database.obj
+ 0003:00000e00       ??_C@_09BIJN@GETDATE?$CI?$CJ?$AA@ 0040fe00     Database.obj
+ 0003:00000e0c       ??_C@_0EK@IFLO@UPDATE?5SMARTPRINT_STATIONS?5SET?5S@ 0040fe0c     Database.obj
+ 0003:00000e58       ??_C@_0CK@FBPN@CMyDatabase?3?3Handle_DroppedConne@ 0040fe58     Database.obj
+ 0003:00000e84       ??_C@_0FJ@DMIG@UPDATE?5SMARTPRINT_STATIONS?5SET?5S@ 0040fe84     Database.obj
+ 0003:00000ee0       ??_C@_0CG@HJLP@CMyDatabase?3?3Handle_SessionActiv@ 0040fee0     Database.obj
+ 0003:00000f08       ??_C@_0FJ@PIOG@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0040ff08     Database.obj
+ 0003:00000f64       ??_C@_0FI@PMGN@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0040ff64     Database.obj
+ 0003:00000fbc       ??_C@_0BM@IABJ@CMyDatabase?3?3CtlUnitACL?$CI?$CFs?$CJ?$AA@ 0040ffbc     Database.obj
+ 0003:00000fd8       ??_C@_0N@POAD@AGENCY?5DEBIT?$AA@ 0040ffd8     Database.obj
+ 0003:00000fe8       ??_C@_0O@KBGH@AGENCY?5CREDIT?$AA@ 0040ffe8     Database.obj
+ 0003:00000ff8       ??_C@_05CPNG@STAFF?$AA@    0040fff8     Database.obj
+ 0003:00001000       ??_C@_0DN@NELG@SELECT?5OU_NAME?5FROM?5DOCUGATE_GEN@ 00410000     Database.obj
+ 0003:00001040       ??_C@_0EH@DHBD@SELECT?5ACC_OU_GUID?5FROM?5DOCUGATE@ 00410040     Database.obj
+ 0003:00001088       ??_C@_0EP@MJMH@SELECT?5CTLUNIT_OU_GUID?5FROM?5DOCU@ 00410088     Database.obj
+ 0003:000010d8       ??_C@_0CG@KEHH@CMyDatabase?3?3Handle_SessionClose@ 004100d8     Database.obj
+ 0003:00001100       ??_C@_0FI@MILI@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 00410100     Database.obj
+ 0003:00001158       ??_C@_0CE@JOEO@CMyDatabase?3?3Handle_SessionIdle?$CI@ 00410158     Database.obj
+ 0003:0000117c       ??_C@_0FG@KLCI@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 0041017c     Database.obj
+ 0003:000011d4       ??_C@_0CG@HFJB@CMyDatabase?3?3Handle_NewConnectio@ 004101d4     Database.obj
+ 0003:000011fc       ??_C@_0GA@OBJE@UPDATE?5DOCUGATE_GENERAL_CTLUNIT?5@ 004101fc     Database.obj
+ 0003:0000125c       ??_C@_0BO@ILDL@CMyDatabase?3?3UpdateSchema?$CI?$CFs?$CJ?$AA@ 0041025c     Database.obj
+ 0003:0000127c       ??_C@_0LF@EHF@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 0041027c     Database.obj
+ 0003:00001334       ??_C@_0LH@ODI@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 00410334     Database.obj
+ 0003:000013ec       ??_C@_0LJ@CCJG@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 004103ec     Database.obj
+ 0003:000014a8       ??_C@_0LN@GAAM@if?5not?5exists?5?$CIselect?5?$CK?5from?5sys@ 004104a8     Database.obj
+ 0003:00001568       ??_C@_0FM@INKG@DG?5Control?$CI1027?$CJ?5Monitor?5Thread?5@ 00410568     Discovery.obj
+ 0003:000015c4       ??_C@_01KPOD@?$DN?$AA@     004105c4     IniEx.obj
+ 0003:000015c8       ??_C@_07OJDM@?$CFs?$CFs?$CFs?6?$AA@ 004105c8     IniEx.obj
+ 0003:000015d0       ??_C@_05NIPM@?$FL?$CFs?$FN?6?$AA@ 004105d0     IniEx.obj
+ 0003:000015d8       ??_C@_07EGPA@?$CFs?4?$CF?43d?$AA@ 004105d8     IniEx.obj
+ 0003:000015e0       ??_C@_03DCMC@?$CK?4?$CK?$AA@ 004105e0     IniEx.obj
+ 0003:000015e4       ??_C@_0N@ILDM@?$CFs?0?$CFs?0?$CFs?0?$CFs?6?$AA@ 004105e4     Logger.obj
+ 0003:000015f4       ??_C@_02JBML@?$CFc?$AA@    004105f4     Logger.obj
+ 0003:000015f8       ??_C@_01FNLH@a?$AA@        004105f8     Logger.obj
+ 0003:000015fc       ??_C@_06KKCN@?$CFs?$CFs?$CFs?$AA@ 004105fc     Logger.obj
+ 0003:00001604       ?Length@@3KA               00410604     TheApp.obj
+ 0003:00001608       ??_C@_0EA@JMNI@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DL?5Active?5conn@ 00410608     TheApp.obj
+ 0003:00001648       ??_C@_0DJ@OPAM@Thread?5ID?3?$CFd?$DL?5Thread?5started?5for@ 00410648     TheApp.obj
+ 0003:00001684       ??_C@_0CE@BHBM@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLDatabase?5Clo@ 00410684     TheApp.obj
+ 0003:000016a8       ??_C@_0DM@FBKP@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLService?5Star@ 004106a8     TheApp.obj
+ 0003:000016e4       ??_C@_0CM@OPG@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLDatabase?5Sch@ 004106e4     TheApp.obj
+ 0003:00001710       ??_C@_0CK@PHP@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLDatabase?5Ope@ 00410710     TheApp.obj
+ 0003:0000173c       ??_C@_0EH@KGHI@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DL?5Failed?5to?5e@ 0041073c     TheApp.obj
+ 0003:00001784       ??_C@_0M@CDAJ@DGC_MCR?4log?$AA@ 00410784     TheApp.obj
+ 0003:00001790       ??_C@_0P@KNKH@DGC_MCR_?$CFs?4log?$AA@ 00410790     TheApp.obj
+ 0003:000017a0       ??_C@_0FJ@NFEJ@Driver?$DN?$HLSQL?5Server?$HN?$DLServer?$DN?$CFs?$DLDa@ 004107a0     TheApp.obj
+ 0003:000017fc       ??_C@_0EB@MPLA@Main?$CI?$CJ?5Thread?5ID?3?$CFd?$DLNeed?5the?5Hos@ 004107fc     TheApp.obj
+ 0003:00001840       ??_C@_0CH@DBEI@Fatal?5Error?3?5MFC?5initialization?5@ 00410840     TheApp.obj
+ 0003:00001868       ??_C@_0DC@OAMH@DG?5Control?5?$CI?$CFs?$CJ?3?5No?5Database?5Con@ 00410868     Worker.obj
+ 0003:0000189c       ??_C@_0BN@GAAC@No?5Database?5Connection?5?$EA?5?$CFs?6?$AA@ 0041089c     Worker.obj
+ 0003:000018bc       ??_C@_0IB@NBDG@3150433541414E584333334635353235@ 004108bc     Worker.obj
+ 0003:00001940       ??_C@_0CL@NHFO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ma@ 00410940     Worker.obj
+ 0003:0000196c       ??_C@_0CL@GKPG@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Cl@ 0041096c     Worker.obj
+ 0003:00001998       ??_C@_0CN@JBKN@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Pa@ 00410998     Worker.obj
+ 0003:000019c8       ??_C@_0CL@NJKI@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ac@ 004109c8     Worker.obj
+ 0003:000019f4       ??_C@_05HIBB@CLEAR?$AA@    004109f4     Worker.obj
+ 0003:000019fc       ??_C@_02IALM@UP?$AA@       004109fc     Worker.obj
+ 0003:00001a00       ??_C@_04MFOA@DOWN?$AA@     00410a00     Worker.obj
+ 0003:00001a08       ??_C@_0BH@IELM@Station?5Location?5?$DN?5?$CFs?6?$AA@ 00410a08     Worker.obj
+ 0003:00001a20       ??_C@_0BD@OJKA@Location?5received?6?$AA@ 00410a20     Worker.obj
+ 0003:00001a34       ??_C@_0BC@JKM@Gateway?5received?6?$AA@ 00410a34     Worker.obj
+ 0003:00001a48       ??_C@_0P@PJBH@Mask?5received?6?$AA@ 00410a48     Worker.obj
+ 0003:00001a58       ??_C@_0M@IBML@?$CFd?4?$CFd?4?$CFd?4?$CFd?$AA@ 00410a58     Worker.obj
+ 0003:00001a64       ??_C@_0BC@OJBM@Address?5received?6?$AA@ 00410a64     Worker.obj
+ 0003:00001a78       ??_C@_0BH@OMHN@Currency?5Ack?5received?6?$AA@ 00410a78     Worker.obj
+ 0003:00001a90       ??_C@_0P@EFBK@Session?3?5$?$CF?42f?$AA@ 00410a90     Worker.obj
+ 0003:00001aa0       ??_C@_0BC@PNAP@Session?3?5?$CFd?5Units?$AA@ 00410aa0     Worker.obj
+ 0003:00001ab4       ??_C@_0P@EFEJ@Balance?3?5$?$CF?42f?$AA@ 00410ab4     Worker.obj
+ 0003:00001ac4       ??_C@_0BC@POPL@Balance?3?5?$CFd?5Units?$AA@ 00410ac4     Worker.obj
+ 0003:00001ad8       ??_C@_0DK@IANA@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5MC@ 00410ad8     Worker.obj
+ 0003:00001b14       ??_C@_0CE@NCK@HOST?5Session?5Terminated?5clean?5?9?5@ 00410b14     Worker.obj
+ 0003:00001b38       ??_C@_0DK@KOHB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5MC@ 00410b38     Worker.obj
+ 0003:00001b74       ??_C@_0CD@OGEP@MCR?5Session?5Terminated?5clean?5?9?5?$CF@ 00410b74     Worker.obj
+ 0003:00001b98       ??_C@_0P@FBMK@Clock?5Set?5Ack?6?$AA@ 00410b98     Worker.obj
+ 0003:00001ba8       ??_C@_0BE@FOCP@Delay?5Ack?5received?6?$AA@ 00410ba8     Worker.obj
+ 0003:00001bbc       ??_C@_0O@HMLF@Mac?5received?6?$AA@ 00410bbc     Worker.obj
+ 0003:00001bcc       ??_C@_0BK@DMJK@Offline?5Max?5Ack?5received?6?$AA@ 00410bcc     Worker.obj
+ 0003:00001be8       ??_C@_0BL@KGKE@Offline?5mode?5Ack?5received?6?$AA@ 00410be8     Worker.obj
+ 0003:00001c04       ??_C@_0CL@FKNN@Display?5At?5ack?5received?5for?5Row?5@ 00410c04     Worker.obj
+ 0003:00001c30       ??_C@_07MBKB@COPYJOB?$AA@  00410c30     Worker.obj
+ 0003:00001c38       ??_C@_07CNPM@UNKNOWN?$AA@  00410c38     Worker.obj
+ 0003:00001c40       ??_C@_0CG@GLND@OffLine?5Count?5Rcved?0?5?$CFd?5Transact@ 00410c40     Worker.obj
+ 0003:00001c68       ??_C@_0DG@PKMC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ab@ 00410c68     Worker.obj
+ 0003:00001ca0       ??_C@_0DE@PKOC@Connection?5was?5Terminated?5?9?5Acti@ 00410ca0     Worker.obj
+ 0003:00001cd4       ??_C@_0DB@ECGC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ab@ 00410cd4     Worker.obj
+ 0003:00001d08       ??_C@_0CE@EJJB@Thread?5ID?3?$CFd?$DLThread?5Terminated?5?$EA@ 00410d08     Worker.obj
+ 0003:00001d2c       ??_C@_0BI@PEEL@Thread?5Terminated?5?$EA?5?$CFs?6?$AA@ 00410d2c     Worker.obj
+ 0003:00001d44       ??_C@_0DN@MIHF@Thread?5ID?3?$CFd?$DLTCPIP?5Connection?5Di@ 00410d44     Worker.obj
+ 0003:00001d84       ??_C@_0CH@KJGL@Thread?5Disconnected?5?$EA?5?$CFs?5?9?5Resul@ 00410d84     Worker.obj
+ 0003:00001dac       ??_C@_0DJ@ODCK@Thread?5ID?3?$CFd?$DLTCPIP?5Connection?5Di@ 00410dac     Worker.obj
+ 0003:00001de8       ??_C@_0BL@FPNK@Thread?5Disconnecting?5?$EA?5?$CFs?6?$AA@ 00410de8     Worker.obj
+ 0003:00001e04       ??_C@_0GB@HNHJ@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00410e04     Worker.obj
+ 0003:00001e68       ??_C@_0DJ@DAHP@No?5Response?5to?5set?5SetPriceLine?$CI@ 00410e68     Worker.obj
+ 0003:00001ea4       ??_C@_0GB@MKIE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00410ea4     Worker.obj
+ 0003:00001f08       ??_C@_0DJ@CKIN@No?5Response?5to?5set?5SetKeyBoard?$CI0@ 00410f08     Worker.obj
+ 0003:00001f44       ??_C@_0GF@MHLD@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00410f44     Worker.obj
+ 0003:00001fac       ??_C@_0DN@GCLO@No?5Response?5to?5set?5SetAuthentica@ 00410fac     Worker.obj
+ 0003:00001fec       ??_C@_0GF@FFMC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00410fec     Worker.obj
+ 0003:00002054       ??_C@_0DN@KFFN@No?5Response?5to?5set?5SetAuthentica@ 00411054     Worker.obj
+ 0003:00002094       ??_C@_0EP@CPPI@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00411094     Worker.obj
+ 0003:000020e4       ??_C@_0BN@OAFF@no?5Database?5Connection?5?$EA?5?$CFs?6?$AA@ 004110e4     Worker.obj
+ 0003:00002104       ??_C@_0CN@NDA@Thread?5ID?$DN?$CFs?0Address?$DN?$CFs?0State?$DNNo@ 00411104     Worker.obj
+ 0003:00002134       ??_C@_0DG@MMHH@Thread?5ID?$DN?$CFs?0Address?$DN?$CFs?0State?$DNNo@ 00411134     Worker.obj
+ 0003:0000216c       ??_C@_0DH@IAH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Id@ 0041116c     Worker.obj
+ 0003:000021a4       ??_C@_0CA@OPLC@Idle?5Connection?5Detected?5?5?$EA?5?$CFs?6?$AA@ 004111a4     Worker.obj
+ 0003:000021c4       ??_C@_0FP@IGPP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004111c4     Worker.obj
+ 0003:00002224       ??_C@_0DD@KJLN@No?5Response?5to?5SetBadData?$CI?$CJ?5with@ 00411224     Worker.obj
+ 0003:00002258       ??_C@_0FN@FJOI@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00411258     Worker.obj
+ 0003:000022b8       ??_C@_0DF@LCBH@No?5Response?5to?5set?5SetDelay?$CI?$CJ?5wi@ 004112b8     Worker.obj
+ 0003:000022f0       ??_C@_0GA@KEJO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004112f0     Worker.obj
+ 0003:00002350       ??_C@_0DI@JNN@No?5Response?5to?5set?5SetCurrency?$CI?$CJ@ 00411350     Worker.obj
+ 0003:00002388       ??_C@_0GD@EKKB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00411388     Worker.obj
+ 0003:000023ec       ??_C@_0DF@FIJA@no?5response?5to?5RequestAddress?5wi@ 004113ec     Worker.obj
+ 0003:00002424       ??_C@_0GA@COEE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00411424     Worker.obj
+ 0003:00002484       ??_C@_0DC@ONIG@no?5response?5to?5RequestMask?5withi@ 00411484     Worker.obj
+ 0003:000024b8       ??_C@_0GD@FLD@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004114b8     Worker.obj
+ 0003:0000251c       ??_C@_0DF@EBMO@no?5response?5to?5RequestGateway?5wi@ 0041151c     Worker.obj
+ 0003:00002554       ??_C@_0FP@BIKP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00411554     Worker.obj
+ 0003:000025b4       ??_C@_0DB@NBD@no?5response?5to?5requestMac?5within@ 004115b4     Worker.obj
+ 0003:000025e8       ??_C@_0GE@GGDO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004115e8     Worker.obj
+ 0003:0000264c       ??_C@_0DL@PGOI@no?5response?5to?5RequestLocation?5t@ 0041164c     Worker.obj
+ 0003:00002688       ??_C@_0FP@LOHO@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 00411688     Worker.obj
+ 0003:000026e8       ??_C@_0DD@LK@No?5response?5to?5SetInitial?$CI?$CJ?5with@ 004116e8     Worker.obj
+ 0003:0000271c       ??_C@_0FM@BEK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 0041171c     Worker.obj
+ 0003:00002778       ??_C@_0DA@LGAP@No?5response?5to?5SetTime?$CI?$CJ?5within?5@ 00411778     Worker.obj
+ 0003:000027a8       ??_C@_0GA@LENK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5No@ 004117a8     Worker.obj
+ 0003:00002808       ??_C@_0DE@JHKA@no?5response?5to?5SetKeyBoard?$CI?$CJ?5wit@ 00411808     Worker.obj
+ 0003:0000283c       ??_C@_0DD@EICB@Dead?5Connection?5Detected?5?9?5Activ@ 0041183c     Worker.obj
+ 0003:00002870       ??_C@_0CG@PPMP@Thread?5ID?3?$CFd?$DLDead?5Connection?5Det@ 00411870     Worker.obj
+ 0003:00002898       ??_C@_0BK@HNHP@Dead?5Conn?5Detected?5?5?$EA?5?$CFs?6?$AA@ 00411898     Worker.obj
+ 0003:000028b4       ??_C@_0DF@HNAK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 004118b4     Worker.obj
+ 0003:000028ec       ??_C@_0BL@BLF@Calling?5SetPriceLine?5?$EA?5?$CFs?6?$AA@ 004118ec     Worker.obj
+ 0003:00002908       ??_C@_02JBAA@?$CFf?$AA@    00411908     Worker.obj
+ 0003:0000290c       ??_C@_0P@CFEM@Error?3?5DG?90008?$AA@ 0041190c     Worker.obj
+ 0003:0000291c       ??_C@_0P@CEBB@Error?3?5DG?90007?$AA@ 0041191c     Worker.obj
+ 0003:0000292c       ??_C@_0P@HBDP@Error?3?5DG?90005?$AA@ 0041192c     Worker.obj
+ 0003:0000293c       ??_C@_0P@IPNL@Error?3?5DG?90009?$AA@ 0041193c     Worker.obj
+ 0003:0000294c       ??_C@_0BA@LOGH@Wrong?5ACL?5Group?$AA@ 0041194c     Worker.obj
+ 0003:0000295c       ??_C@_0BE@LDBF@CtlUnit?5has?5an?5ACL?6?$AA@ 0041195c     Worker.obj
+ 0003:00002970       ??_C@_0BA@GM@Error?3?5DG?90001a?$AA@ 00411970     Worker.obj
+ 0003:00002980       ??_C@_0P@NLGD@Error?3?5DG?90001?$AA@ 00411980     Worker.obj
+ 0003:00002990       ??_C@_0BL@FDAD@Account?5Already?5Logged?5On?6?$AA@ 00411990     Worker.obj
+ 0003:000029ac       ??_C@_0P@NLKI@Error?3?5DG?90004?$AA@ 004119ac     Worker.obj
+ 0003:000029bc       ??_C@_0BO@HGJK@No?5Account?5Located?5for?5ID?5?$CFs?6?$AA@ 004119bc     Worker.obj
+ 0003:000029dc       ??_C@_0P@GHFO@Error?3?5DG?90010?$AA@ 004119dc     Worker.obj
+ 0003:000029ec       ??_C@_0DF@CECE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 004119ec     Worker.obj
+ 0003:00002a24       ??_C@_0BN@NBGE@Calling?5SetKeyBoard?$CI0?$CJ?5?$EA?5?$CFs?6?$AA@ 00411a24     Worker.obj
+ 0003:00002a44       ??_C@_0DJ@LBFP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411a44     Worker.obj
+ 0003:00002a80       ??_C@_0CB@ICKO@Calling?5SetAuthenticate2?$CI?$CJ?5?$EA?5?$CFs?6@ 00411a80     Worker.obj
+ 0003:00002aa4       ??_C@_0DJ@EHGE@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411aa4     Worker.obj
+ 0003:00002ae0       ??_C@_0CB@MEHG@Calling?5SetAuthenticate1?$CI?$CJ?5?$EA?5?$CFs?6@ 00411ae0     Worker.obj
+ 0003:00002b04       ??_C@_0EJ@BNMK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Au@ 00411b04     Worker.obj
+ 0003:00002b50       ??_C@_0DD@FFFB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411b50     Worker.obj
+ 0003:00002b84       ??_C@_0BL@HKLE@Calling?5SetBadData?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 00411b84     Worker.obj
+ 0003:00002ba0       ??_C@_0DB@DJHN@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411ba0     Worker.obj
+ 0003:00002bd4       ??_C@_0BJ@BIHH@Calling?5SetDelay?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 00411bd4     Worker.obj
+ 0003:00002bf0       ??_C@_0DE@HIAK@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411bf0     Worker.obj
+ 0003:00002c24       ??_C@_0BK@FMPF@Calling?5SetCurrency?5?$EA?5?$CFs?6?$AA@ 00411c24     Worker.obj
+ 0003:00002c40       ??_C@_0DB@PCGH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00411c40     Worker.obj
+ 0003:00002c74       ??_C@_0BJ@FJJH@Requesting?5Address?5?$EA?5?$CFs?6?$AA@ 00411c74     Worker.obj
+ 0003:00002c90       ??_C@_0CO@IDNP@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00411c90     Worker.obj
+ 0003:00002cc0       ??_C@_0BG@GOOE@Requesting?5Mask?5?$EA?5?$CFs?6?$AA@ 00411cc0     Worker.obj
+ 0003:00002cd8       ??_C@_0DB@LINN@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00411cd8     Worker.obj
+ 0003:00002d0c       ??_C@_0BJ@EAM@Requesting?5Gateway?5?$EA?5?$CFs?6?$AA@ 00411d0c     Worker.obj
+ 0003:00002d28       ??_C@_0CN@FHBH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00411d28     Worker.obj
+ 0003:00002d58       ??_C@_0BF@BOGM@Requesting?5Mac?5?$EA?5?$CFs?6?$AA@ 00411d58     Worker.obj
+ 0003:00002d70       ??_C@_0DC@LDGH@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Re@ 00411d70     Worker.obj
+ 0003:00002da4       ??_C@_0BK@EOKE@Requesting?5Location?5?$EA?5?$CFs?6?$AA@ 00411da4     Worker.obj
+ 0003:00002dc0       ??_C@_0DD@NIPF@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411dc0     Worker.obj
+ 0003:00002df4       ??_C@_0BL@HGJP@Calling?5SetInitial?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 00411df4     Worker.obj
+ 0003:00002e10       ??_C@_0DA@HILB@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411e10     Worker.obj
+ 0003:00002e40       ??_C@_0BI@GOJO@Calling?5SetTime?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 00411e40     Worker.obj
+ 0003:00002e58       ??_C@_0DE@LMAC@Thread?5ID?3?$CFd?$DLDG?5Control?5?$CI?$CFs?$CJ?3?5Ca@ 00411e58     Worker.obj
+ 0003:00002e8c       ??_C@_0BE@JIHD@SetKeyboard?$CI?$CJ?5?$EA?5?$CFs?6?$AA@ 00411e8c     Worker.obj
+ 0003:00002ea0       ??_C@_0BH@DECL@Thread?5ID?3?$CFd?$DLPong?5Sent?$AA@ 00411ea0     Worker.obj
+ 0003:00002eb8       ??_C@_0BF@ECJK@Fire?5Connected?5?$EA?5?$CFs?6?$AA@ 00411eb8     Worker.obj
+ 0003:00002ed0       ??_C@_0CH@BLFF@Thread?5ID?3?$CFd?$DLTCP?1IP?5Connection?5S@ 00411ed0     Worker.obj
+ 0003:00002ef8       ??_C@_0BO@JGKF@Connection?5Failed?5?$EA?5?$CFs?5?9?5?$CI?$CFd?$CJ?$AA@ 00411ef8     Worker.obj
+ 0003:00002f18       ??_C@_0CK@ECLP@Thread?5ID?3?$CFd?$DLTCP?1IP?5Connection?5F@ 00411f18     Worker.obj
+ 0003:00002f44       ??_C@_02MECO@?$CFd?$AA@    00411f44     Worker.obj
+ 0003:00002f48       ??_C@_0CJ@DCFM@Thread?5ID?3?$CFd?$DLDatabase?5Connection@ 00411f48     Worker.obj
+ 0003:00002f74       ??_C@_0CI@BMNG@Thread?5ID?3?$CFd?$DLDatabase?5Connection@ 00411f74     Worker.obj
+ 0003:00002f9c       ??_C@_0DB@KNAH@Thread?5ID?3?$CFd?$DLStation?5Address?3?$CFs?5@ 00411f9c     Worker.obj
+ 0003:00002fd0       ??_C@_0BB@EILC@Session?3?50?5Units?$AA@ 00411fd0     Worker.obj
+ 0003:00002fe4       ??_C@_0P@HOLG@Session?3?5$0?400?$AA@ 00411fe4     Worker.obj
+ 0003:00002ff4       ??_C@_0BD@IOAL@Press?5CLEAR?5to?5End?$AA@ 00411ff4     Worker.obj
+ 0003:00003008       ??_C@_0BB@PJDJ@Copier?5Activated?$AA@ 00412008     Worker.obj
+ 0003:0000301c       ??_C@_01FBAH@1?$AA@        0041201c     Worker.obj
+ 0003:00003020       ??_C@_0BC@ICPB@Set?5Balance?5?$DN?5?$CFd?6?$AA@ 00412020     Worker.obj
+ 0003:00003034       ??_C@_0P@FCHD@Price?$CI4?$CJ?5?$DN?5?$CFd?6?$AA@ 00412034     Worker.obj
+ 0003:00003044       ??_C@_0P@KKLK@Price?$CI3?$CJ?5?$DN?5?$CFd?6?$AA@ 00412044     Worker.obj
+ 0003:00003054       ??_C@_0P@OCJE@Price?$CI2?$CJ?5?$DN?5?$CFd?6?$AA@ 00412054     Worker.obj
+ 0003:00003064       ??_C@_0P@DKOH@Price?$CI1?$CJ?5?$DN?5?$CFd?6?$AA@ 00412064     Worker.obj
+ 0003:00003074       ??_C@_0BB@KPDJ@Initializing?5?$CB?$CB?$CB?$AA@ 00412074     Worker.obj
+ 0003:00003088       ??_C@_0BE@DBCK@Authorizing?5Usage?5?$CB?$AA@ 00412088     Worker.obj
+ 0003:0000309c       ??_C@_05PGEK@ALPHA?$AA@    0041209c     Worker.obj
+ 0003:000030a4       ??_C@_0L@BPOP@Account?5?$CD?3?$AA@ 004120a4     Worker.obj
+ 0003:000030b0       ??_C@_0BC@PILJ@Account?5?$CD?5?$CG?5ENTER?$AA@ 004120b0     Worker.obj
+ 0003:000030c4       ??_C@_0BE@KIIA@Swipe?5Badge?5or?5Type?$AA@ 004120c4     Worker.obj
+ 0003:000030d8       ??_C@_0O@GMAD@High?5Tech?5DCS?$AA@ 004120d8     Worker.obj
+ 0003:000030e8       ??_C@_0L@NFDB@?5Client?5?$CD?3?$AA@ 004120e8     Worker.obj
+ 0003:000030f4       ??_C@_0BC@DHNO@?5Client?5?$CD?5?$CG?5ENTER?$AA@ 004120f4     Worker.obj
+ 0003:00003108       ??_C@_0BC@DDIP@?5if?5required?5type?$AA@ 00412108     Worker.obj
+ 0003:0000311c       ??_C@_0L@JLBP@?5Matter?5?$CD?3?$AA@ 0041211c     Worker.obj
+ 0003:00003128       ??_C@_0BC@OHBG@?5Matter?5?$CD?5?$CG?5ENTER?$AA@ 00412128     Worker.obj
+ 0003:0000313c       ??_C@_0BC@LNL@?5If?5required?5type?$AA@ 0041213c     Worker.obj
+ 0003:00003150       ??_C@_0N@HGII@?5copy?5pin?5?$CD?3?$AA@ 00412150     Worker.obj
+ 0003:00003160       ??_C@_0O@CMDI@?5Enter?5PIN?5?$CD?3?$AA@ 00412160     Worker.obj
+ 0003:00003170       ??_C@_0BC@KOHH@?5copy?5pin?5?$CG?5ENTER?$AA@ 00412170     Worker.obj
+ 0003:00003184       ??_C@_0BD@NEEI@?5Enter?5PIN?5?$CG?5ENTER?$AA@ 00412184     Worker.obj
+ 0003:00003198       ??_C@_0BC@BPLN@?5Please?5type?5your?$AA@ 00412198     Worker.obj
+ 0003:000031ac       ??_C@_05ODGO@DEBIT?$AA@    004121ac     Worker.obj
+ 0003:000031b4       ??_C@_08CDEN@NOCHARGE?$AA@ 004121b4     Worker.obj
+ 0003:000031c0       ??_C@_06BLHK@CREDIT?$AA@   004121c0     Worker.obj
+ 0003:000031d0       ??_R0?AVtype_info@@@8      004121d0     msvcrt:ti_inst.obj
+ 0003:000031f0       ___defaultmatherr          004121f0     msvcrt:merr.obj
+ 0003:000031f8       ?m_DBLock@@3VCCriticalSection@@A 004121f8     Database.obj
+ 0003:00003218       ??_C@_00A@?$AA@            00412218     Database.obj
+ 0003:00003220       ?mWriteLog@@3VCCriticalSection@@A 00412220     Logger.obj
+ 0003:00003248       ?m_ActiveAccounts@@3VCActiveAccounts@@A 00412248     TheApp.obj
+ 0003:00003288       ?m_gLogFileName@@3PADA     00412288     TheApp.obj
+ 0003:0000338c       ?m_gConnect@@3VCString@@A  0041238c     TheApp.obj
+ 0003:00003390       ?m_gIni@@3VCIniEx@@A       00412390     TheApp.obj
+ 0003:000033e0       ?m_gStationArray@@3VCStringArray@@A 004123e0     TheApp.obj
+ 0003:000033f4       ?hGlobalThreadWait@@3PAXA  004123f4     TheApp.obj
+ 0003:000033f8       ?ThisMachineName@@3PADA    004123f8     TheApp.obj
+ 0003:00003408       ?ProcessLock@@3VCCriticalSection@@A 00412408     TheApp.obj
+ 0003:00003428       ?theApp@@3VCWinApp@@A      00412428     TheApp.obj
+ 0003:000034ec       ?_Message@@3PADA           004124ec     TheApp.obj
+ 0003:000035ec       ?_Result@@3PADA            004125ec     TheApp.obj
+ 0003:000036f0       ?Stations@@3PAU_TagStation@@A 004126f0     TheApp.obj
+ 0003:0001121c       ?u@@3T__unnamed@@A         0042021c     Worker.obj
+ 0003:00011220       __afxForceEXCLUDE          00420220     mfcs42:nolib.obj
+ 0003:00011224       __afxForceSTDAFX           00420224     mfcs42:stdafx.obj
+ 0003:00011228       __dowildcard               00420228     msvcrt:wildcard.obj
+ 0003:0001122c       __newmode                  0042022c     msvcrt:_newmode.obj
+ 0003:00011230       __commode                  00420230     msvcrt:xncommod.obj
+ 0003:00011234       __fmode                    00420234     msvcrt:xtxtmode.obj
+ 0003:00011238       __adjust_fdiv              00420238     <common>
+ 0003:0001123c       ___onexitend               0042023c     <common>
+ 0003:00011240       ___onexitbegin             00420240     <common>
+
+ entry point at        0001:0000a78f
+
+ Static symbols
+
+ 0001:000078e0       _$E245                     004088e0 f   Worker.obj
+ 0001:00004440       _$E247                     00405440 f   TheApp.obj
+ 0001:00004450       _$E244                     00405450 f   TheApp.obj
+ 0001:00004460       _$E246                     00405460 f   TheApp.obj
+ 0001:00004470       _$E245                     00405470 f   TheApp.obj
+ 0001:00004480       _$E252                     00405480 f   TheApp.obj
+ 0001:00004490       _$E249                     00405490 f   TheApp.obj
+ 0001:000044a0       _$E251                     004054a0 f   TheApp.obj
+ 0001:000044b0       _$E250                     004054b0 f   TheApp.obj
+ 0001:000044c0       _$E255                     004054c0 f   TheApp.obj
+ 0001:000044d0       _$E254                     004054d0 f   TheApp.obj
+ 0001:000044f0       _$E260                     004054f0 f   TheApp.obj
+ 0001:00004500       _$E257                     00405500 f   TheApp.obj
+ 0001:00004510       _$E259                     00405510 f   TheApp.obj
+ 0001:00004520       _$E258                     00405520 f   TheApp.obj
+ 0001:00004530       _$E265                     00405530 f   TheApp.obj
+ 0001:00004540       _$E262                     00405540 f   TheApp.obj
+ 0001:00004550       _$E264                     00405550 f   TheApp.obj
+ 0001:00004560       _$E263                     00405560 f   TheApp.obj
+ 0001:00004570       _$E270                     00405570 f   TheApp.obj
+ 0001:00004580       _$E267                     00405580 f   TheApp.obj
+ 0001:00004590       _$E269                     00405590 f   TheApp.obj
+ 0001:000045a0       _$E268                     004055a0 f   TheApp.obj
+ 0001:000045b0       _$E275                     004055b0 f   TheApp.obj
+ 0001:000045c0       _$E272                     004055c0 f   TheApp.obj
+ 0001:000045d0       _$E274                     004055d0 f   TheApp.obj
+ 0001:000045e0       _$E273                     004055e0 f   TheApp.obj
+ 0001:000043c0       _$E236                     004053c0 f   StdAfx.obj
+ 0001:000043d0       _$E233                     004053d0 f   StdAfx.obj
+ 0001:000043e0       _$E235                     004053e0 f   StdAfx.obj
+ 0001:000043f0       _$E234                     004053f0 f   StdAfx.obj
+ 0001:00004400       _$E242                     00405400 f   StdAfx.obj
+ 0001:00004410       _$E239                     00405410 f   StdAfx.obj
+ 0001:00004420       _$E241                     00405420 f   StdAfx.obj
+ 0001:00004430       _$E240                     00405430 f   StdAfx.obj
+ 0001:00003d70       _$E257                     00404d70 f   Logger.obj
+ 0001:00003d80       _$E254                     00404d80 f   Logger.obj
+ 0001:00003d90       _$E256                     00404d90 f   Logger.obj
+ 0001:00003da0       _$E255                     00404da0 f   Logger.obj
+ 0001:00000270       _$E247                     00401270 f   Database.obj
+ 0001:00000280       _$E244                     00401280 f   Database.obj
+ 0001:00000290       _$E246                     00401290 f   Database.obj
+ 0001:000002a0       _$E245                     004012a0 f   Database.obj
+
+Line numbers for .\Release\Worker.obj(..\support\include\ipport.h) segment .text
+
+   105 0001:0000a3e0   107 0001:0000a3f0   108 0001:0000a400   114 0001:0000a410
+   115 0001:0000a411   117 0001:0000a426   121 0001:0000a42a   126 0001:0000a438
+   171 0001:0000a44a   129 0001:0000a44c   131 0001:0000a450   133 0001:0000a45d
+   138 0001:0000a464   171 0001:0000a480   141 0001:0000a482   145 0001:0000a486
+   150 0001:0000a494   171 0001:0000a4a7   153 0001:0000a4a9   157 0001:0000a4ad
+   162 0001:0000a4bb   171 0001:0000a4ce   166 0001:0000a4d0   171 0001:0000a4d9
+   170 0001:0000a4db   171 0001:0000a4dd
+
+Line numbers for .\Release\Worker.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl) segment .text
+
+   297 0001:00007e70
+
+Line numbers for .\Release\Worker.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\Worker.cpp) segment .text
+
+   534 0001:00004a20   542 0001:00004a92   547 0001:00004a99   549 0001:00004add
+   550 0001:00004ae6   552 0001:00004af1   553 0001:00004b02   554 0001:00004b30
+   557 0001:00004b48   129 0001:00004b70   131 0001:00004b76   133 0001:00004b88
+   134 0001:00004b92   135 0001:00004bad   136 0001:00004bcf   141 0001:00004bd5
+   145 0001:00004bee   144 0001:00004bf4   145 0001:00004c05   146 0001:00004c1c
+   148 0001:00004c2a   149 0001:00004c31   152 0001:00004c37   155 0001:00004c69
+   156 0001:00004c6f   157 0001:00004c81   158 0001:00004c90   159 0001:00004c9a
+   165 0001:00004c9f   167 0001:00004cb3   171 0001:00004cb5   175 0001:00004cd6
+   180 0001:00004cda   181 0001:00004d08   183 0001:00004d11   184 0001:00004d1f
+   185 0001:00004d31   186 0001:00004d43   188 0001:00004d4a   190 0001:00004d4c
+   191 0001:00004d60   192 0001:00004d74   193 0001:00004d7a   196 0001:00004d91
+   197 0001:00004d97   198 0001:00004d9d   200 0001:00004dbb   201 0001:00004dcf
+   204 0001:00004de3   206 0001:00004ded   208 0001:00004df2   210 0001:00004e06
+   212 0001:00004e2b   214 0001:00004e4b   216 0001:00004e6b   218 0001:00004e8b
+   220 0001:00004eab   224 0001:00004ecb   225 0001:00004edf   226 0001:00004ef6
+   227 0001:00004f13   228 0001:00004f1d   232 0001:00004f22   233 0001:00004f36
+   236 0001:00004f4a   251 0001:00004f4c   252 0001:00004f54   257 0001:00004f63
+   267 0001:00004f76   270 0001:00004f95   268 0001:00004fa9   269 0001:00004fbd
+   274 0001:00004fc9   275 0001:00004fd6   281 0001:00004fe4   284 0001:00004ffe
+   285 0001:0000500b   286 0001:00005013   288 0001:00005025   290 0001:00005027
+   293 0001:0000503f   295 0001:0000504d   296 0001:00005071   297 0001:0000507c
+   300 0001:000050b3   301 0001:000050c6   308 0001:000050d4   311 0001:000050ee
+   312 0001:000050fb   313 0001:00005103   315 0001:00005115   317 0001:00005117
+   321 0001:0000512f   323 0001:00005140   324 0001:0000515b   325 0001:00005166
+   327 0001:0000519d   328 0001:000051bd   330 0001:000051d1   333 0001:000051d6
+   334 0001:000051e4   337 0001:000051e9   338 0001:00005201   339 0001:00005236
+   342 0001:0000523b   343 0001:00005253   344 0001:00005288   347 0001:0000528d
+   348 0001:000052a5   349 0001:000052da   353 0001:000052df   354 0001:000052f9
+   355 0001:0000530e   356 0001:00005316   357 0001:00005336   358 0001:00005340
+   362 0001:00005345   365 0001:00005364   368 0001:00005377   374 0001:0000538a
+   380 0001:000053a3   382 0001:000053b9   383 0001:000053bf   385 0001:000053c5
+   387 0001:000053ca   388 0001:000053d6   389 0001:000053ee   394 0001:00005408
+   395 0001:0000542c   396 0001:00005436   402 0001:00005454   410 0001:00005459
+   412 0001:0000546f   413 0001:00005475   415 0001:0000547b   417 0001:00005480
+   418 0001:0000548c   419 0001:000054a4   421 0001:000054be   430 0001:000054eb
+   443 0001:000054f0   444 0001:000054ff   445 0001:00005517   448 0001:00005531
+   453 0001:0000555e   465 0001:00005560   466 0001:0000556f   467 0001:00005587
+   468 0001:000055a4   492 0001:000055c0   493 0001:000055c3   497 0001:000056f0
+   500 0001:000056f5   501 0001:00005706   503 0001:00005719   504 0001:0000572e
+   505 0001:00005748   508 0001:00005754   510 0001:00005761   511 0001:00005779
+   512 0001:00005796   513 0001:000057a0   515 0001:000057ac   516 0001:000057af
+   520 0001:000057c0   524 0001:000057e6   525 0001:00005803   526 0001:0000580d
+   527 0001:00005817   528 0001:0000581b   561 0001:00005840   562 0001:0000586b
+   566 0001:00005882   571 0001:000058c1   572 0001:000058f4   573 0001:00005926
+   575 0001:00005944   576 0001:00005955   578 0001:00005969   579 0001:00005995
+   580 0001:000059c8   583 0001:000059e9   584 0001:00005a12   585 0001:00005a44
+   587 0001:00005a65   588 0001:00005a7b   589 0001:00005a7e   628 0001:00005ae0
+   630 0001:00005aff   631 0001:00005b0c   636 0001:00005b19   637 0001:00005b22
+   638 0001:00005b3c   652 0001:00005b64   654 0001:00005b85   655 0001:00005b93
+   660 0001:00005ba3   661 0001:00005bb3   665 0001:00005bc3   666 0001:00005be4
+   669 0001:00005bf8   670 0001:00005c14   673 0001:00005c1d   675 0001:00005c32
+   676 0001:00005c44   677 0001:00005c55   680 0001:00005c5a   681 0001:00005c69
+   684 0001:00005c77   685 0001:00005c85   686 0001:00005c96   687 0001:00005ca6
+   688 0001:00005cc4   712 0001:00005ce1   716 0001:00005d96   717 0001:00005dc0
+   718 0001:00005dd6   719 0001:00005ddf   720 0001:00005de6   721 0001:00005ded
+   733 0001:00005df4   734 0001:00005dfa   735 0001:00005e07   740 0001:00005e0d
+   741 0001:00005e5e   742 0001:00005e79   743 0001:00005e9f   745 0001:00005eb6
+   747 0001:00005ed0   748 0001:00005ee1   750 0001:00005ef2   751 0001:00005efe
+   752 0001:00005f30   755 0001:00005f35   756 0001:00005f45   758 0001:00005f56
+   759 0001:00005f62   763 0001:00005f93   766 0001:00005fc1   768 0001:00005fcd
+   770 0001:00005ff3   774 0001:0000601b   780 0001:0000603f   781 0001:00006074
+   784 0001:00006083   785 0001:000060a9   787 0001:000060cc   788 0001:000060d9
+   799 0001:000060e6   800 0001:000060f5   801 0001:00006119   802 0001:00006137
+   805 0001:0000613c   806 0001:00006140   808 0001:00006151   821 0001:00006164
+   822 0001:000061b4   848 0001:000061bd   852 0001:000061d7   854 0001:000061e2
+   855 0001:000061f2   857 0001:000061fa   859 0001:000061ff   865 0001:0000621a
+   869 0001:0000621f   871 0001:0000622a   872 0001:0000623a   882 0001:00006242
+   886 0001:00006247   888 0001:00006252   889 0001:00006262   900 0001:0000626a
+   904 0001:0000626f   906 0001:0000627a   907 0001:0000628a   916 0001:00006292
+   924 0001:00006297   926 0001:000062b3   941 0001:000062e3   942 0001:00006391
+   943 0001:000063a6   945 0001:000063b4   958 0001:000063ce   959 0001:00006403
+   960 0001:00006412   961 0001:00006421   962 0001:00006430   964 0001:0000643f
+   966 0001:0000644a   971 0001:0000644f   974 0001:00006478   975 0001:000064b8
+   976 0001:000064cd   977 0001:000064db   987 0001:000064ee   988 0001:00006526
+   989 0001:0000653b   990 0001:00006549   999 0001:00006562  1001 0001:0000656d
+  1006 0001:00006572  1009 0001:0000659b  1010 0001:000065db  1011 0001:000065f0
+  1012 0001:000065fe  1022 0001:00006611  1023 0001:00006649  1024 0001:0000665e
+  1025 0001:0000666c  1034 0001:0000667f  1035 0001:000066b1  1036 0001:000066c6
+  1037 0001:000066d4  1046 0001:000066e7  1047 0001:0000671f  1048 0001:00006734
+  1049 0001:00006742  1058 0001:00006755  1059 0001:00006787  1060 0001:0000679c
+  1061 0001:000067aa  1071 0001:000067bd  1072 0001:000067f5  1073 0001:0000680a
+  1074 0001:00006818  1084 0001:0000682b  1085 0001:00006863  1086 0001:00006878
+  1087 0001:00006886  1096 0001:00006899  1097 0001:000068cb  1098 0001:000068e0
+  1099 0001:000068ee  1114 0001:00006907  1116 0001:00006912  1120 0001:00006917
+  1121 0001:00006933  1122 0001:00006942  1124 0001:00006966  1133 0001:00006985
+  1149 0001:0000698a  1150 0001:0000699d  1161 0001:000069a2  1162 0001:000069b4
+  1163 0001:000069d0  1165 0001:000069ec  1167 0001:000069fb  1168 0001:00006a1f
+  1169 0001:00006a43  1170 0001:00006a67  1173 0001:00006a8b  1336 0001:00006a9a
+  1337 0001:00006aa9  1181 0001:00006aae  1183 0001:00006abd  1185 0001:00006aee
+  1186 0001:00006b1a  1188 0001:00006b28  1202 0001:00006b49  1203 0001:00006b87
+  1204 0001:00006b9c  1205 0001:00006baa  1214 0001:00006bbd  1215 0001:00006bef
+  1216 0001:00006c04  1217 0001:00006c12  1226 0001:00006c25  1227 0001:00006c5d
+  1228 0001:00006c72  1229 0001:00006c80  1239 0001:00006c9b  1241 0001:00006cc4
+  1243 0001:00006cd1  1247 0001:00006cd6  1248 0001:00006cfa  1250 0001:00006d0d
+  1251 0001:00006d20  1336 0001:00006d35  1337 0001:00006d40  1259 0001:00006d45
+  1261 0001:00006d5c  1262 0001:00006d67  1336 0001:00006d7c  1337 0001:00006d87
+  1270 0001:00006d8c  1272 0001:00006dad  1273 0001:00006db8  1275 0001:00006dbd
+  1281 0001:00006dbf  1283 0001:00006ddf  1284 0001:00006dea  1286 0001:00006def
+  1290 0001:00006df4  1292 0001:00006e0d  1294 0001:00006e35  1296 0001:00006e42
+  1301 0001:00006e47  1303 0001:00006e5c  1305 0001:00006e84  1307 0001:00006e89
+  1313 0001:00006e8e  1314 0001:00006eb2  1316 0001:00006ec3  1318 0001:00006ed0
+  1322 0001:00006ed5  1323 0001:00006ef9  1325 0001:00006f03  1327 0001:00006f08
+  1332 0001:00006f0a  1333 0001:00006f17  1335 0001:00006f4b  1336 0001:00006f60
+  1337 0001:00006f6b  1342 0001:00006f70  1343 0001:00006f9c  1344 0001:00006fc0
+  1347 0001:00006fe4  1349 0001:00006ff2  1352 0001:00006ffc  1353 0001:0000700d
+  1354 0001:00007026  1360 0001:00007034  1362 0001:00007046  1363 0001:00007051
+  1365 0001:00007055  1367 0001:00007062  1368 0001:0000706d  1370 0001:00007071
+  1372 0001:0000707e  1373 0001:00007089  1377 0001:0000708d  1379 0001:0000708f
+  1380 0001:0000709a  1381 0001:000070a5  1383 0001:000070a7  1384 0001:000070b2
+  1388 0001:000070bd  1391 0001:000070c4  1392 0001:0000710c  1393 0001:00007121
+  1394 0001:0000712f  1411 0001:00007148  1413 0001:0000715b  1415 0001:0000716a
+  1416 0001:00007186  1418 0001:00007198  1420 0001:0000719a  1421 0001:000071b2
+  1429 0001:000071c9  1430 0001:000071db  1431 0001:000071f7  1434 0001:00007213
+  1435 0001:00007225  1437 0001:00007235  1438 0001:00007240   770 0001:0000724b
+  1394 0001:00007261   824 0001:00007266   825 0001:00007272   826 0001:000072a5
+   827 0001:000072b5   828 0001:000072c3   833 0001:000072d5   834 0001:000072e7
+   837 0001:00007303   838 0001:0000731a   839 0001:0000732b   947 0001:00007330
+   948 0001:00007366   951 0001:00007371   979 0001:00007376   980 0001:000073a3
+   983 0001:000073ae   992 0001:000073b3   993 0001:000073e5   996 0001:000073f0
+  1014 0001:000073f5  1015 0001:00007422  1018 0001:0000742d  1027 0001:00007432
+  1028 0001:0000745f  1031 0001:0000746a  1039 0001:0000746f  1040 0001:0000749c
+  1043 0001:000074a7  1051 0001:000074ac  1052 0001:000074d3  1055 0001:000074de
+  1063 0001:000074e3  1064 0001:0000750a  1067 0001:00007515  1076 0001:0000751a
+  1077 0001:00007544  1080 0001:0000754f  1089 0001:00007554  1090 0001:00007581
+  1093 0001:0000758c  1101 0001:00007591  1102 0001:000075c7  1105 0001:000075d2
+  1126 0001:000075d7  1127 0001:000075e6  1128 0001:0000761d  1130 0001:00007628
+  1138 0001:0000762d  1139 0001:00007637  1140 0001:00007661  1142 0001:00007666
+  1143 0001:00007685  1145 0001:000076ac  1190 0001:000076b1  1191 0001:000076e2
+  1193 0001:000076f7  1194 0001:00007705  1195 0001:0000771a  1196 0001:00007725
+  1207 0001:0000772a  1208 0001:00007751  1211 0001:0000775c  1219 0001:00007761
+  1220 0001:00007788  1221 0001:0000779d  1223 0001:000077a6  1231 0001:000077ab
+  1232 0001:000077d7  1233 0001:000077ec  1235 0001:000077f5  1396 0001:000077f7
+  1397 0001:00007823  1398 0001:00007838  1452 0001:00007849  1453 0001:00007871
+  1458 0001:000078f0  1469 0001:000078fa  1473 0001:00007905  1474 0001:00007925
+  1477 0001:0000796a  1478 0001:0000797a  1482 0001:0000798b  1484 0001:00007995
+  1485 0001:000079c4  1486 0001:000079cf  1489 0001:00007a04  1490 0001:00007a14
+  1494 0001:00007a25  1496 0001:00007a2f  1497 0001:00007a58  1498 0001:00007a63
+  1500 0001:00007a98  1501 0001:00007aa8  1507 0001:00007ab9  1510 0001:00007ad3
+  1511 0001:00007ae0  1512 0001:00007ae8  1514 0001:00007afd  1516 0001:00007aff
+  1520 0001:00007b1e  1522 0001:00007b31  1523 0001:00007b4a  1524 0001:00007b55
+  1527 0001:00007b8a  1528 0001:00007b9a  1533 0001:00007bab  1535 0001:00007bc4
+  1537 0001:00007bce  1539 0001:00007be6  1541 0001:00007be8  1543 0001:00007bf2
+  1546 0001:00007c0c  1547 0001:00007c17  1551 0001:00007c4c  1552 0001:00007c5c
+  1555 0001:00007c6d  1556 0001:00007c85  1557 0001:00007c8d  1558 0001:00007c98
+  1561 0001:00007ccd  1562 0001:00007cdd  1566 0001:00007cee  1567 0001:00007cf9
+  1572 0001:00007d3c  1573 0001:00007d49  1577 0001:00007d5a  1578 0001:00007d87
+  1579 0001:00007d8f  1580 0001:00007d91  1583 0001:00007db7  1584 0001:00007dc2
+  1589 0001:00007df7  1590 0001:00007e07  1593 0001:00007e18  1594 0001:00007e23
+  1596 0001:00007e68  1599 0001:00007e90  1602 0001:00007e98  1603 0001:00007ea7
+  1604 0001:00007ecd  1606 0001:00007ee0  1608 0001:00007efe  1609 0001:00007f0a
+  1610 0001:00007f3b  1611 0001:00007f58  1612 0001:00007f6a  1617 0001:00007f6f
+  1641 0001:00007f90  1649 0001:00007f98  1650 0001:00007fac  1655 0001:00007fbd
+  1659 0001:00007fc4  1660 0001:00007fd3  1661 0001:00008034  1662 0001:00008045
+  1666 0001:00008050  1673 0001:0000805a  1685 0001:00008068  1688 0001:0000809d
+  1689 0001:000080a9  1693 0001:000080b5  1694 0001:000080bb  1695 0001:000080c1
+  1696 0001:000080dd  1699 0001:00008109  1702 0001:0000810b  1703 0001:00008117
+  1707 0001:00008123  1708 0001:00008129  1709 0001:0000812f  1710 0001:0000814b
+  1717 0001:00008177  1718 0001:0000818f  1719 0001:0000819c  1722 0001:000081ae
+  1723 0001:000081cf  1724 0001:000081d6  1727 0001:000081e2  1728 0001:00008203
+  1729 0001:0000820a  1732 0001:00008216  1733 0001:00008237  1734 0001:00008240
+  1739 0001:0000824b  1741 0001:00008267  1743 0001:00008287  1747 0001:00008293
+  1749 0001:0000829d  1751 0001:000082a9  1752 0001:000082c2  1755 0001:000082e5
+  1758 0001:00008310  1765 0001:00008312  1769 0001:00008330  1775 0001:00008337
+  1776 0001:00008344  1779 0001:00008354  1780 0001:00008360  1781 0001:000083b2
+  1804 0001:000083c0  1809 0001:000083c9  1810 0001:000083d6  1815 0001:000083e7
+  1817 0001:0000840b  1819 0001:00008412  1821 0001:00008432  1825 0001:0000843e
+  1827 0001:00008448  1829 0001:00008454  1830 0001:0000846d  1833 0001:00008490
+  1836 0001:000084bb  1838 0001:000084bd  1842 0001:000084e0  1847 0001:000084e9
+  1850 0001:000084f6  1856 0001:00008505  1857 0001:0000853b  1858 0001:0000854f
+  1859 0001:00008562  1860 0001:00008573  1861 0001:00008584  1862 0001:00008594
+  1865 0001:000085aa  1869 0001:000085b6  1870 0001:000085bf  1872 0001:000085da
+  1874 0001:000085e7  1876 0001:000085f3  1877 0001:0000860c  1880 0001:0000862f
+  1883 0001:0000865a  1884 0001:0000865c  1887 0001:00008680  1892 0001:00008689
+  1893 0001:00008696  1898 0001:000086a7  1900 0001:000086cb  1902 0001:000086d2
+  1904 0001:000086f2  1908 0001:000086fe  1910 0001:00008708  1912 0001:00008714
+  1913 0001:0000872d  1916 0001:00008750  1919 0001:0000877b  1921 0001:0000877d
+  1924 0001:000087a0  1929 0001:000087a9  1930 0001:000087b6  1933 0001:000087c6
+  1934 0001:000087d4  1936 0001:00008819  1941 0001:00008824  1943 0001:0000884c
+  1944 0001:00008871  1945 0001:0000887c  1946 0001:000088b4  1948 0001:000088c9
+  1951 0001:000088d0  1956 0001:000088da  1963 0001:000088e5  1964 0001:0000892f
+  1967 0001:00008943  1971 0001:0000894d  1972 0001:00008956  1974 0001:00008973
+  1977 0001:00008980  1978 0001:0000898c  1979 0001:000089a5  1982 0001:000089c8
+  1985 0001:000089f3  1988 0001:000089f5  1991 0001:00008a10  1996 0001:00008a19
+  1997 0001:00008a26  1999 0001:00008a37  2002 0001:00008a39  2004 0001:00008a5d
+  2005 0001:00008a64  2007 0001:00008a84  2011 0001:00008a90  2014 0001:00008a9a
+  2015 0001:00008aa6  2016 0001:00008abf  2019 0001:00008ae2  2022 0001:00008b0d
+  2025 0001:00008b0f  2118 0001:00008b30  2123 0001:00008b39  2124 0001:00008b46
+  2127 0001:00008b57  2129 0001:00008b74  2130 0001:00008b7b  2132 0001:00008b99
+  2135 0001:00008ba5  2137 0001:00008baf  2139 0001:00008bbb  2140 0001:00008bd4
+  2143 0001:00008bf7  2146 0001:00008c22  2147 0001:00008c24  2150 0001:00008c40
+  2155 0001:00008c49  2156 0001:00008c56  2158 0001:00008c67  2160 0001:00008c69
+  2162 0001:00008c7f  2163 0001:00008c9e  2165 0001:00008cb0  2166 0001:00008cb7
+  2168 0001:00008cd7  2172 0001:00008ce3  2174 0001:00008ced  2176 0001:00008cf9
+  2177 0001:00008d12  2180 0001:00008d35  2183 0001:00008d60  2184 0001:00008d62
+  2188 0001:00008d80  2193 0001:00008d89  2194 0001:00008d96  2197 0001:00008da7
+  2199 0001:00008dc4  2200 0001:00008dcb  2202 0001:00008de9  2206 0001:00008df5
+  2208 0001:00008dff  2210 0001:00008e0b  2211 0001:00008e24  2214 0001:00008e47
+  2217 0001:00008e72  2218 0001:00008e74  2222 0001:00008e90  2227 0001:00008e99
+  2228 0001:00008ea6  2231 0001:00008eb7  2233 0001:00008ed4  2234 0001:00008edb
+  2236 0001:00008ef9  2240 0001:00008f05  2242 0001:00008f0f  2244 0001:00008f1b
+  2245 0001:00008f34  2248 0001:00008f57  2251 0001:00008f82  2253 0001:00008f84
+  2256 0001:00008fa0  2261 0001:00008fa9  2262 0001:00008fb6  2265 0001:00008fc7
+  2266 0001:00008fe4  2268 0001:00008feb  2271 0001:00009009  2275 0001:00009015
+  2277 0001:0000901f  2279 0001:0000902b  2280 0001:00009044  2283 0001:00009067
+  2286 0001:00009092  2287 0001:00009094  2372 0001:000090b0  2377 0001:000090b9
+  2378 0001:000090c6  2381 0001:000090d7  2382 0001:000090f4  2384 0001:000090fb
+  2387 0001:00009119  2391 0001:00009125  2393 0001:0000912f  2395 0001:0000913b
+  2396 0001:00009154  2399 0001:00009177  2402 0001:000091a2  2404 0001:000091a4
+  2408 0001:000091c0  2413 0001:000091c9  2414 0001:000091d6  2417 0001:000091e7
+  2418 0001:00009204  2419 0001:0000920b  2421 0001:00009229  2425 0001:00009235
+  2427 0001:0000923f  2429 0001:0000924b  2430 0001:00009264  2433 0001:00009287
+  2436 0001:000092b2  2438 0001:000092b4  2443 0001:000092d0  2448 0001:000092d9
+  2449 0001:000092e6  2456 0001:000092f6  2458 0001:0000932d  2459 0001:00009334
+  2462 0001:00009354  2466 0001:00009360  2468 0001:0000936a  2470 0001:00009376
+  2471 0001:0000938f  2474 0001:000093b2  2477 0001:000093dd  2479 0001:000093df
+  2483 0001:00009400  2488 0001:00009409  2489 0001:00009416  2492 0001:00009424
+  2495 0001:0000942b  2500 0001:0000945e  2502 0001:0000947e  2506 0001:0000948a
+  2508 0001:00009494  2510 0001:000094a0  2511 0001:000094b9  2514 0001:000094dc
+  2517 0001:00009507  2519 0001:00009509  2540 0001:00009520  2547 0001:0000952a
+  2551 0001:00009535  2552 0001:00009555  2556 0001:0000959a  2557 0001:000095aa
+  2561 0001:000095bb  2563 0001:000095cd  2564 0001:000095fa  2565 0001:00009605
+  2569 0001:0000963a  2570 0001:0000964a  2574 0001:0000965b  2576 0001:00009670
+  2577 0001:00009694  2578 0001:0000969f  2582 0001:000096d4  2583 0001:000096e4
+  2587 0001:000096f5  2589 0001:00009709  2590 0001:0000972e  2591 0001:00009739
+  2595 0001:0000976e  2596 0001:0000977e  2600 0001:0000978f  2602 0001:000097a3
+  2603 0001:000097c8  2604 0001:000097d3  2607 0001:00009808  2616 0001:00009813
+  2622 0001:0000986c  2623 0001:00009877  2625 0001:000098b3  2628 0001:000098c0
+  2635 0001:000098ca  2639 0001:000098d5  2640 0001:000098f5  2644 0001:0000993a
+  2645 0001:0000994a  2649 0001:0000995b  2651 0001:0000996d  2652 0001:0000999a
+  2653 0001:000099a5  2657 0001:000099da  2658 0001:000099ea  2662 0001:000099fb
+  2664 0001:00009a10  2665 0001:00009a34  2666 0001:00009a3f  2670 0001:00009a74
+  2671 0001:00009a84  2675 0001:00009a95  2677 0001:00009aa9  2678 0001:00009ace
+  2679 0001:00009ad9  2686 0001:00009b0e  2687 0001:00009b1e  2691 0001:00009b2f
+  2693 0001:00009b43  2694 0001:00009b68  2695 0001:00009b73  2703 0001:00009ba8
+  2712 0001:00009bb3  2718 0001:00009c0c  2719 0001:00009c17  2721 0001:00009c53
+  2725 0001:00009c60  2732 0001:00009c6a  2736 0001:00009c75  2737 0001:00009c95
+  2741 0001:00009cda  2742 0001:00009cea  2746 0001:00009cfb  2748 0001:00009d0d
+  2749 0001:00009d3a  2750 0001:00009d45  2754 0001:00009d7a  2755 0001:00009d8a
+  2759 0001:00009d9b  2761 0001:00009db0  2762 0001:00009dd4  2763 0001:00009ddf
+  2767 0001:00009e14  2768 0001:00009e24  2772 0001:00009e35  2774 0001:00009e49
+  2775 0001:00009e6e  2776 0001:00009e79  2780 0001:00009eae  2781 0001:00009ebe
+  2785 0001:00009ecf  2787 0001:00009ee3  2788 0001:00009f08  2789 0001:00009f13
+  2791 0001:00009f48  2800 0001:00009f53  2805 0001:00009fac  2806 0001:00009fb7
+  2808 0001:00009ff3  2811 0001:0000a000  2818 0001:0000a00a  2822 0001:0000a015
+  2823 0001:0000a035  2827 0001:0000a07a  2828 0001:0000a08a  2832 0001:0000a09b
+  2834 0001:0000a0ad  2835 0001:0000a0da  2836 0001:0000a0e5  2840 0001:0000a11a
+  2841 0001:0000a12a  2845 0001:0000a13b  2847 0001:0000a150  2848 0001:0000a174
+  2849 0001:0000a17f  2853 0001:0000a1b4  2854 0001:0000a1c4  2858 0001:0000a1d5
+  2860 0001:0000a1e9  2861 0001:0000a20e  2862 0001:0000a219  2866 0001:0000a24e
+  2867 0001:0000a25e  2871 0001:0000a26f  2873 0001:0000a283  2874 0001:0000a2a8
+  2875 0001:0000a2b3  2879 0001:0000a2e8  2880 0001:0000a2f8  2887 0001:0000a309
+  2888 0001:0000a314  2890 0001:0000a36e  2893 0001:0000a380  2899 0001:0000a3a2
+  2902 0001:0000a3a9  2904 0001:0000a3b8  2907 0001:0000a3be  2909 0001:0000a3cd
+  2932 0001:0000a3d7
+
+Line numbers for .\Release\TheApp.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\TheApp.cpp) segment .text
+
+    18 0001:00004450    22 0001:00004490    32 0001:000044d0    37 0001:00004500
+    38 0001:00004540    39 0001:00004580    42 0001:000045c0    46 0001:000045f0
+    51 0001:0000460b    55 0001:0000461b    58 0001:00004638    60 0001:00004653
+    63 0001:0000465d    65 0001:00004669    66 0001:00004680    67 0001:00004690
+    69 0001:000046a2    73 0001:000046ac    75 0001:000046c9    76 0001:000046d2
+    77 0001:000046e6    79 0001:00004705    81 0001:0000470a    82 0001:0000471d
+    84 0001:00004736    86 0001:00004738    93 0001:0000474d    95 0001:00004760
+    96 0001:00004777    97 0001:00004787    98 0001:00004799   102 0001:000047c5
+   103 0001:000047db   105 0001:000047ed   106 0001:000047fb   107 0001:0000480a
+   109 0001:0000481c   110 0001:0000482a   111 0001:00004838   120 0001:00004851
+   121 0001:0000485e   122 0001:0000486b   123 0001:00004870   128 0001:00004884
+   135 0001:00004899   136 0001:0000489f   140 0001:000048be   141 0001:000048ce
+   143 0001:000048e0   144 0001:000048ee   145 0001:000048fd   151 0001:0000490f
+   153 0001:00004916   155 0001:0000492e   157 0001:0000493a   158 0001:00004954
+   159 0001:00004966   163 0001:00004988   169 0001:0000499b   170 0001:000049ae
+   171 0001:000049c0   176 0001:000049d4   177 0001:000049df   178 0001:00004a07
+
+Line numbers for .\Release\StdAfx.obj(C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\iostream) segment .text
+
+    16 0001:000043d0    29 0001:00004410
+
+Line numbers for .\Release\Logger.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\Logger.cpp) segment .text
+
+     9 0001:00003d80    13 0001:00003db0    15 0001:00003dce    17 0001:00003dd9
+    18 0001:00003dea    20 0001:00003e04    21 0001:00003e1e    22 0001:00003e38
+    23 0001:00003e5b    24 0001:00003e70    25 0001:00003e75    29 0001:00003e81
+    30 0001:00003eb7    31 0001:00003ee2    33 0001:00003f07    34 0001:00003f10
+    37 0001:00003f56    39 0001:00003f77    40 0001:00003f85    42 0001:00003f90
+    43 0001:00003f98    47 0001:00003fa3    48 0001:00003fb8    50 0001:00003fc0
+    51 0001:00003fc9    52 0001:00003fde    53 0001:00004034    54 0001:00004040
+    55 0001:0000404a    57 0001:0000405b    58 0001:00004066    60 0001:00004097
+    64 0001:000040b0    66 0001:000040ce    68 0001:000040d9    69 0001:000040ea
+    71 0001:00004104    72 0001:0000411e    73 0001:00004138    74 0001:0000415b
+    75 0001:00004170    76 0001:00004175    80 0001:00004181    81 0001:000041b7
+    82 0001:000041e2    84 0001:00004207    85 0001:00004210    88 0001:00004256
+    90 0001:00004277    91 0001:00004285    93 0001:00004290    94 0001:00004298
+    98 0001:000042a3    99 0001:000042b8   101 0001:000042c0   102 0001:000042c9
+   103 0001:000042de   104 0001:00004336   105 0001:00004342   106 0001:0000434c
+   108 0001:0000435d   109 0001:00004368   111 0001:00004399
+
+Line numbers for .\Release\IniEx.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl) segment .text
+
+    51 0001:00003cd0    82 0001:00003d20
+
+Line numbers for .\Release\IniEx.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\IniEx.cpp) segment .text
+
+    21 0001:00003700    22 0001:0000375b    31 0001:0000375f    34 0001:000037c0
+    35 0001:000037e5    36 0001:000037f4    37 0001:0000380d    38 0001:00003814
+   294 0001:00003870   295 0001:00003890   296 0001:000038b0   298 0001:000038bd
+   300 0001:000038ce   302 0001:000038d6   305 0001:000038dd   309 0001:000038eb
+   310 0001:000038f4   315 0001:0000390f   318 0001:00003928   319 0001:00003931
+   321 0001:00003941   323 0001:00003968   324 0001:0000399d   326 0001:000039b1
+   327 0001:000039bc   332 0001:000039c8   334 0001:00003a68   319 0001:00003a8c
+   339 0001:00003a9d   340 0001:00003aa6   343 0001:00003ae3   364 0001:00003b00
+   367 0001:00003b1e   368 0001:00003b32   369 0001:00003b42   370 0001:00003b55
+   371 0001:00003b69   374 0001:00003b77   377 0001:00003b91   379 0001:00003ba5
+   380 0001:00003bb7   382 0001:00003bd1   384 0001:00003bf2   388 0001:00003c30
+   389 0001:00003c34   390 0001:00003c42   391 0001:00003c4b   393 0001:00003c59
+   395 0001:00003c5f   396 0001:00003c69   397 0001:00003c70   398 0001:00003c7a
+   400 0001:00003c86   401 0001:00003c8f   405 0001:00003c9c   407 0001:00003cad
+   408 0001:00003cbd   410 0001:00003cc3
+
+Line numbers for .\Release\Discovery.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\Discovery.cpp) segment .text
+
+    21 0001:00003630    23 0001:00003637    26 0001:00003647    29 0001:0000366d
+    31 0001:00003674    33 0001:0000368c    35 0001:00003695    37 0001:000036ab
+    46 0001:000036e7    45 0001:000036ee    46 0001:000036f1
+
+Line numbers for .\Release\Database.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxmt.inl) segment .text
+
+    38 0001:00003610
+
+Line numbers for .\Release\Database.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxcoll.inl) segment .text
+
+   222 0001:00001460   223 0001:00001461
+
+Line numbers for .\Release\Database.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\Database.cpp) segment .text
+
+     6 0001:00000280     9 0001:000002b0    10 0001:000002cd    13 0001:00000330
+    14 0001:00000392    15 0001:0000039e    16 0001:000003aa    17 0001:000003b6
+    52 0001:000003d0    55 0001:000003ee    58 0001:00000407    64 0001:00000415
+    65 0001:00000421    66 0001:00000432    67 0001:00000434    69 0001:00000449
+    70 0001:0000045b    72 0001:00000470    75 0001:0000047b    76 0001:00000483
+    78 0001:0000048f    80 0001:000004a2    81 0001:000004b2    83 0001:000004c5
+    84 0001:000004d7    86 0001:000004f3    87 0001:00000505    89 0001:0000051c
+    90 0001:00000533    92 0001:00000549    93 0001:00000560    95 0001:00000577
+    96 0001:0000058e    98 0001:000005a5    99 0001:000005bc   101 0001:000005d2
+   102 0001:000005e6   104 0001:000005fd   105 0001:00000611   107 0001:00000628
+   108 0001:0000063c   111 0001:00000664   115 0001:00000667   116 0001:0000069b
+   118 0001:000006b8   119 0001:000006c7   121 0001:000006d2   124 0001:000006d4
+   125 0001:000006dc   126 0001:000006f5   127 0001:00000706   128 0001:0000070d
+   130 0001:00000722   131 0001:00000743   135 0001:00000770   137 0001:0000078e
+   139 0001:000007a5   140 0001:000007b0   145 0001:000007bc   146 0001:000007d8
+   147 0001:000007f0   149 0001:000007fe   150 0001:00000813   154 0001:0000081c
+   155 0001:00000824   156 0001:00000830   157 0001:00000836   159 0001:0000084d
+   160 0001:0000085d   162 0001:0000086d   163 0001:0000087f   164 0001:00000895
+   165 0001:000008a7   166 0001:000008bd   167 0001:000008cf   168 0001:000008e8
+   169 0001:000008fa   170 0001:00000913   171 0001:00000925   157 0001:00000938
+   174 0001:0000093e   175 0001:0000095d   178 0001:0000096e   180 0001:00000988
+   181 0001:0000099a   186 0001:000009ab   187 0001:000009ba   198 0001:000009c5
+   192 0001:00000a05   193 0001:00000a0d   194 0001:00000a26   195 0001:00000a37
+   196 0001:00000a3e   204 0001:00000a50   211 0001:00000a6e   213 0001:00000a8a
+   214 0001:00000aa1   216 0001:00000aa6   217 0001:00000ab6   220 0001:00000ac7
+   221 0001:00000ad6   223 0001:00000ae1   234 0001:00000aef   227 0001:00000b04
+   228 0001:00000b0c   229 0001:00000b25   230 0001:00000b36   231 0001:00000b3d
+   237 0001:00000b50   238 0001:00000b54   239 0001:00000b66   240 0001:00000b75
+   243 0001:00000b80   246 0001:00000ba3   247 0001:00000ba5   251 0001:00000bbd
+   252 0001:00000bc0   253 0001:00000bd9   264 0001:00000bde   257 0001:00000bf1
+   258 0001:00000c0a   259 0001:00000c1c   260 0001:00000c30   261 0001:00000c37
+   264 0001:00000c3d   268 0001:00000c60   274 0001:00000c7e   275 0001:00000c84
+   277 0001:00000c9f   281 0001:00000ca1   282 0001:00000cd9   283 0001:00000ced
+   284 0001:00000cf4   287 0001:00000cfd   315 0001:00000d20   318 0001:00000d41
+   323 0001:00000d51   324 0001:00000d69   325 0001:00000d7b   327 0001:00000d94
+   328 0001:00000da3   330 0001:00000dae   331 0001:00000dbd   333 0001:00000dbf
+   335 0001:00000dc1   336 0001:00000df4   337 0001:00000e08   338 0001:00000e0f
+   340 0001:00000e18   342 0001:00000e27   346 0001:00000e40   350 0001:00000e5e
+   351 0001:00000e75   363 0001:00000e7a   357 0001:00000e8f   358 0001:00000ec0
+   359 0001:00000ed4   360 0001:00000edb   366 0001:00000ef0   370 0001:00000f0e
+   371 0001:00000f25   383 0001:00000f2a   377 0001:00000f3f   378 0001:00000f70
+   379 0001:00000f84   380 0001:00000f8b   388 0001:00000fa0   390 0001:00000fbe
+   391 0001:00000fd3   396 0001:00000fe2   397 0001:00000ffe   399 0001:00001017
+   401 0001:00001022   402 0001:0000102a   403 0001:00001054   404 0001:00001074
+   405 0001:0000109a   406 0001:000010ba   407 0001:000010d4   408 0001:000010fa
+   410 0001:00001106   411 0001:00001115   422 0001:00001120   415 0001:00001154
+   416 0001:0000115c   417 0001:00001175   418 0001:00001186   419 0001:0000118d
+   425 0001:000011a0   427 0001:000011be   428 0001:000011d3   433 0001:000011e2
+   435 0001:000011fd   436 0001:00001204   438 0001:0000122a   439 0001:00001239
+   450 0001:00001244   444 0001:00001278   445 0001:00001280   446 0001:00001299
+   447 0001:000012aa   448 0001:000012b1   454 0001:000012d0   457 0001:000012ee
+   458 0001:00001303   463 0001:00001312   464 0001:0000132f   466 0001:00001348
+   468 0001:0000134f   470 0001:00001357   471 0001:0000136c   473 0001:0000137f
+   474 0001:00001390   475 0001:0000139d   477 0001:000013a5   479 0001:000013bc
+   480 0001:000013cb   491 0001:000013d6   485 0001:0000140a   486 0001:00001412
+   487 0001:0000142b   488 0001:0000143c   489 0001:00001443   494 0001:00001490
+   497 0001:000014ae   498 0001:000014c3   503 0001:000014d2   504 0001:000014ef
+   506 0001:00001508   508 0001:0000150f   511 0001:00001517   512 0001:0000152c
+   514 0001:0000153f   515 0001:00001550   516 0001:0000155d   517 0001:00001565
+   519 0001:0000157c   520 0001:0000158b   532 0001:00001596   526 0001:000015ca
+   527 0001:000015d2   528 0001:000015eb   529 0001:000015fc   530 0001:00001603
+   535 0001:00001620   537 0001:0000163e   538 0001:00001653   543 0001:00001662
+   544 0001:00001675   546 0001:0000168e   548 0001:00001695   552 0001:0000169d
+   553 0001:000016b2   555 0001:000016c2   556 0001:000016d9   557 0001:000016e6
+   558 0001:000016ee   560 0001:00001705   561 0001:00001714   572 0001:0000171f
+   566 0001:00001753   567 0001:0000175b   568 0001:00001774   569 0001:00001785
+   570 0001:0000178c   578 0001:000017a0   580 0001:000017be   581 0001:000017d3
+   586 0001:000017e2   587 0001:00001802   589 0001:0000181b   591 0001:00001826
+   592 0001:0000182e   593 0001:00001858   594 0001:00001878   595 0001:0000189b
+   596 0001:000018bf   597 0001:000018df   598 0001:000018ff   600 0001:0000190a
+   601 0001:00001919   612 0001:00001924   606 0001:00001958   607 0001:00001960
+   608 0001:00001979   609 0001:0000198a   610 0001:00001991   655 0001:000019b0
+   657 0001:000019ce   658 0001:000019e5   659 0001:000019f0   661 0001:00001a01
+   662 0001:00001a15   690 0001:00001a43   672 0001:00001a56   673 0001:00001a69
+   674 0001:00001a82   676 0001:00001a92   677 0001:00001aa1   680 0001:00001aac
+   682 0001:00001aae   683 0001:00001ab6   684 0001:00001acf   685 0001:00001ae0
+   686 0001:00001ae7   688 0001:00001afb   690 0001:00001b3a   693 0001:00001b50
+   695 0001:00001b6e   696 0001:00001b85   697 0001:00001b90   699 0001:00001ba1
+   700 0001:00001bb8   725 0001:00001be6   707 0001:00001bf9   708 0001:00001c10
+   709 0001:00001c29   711 0001:00001c39   712 0001:00001c48   715 0001:00001c53
+   717 0001:00001c55   718 0001:00001c5d   719 0001:00001c76   720 0001:00001c87
+   721 0001:00001c8e   723 0001:00001ca2   725 0001:00001ce1   730 0001:00001d00
+   732 0001:00001d1e   733 0001:00001d35   740 0001:00001d40   741 0001:00001d59
+   743 0001:00001d72   745 0001:00001d7b   746 0001:00001d83   748 0001:00001d86
+   749 0001:00001da0   750 0001:00001daa   751 0001:00001dc0   753 0001:00001dca
+   754 0001:00001ddb   755 0001:00001de5   756 0001:00001dfb   758 0001:00001e05
+   759 0001:00001e15   760 0001:00001e1f   761 0001:00001e35   763 0001:00001e3f
+   764 0001:00001e50   765 0001:00001e5a   766 0001:00001e70   768 0001:00001e7a
+   769 0001:00001e9e   773 0001:00001eae   774 0001:00001ebd   777 0001:00001ec8
+   781 0001:00001edf   782 0001:00001ef1   783 0001:00001f04   785 0001:00001f0e
+   786 0001:00001f1a   787 0001:00001f2d   789 0001:00001f37   790 0001:00001f43
+   791 0001:00001f56   793 0001:00001f60   794 0001:00001f6c   795 0001:00001f7f
+   800 0001:00001f85   803 0001:00001f87   804 0001:00001f96   805 0001:00001faf
+   806 0001:00001fc0   807 0001:00001fc7   794 0001:00001fdd   811 0001:00001fdf
+   814 0001:00001ffc   819 0001:00002020   821 0001:0000203e   822 0001:00002053
+   829 0001:00002062   830 0001:00002071   831 0001:00002087   832 0001:00002089
+   835 0001:0000209b   837 0001:000020b1   839 0001:000020b8   840 0001:000020c0
+   841 0001:000020d5   842 0001:000020ee   844 0001:000020f9   845 0001:00002108
+   857 0001:00002113   850 0001:00002147   851 0001:0000214f   852 0001:00002168
+   853 0001:00002179   854 0001:00002180   861 0001:000021a0   864 0001:000021be
+   865 0001:000021d3   872 0001:000021e2   874 0001:000021f9   876 0001:00002212
+   878 0001:00002219   879 0001:00002221   880 0001:00002243   882 0001:00002254
+   883 0001:00002263   894 0001:0000226e   888 0001:000022a2   889 0001:000022aa
+   890 0001:000022c3   891 0001:000022d4   892 0001:000022db   933 0001:000022f0
+   954 0001:00002306   957 0001:00002320   959 0001:0000233e   963 0001:00002349
+   964 0001:00002373   974 0001:00002382   975 0001:0000238d   968 0001:000023af
+   969 0001:000023b7   970 0001:000023d0   971 0001:000023e1   972 0001:000023e8
+   979 0001:00002400   981 0001:0000241e   985 0001:00002429   986 0001:00002458
+   996 0001:00002467   990 0001:00002489   991 0001:00002491   992 0001:000024aa
+   993 0001:000024bb   994 0001:000024c2  1000 0001:000024e0  1002 0001:000024fe
+  1007 0001:00002509  1016 0001:00002525  1017 0001:00002546  1033 0001:00002555
+  1010 0001:00002577  1024 0001:0000258f  1026 0001:00002591  1027 0001:00002599
+  1028 0001:000025b2  1029 0001:000025c3  1031 0001:000025ca  1037 0001:000025e0
+  1038 0001:00002601  1049 0001:0000260c  1053 0001:00002665  1064 0001:00002678
+  1057 0001:0000269a  1058 0001:000026b0  1059 0001:000026cc  1060 0001:000026e0
+  1061 0001:000026e7  1068 0001:000026f0  1070 0001:00002711  1071 0001:0000271c
+  1072 0001:0000272b  1077 0001:0000274e  1081 0001:00002776  1090 0001:00002789
+  1085 0001:000027ba  1086 0001:000027d0  1087 0001:000027ec  1088 0001:00002800
+  1089 0001:00002807  1095 0001:00002810  1096 0001:00002831  1102 0001:0000283c
+  1106 0001:00002876  1117 0001:00002889  1110 0001:000028ab  1111 0001:000028c1
+  1112 0001:000028dd  1113 0001:000028f1  1114 0001:000028f8  1128 0001:00002900
+  1135 0001:00002910  1139 0001:0000292e  1149 0001:00002948  1143 0001:0000295b
+  1144 0001:00002971  1145 0001:0000298d  1146 0001:000029a1  1147 0001:000029a8
+  1153 0001:000029b0  1155 0001:000029d1  1159 0001:000029dc  1160 0001:000029f9
+  1173 0001:00002a08  1165 0001:00002a2a  1166 0001:00002a40  1167 0001:00002a5e
+  1168 0001:00002a6f  1169 0001:00002a81  1170 0001:00002a95  1171 0001:00002a9c
+  1177 0001:00002ab0  1181 0001:00002ad1  1182 0001:00002ad3  1183 0001:00002ae1
+  1184 0001:00002af7  1185 0001:00002b06  1195 0001:00002b11  1188 0001:00002b24
+  1189 0001:00002b3a  1190 0001:00002b56  1191 0001:00002b6a  1192 0001:00002b71
+  1199 0001:00002b80  1202 0001:00002b9e  1203 0001:00002bb5  1204 0001:00002bc0
+  1210 0001:00002bcc  1211 0001:00002be5  1212 0001:00002bfe  1214 0001:00002c0e
+  1215 0001:00002c1d  1217 0001:00002c28  1223 0001:00002c3d  1225 0001:00002c3f
+  1226 0001:00002c47  1227 0001:00002c60  1228 0001:00002c71  1229 0001:00002c78
+  1232 0001:00002c8f  1235 0001:00002cbb  1285 0001:00002cd0  1287 0001:00002cee
+  1291 0001:00002cf9  1292 0001:00002d1c  1294 0001:00002d2d  1295 0001:00002d3f
+  1296 0001:00002d51  1307 0001:00002d5c  1301 0001:00002d7e  1302 0001:00002d86
+  1303 0001:00002d9f  1304 0001:00002db0  1305 0001:00002db7  1311 0001:00002dd0
+  1313 0001:00002dee  1317 0001:00002df9  1318 0001:00002e1c  1320 0001:00002e2d
+  1321 0001:00002e3c  1333 0001:00002e4a  1327 0001:00002e6c  1328 0001:00002e74
+  1329 0001:00002e8d  1330 0001:00002e9e  1331 0001:00002ea5  1336 0001:00002ec0
+  1338 0001:00002ede  1339 0001:00002ef5  1340 0001:00002f00  1341 0001:00002f0c
+  1342 0001:00002f18  1348 0001:00002f24  1349 0001:00002f43  1350 0001:00002f5c
+  1352 0001:00002f6c  1353 0001:00002f7b  1355 0001:00002f86  1356 0001:00002fbb
+  1357 0001:00002fc0  1359 0001:00002fc5  1360 0001:00002fda  1361 0001:00002ff3
+  1363 0001:00003004  1364 0001:00003013  1366 0001:0000301e  1367 0001:00003030
+  1368 0001:00003049  1370 0001:0000305a  1371 0001:00003069  1373 0001:00003074
+  1374 0001:0000314a  1381 0001:0000314f  1383 0001:00003151  1384 0001:00003159
+  1385 0001:00003172  1386 0001:00003183  1387 0001:0000318a  1389 0001:0000319f
+  1391 0001:000031e4  1395 0001:00003200  1397 0001:0000321e  1402 0001:00003229
+  1403 0001:0000324c  1405 0001:0000325d  1406 0001:0000326c  1420 0001:0000327a
+  1413 0001:0000329c  1414 0001:000032a4  1415 0001:000032bd  1416 0001:000032ce
+  1418 0001:000032d5  1423 0001:000032f0  1425 0001:0000330e  1428 0001:00003319
+  1429 0001:0000333c  1430 0001:0000334d  1431 0001:0000335c  1442 0001:0000336a
+  1436 0001:0000338c  1437 0001:00003394  1438 0001:000033ad  1439 0001:000033be
+  1440 0001:000033c5  1447 0001:000033e0  1449 0001:00003401  1450 0001:0000340c
+  1451 0001:00003422  1455 0001:0000342e  1456 0001:00003449  1467 0001:00003457
+  1461 0001:00003497  1462 0001:0000349f  1463 0001:000034b8  1464 0001:000034c9
+  1465 0001:000034d0  1471 0001:000034f0  1473 0001:0000350e  1477 0001:00003519
+  1478 0001:00003532  1479 0001:00003543  1480 0001:00003551  1481 0001:0000355f
+  1482 0001:0000356d  1483 0001:0000357b  1484 0001:00003589  1495 0001:00003597
+  1497 0001:000035a6  1489 0001:000035bb  1490 0001:000035c3  1491 0001:000035dc
+  1492 0001:000035ed  1493 0001:000035f4
+
+Line numbers for .\Release\ActiveAccounts.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxmt.inl) segment .text
+
+    42 0001:00000220    46 0001:00000240    48 0001:00000260
+
+Line numbers for .\Release\ActiveAccounts.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxmt.h) segment .text
+
+    67 0001:000001f0
+
+Line numbers for .\Release\ActiveAccounts.obj(C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.inl) segment .text
+
+    37 0001:000001d0    39 0001:000001e0
+
+Line numbers for .\Release\ActiveAccounts.obj(Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGC App Release 7.3)\ActiveAccounts.cpp) segment .text
+
+    21 0001:00000000    22 0001:0000004f    23 0001:00000061    27 0001:000000a0
+    28 0001:000000c4    30 0001:000000d6    38 0001:00000120    43 0001:00000124
+    44 0001:00000126    45 0001:00000130    46 0001:0000013e    47 0001:00000142
+    48 0001:00000147    49 0001:00000150    51 0001:00000154    58 0001:00000160
+    61 0001:00000163    62 0001:0000016d    64 0001:0000017a    65 0001:00000183
+    66 0001:00000186    73 0001:00000190    78 0001:00000194    79 0001:0000019e
+    80 0001:000001af    81 0001:000001b3    82 0001:000001bb    84 0001:000001c5
+    85 0001:000001c8
+
+ 48 bytes saved through ICF
+

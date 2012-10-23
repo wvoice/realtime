@@ -1,0 +1,378 @@
+DGC_MCR,7.3,11/18/10 16:16:17,Main() Thread ID:2836;Database Open Success
+DGC_MCR,7.3,11/18/10 16:16:17,Main() Thread ID:2836;Database Schema Updated
+DGC_MCR,7.3,11/18/10 16:16:17,CMyDatabase::GetStationCustomPL(SELECT * FROM DOCUGATE_GENERAL_CTLUNIT_CUSTOM_PL WHERE CTLUNIT_GUID = 'B3EC1BFA-0D5C-4C0F-AEAE-548EC9431B8A')
+DGC_MCR,7.3,11/18/10 16:16:17,CMyDatabase::GetStationCustomPL(B3EC1BFA-0D5C-4C0F-AEAE-548EC9431B8A) was located ,Enabled = 1
+DGC_MCR,7.3,11/18/10 16:16:17,CMyDatabase::GetStationCustomPL(SELECT * FROM DOCUGATE_GENERAL_CTLUNIT_CUSTOM_PL WHERE CTLUNIT_GUID = 'D6E3079E-8493-43FA-9A63-C7DBB4A3DEFD')
+DGC_MCR,7.3,11/18/10 16:16:17,CMyDatabase::GetStationCustomPL(D6E3079E-8493-43FA-9A63-C7DBB4A3DEFD) was located ,Enabled = 0
+DGC_MCR,7.3,11/18/10 16:16:17,Main() Thread ID:2836;Service Startup - Detected[2] Stations
+DGC_MCR,7.3,11/18/10 16:16:17,Main() Thread ID:2836;Database Closed
+DGC_MCR,7.3,11/18/10 16:16:17,Thread ID:2836; Thread started for:[192.168.2.168] at Array Index[0]
+DGC_MCR,7.3,11/18/10 16:16:17,Thread ID:2836; Thread started for:[192.168.2.169] at Array Index[1]
+DGC_MCR,7.3,11/18/10 16:16:17,Thread ID:3020;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:17,Thread ID:3032;Station Address:192.168.2.169 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:17,Thread ID:3032;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:17,Thread ID:3020;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;TCP/IP Connection Success
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Calling SetTime()
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Calling SetInitial()
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Requesting Location
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Requesting Mac
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Requesting Gateway
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Requesting Mask
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Requesting Address
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Calling SetCurrency()
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Calling SetDelay()
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Calling SetBadData()
+DGC_MCR,7.3,11/18/10 16:16:18,Thread ID:3032;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:16:18,Main() Thread ID:2836; Active connections monitor thread starting
+DGC_MCR,7.3,11/18/10 16:16:21,Thread ID:3020;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:21,Thread ID:3020;Thread Terminated @ 11/18/10 16:16:21
+DGC_MCR,7.3,11/18/10 16:16:23,Thread ID:1304;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:23,Thread ID:1304;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:27,Thread ID:1304;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:27,Thread ID:1304;Thread Terminated @ 11/18/10 16:16:27
+DGC_MCR,7.3,11/18/10 16:16:28,Thread ID:3016;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:28,Thread ID:3016;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:33,Thread ID:3016;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:33,Thread ID:3016;Thread Terminated @ 11/18/10 16:16:33
+DGC_MCR,7.3,11/18/10 16:16:33,Thread ID:2316;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:33,Thread ID:2316;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:37,Thread ID:2316;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:37,Thread ID:2316;Thread Terminated @ 11/18/10 16:16:37
+DGC_MCR,7.3,11/18/10 16:16:38,Thread ID:3044;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:38,Thread ID:3044;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:42,Thread ID:3044;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:42,Thread ID:3044;Thread Terminated @ 11/18/10 16:16:42
+DGC_MCR,7.3,11/18/10 16:16:43,Thread ID:1844;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:43,Thread ID:1844;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:47,Thread ID:1844;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:47,Thread ID:1844;Thread Terminated @ 11/18/10 16:16:47
+DGC_MCR,7.3,11/18/10 16:16:48,Thread ID:3072;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:48,Thread ID:3072;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:52,Thread ID:3072;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:52,Thread ID:3072;Thread Terminated @ 11/18/10 16:16:52
+DGC_MCR,7.3,11/18/10 16:16:53,Thread ID:836;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:53,Thread ID:836;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:57,Thread ID:836;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:16:57,Thread ID:836;Thread Terminated @ 11/18/10 16:16:57
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:3032;Dead Connection Detected
+DGC_MCR,7.3,11/18/10 16:16:58,CMyDatabase::DeleteActiveCopySession(Conversion failed when converting from a character string to uniqueidentifier.
+)
+DGC_MCR,7.3,11/18/10 16:16:58,CMyDatabase::DeleteActiveCopySession(DELETE FROM DOCUGATE_GENERAL_ACTIVE_SESSION WHERE ACC_GUID = '')
+DGC_MCR,7.3,11/18/10 16:16:58,Dead Connection Detected - Active account was ()
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:3032;TCPIP Connection Disconnection started @ 11/18/10 16:16:58
+DGC_MCR,7.3,11/18/10 16:16:58,CMyDatabase::DeleteActiveCopySession(Conversion failed when converting from a character string to uniqueidentifier.
+)
+DGC_MCR,7.3,11/18/10 16:16:58,CMyDatabase::DeleteActiveCopySession(DELETE FROM DOCUGATE_GENERAL_ACTIVE_SESSION WHERE ACC_GUID = '')
+DGC_MCR,7.3,11/18/10 16:16:58,Connection was Terminated - Active account was ()
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:3032;TCPIP Connection Disconnected @ 11/18/10 16:16:58 - Result(0)
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:3032;Thread Terminated @ 11/18/10 16:16:58
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:3152;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:1140;Station Address:192.168.2.169 - Thread Started
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:3152;Database Connection success
+DGC_MCR,7.3,11/18/10 16:16:58,Thread ID:1140;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:02,Thread ID:1140;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:02,Thread ID:1140;Thread Terminated @ 11/18/10 16:17:02
+DGC_MCR,7.3,11/18/10 16:17:02,Thread ID:3152;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:02,Thread ID:3152;Thread Terminated @ 11/18/10 16:17:02
+DGC_MCR,7.3,11/18/10 16:17:03,Thread ID:1136;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:03,Thread ID:3112;Station Address:192.168.2.169 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:03,Thread ID:3112;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:03,Thread ID:1136;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:07,Thread ID:3112;TCP/IP Connection Failed(10061)
+DGC_MCR,7.3,11/18/10 16:17:07,Thread ID:3112;Thread Terminated @ 11/18/10 16:17:07
+DGC_MCR,7.3,11/18/10 16:17:07,Thread ID:1136;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:07,Thread ID:1136;Thread Terminated @ 11/18/10 16:17:07
+DGC_MCR,7.3,11/18/10 16:17:08,Thread ID:1128;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:08,Thread ID:1336;Station Address:192.168.2.169 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:08,Thread ID:1336;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:08,Thread ID:1128;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:12,Thread ID:1128;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:12,Thread ID:1128;Thread Terminated @ 11/18/10 16:17:12
+DGC_MCR,7.3,11/18/10 16:17:12,Thread ID:1336;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:12,Thread ID:1336;Thread Terminated @ 11/18/10 16:17:12
+DGC_MCR,7.3,11/18/10 16:17:13,Thread ID:2156;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:13,Thread ID:700;Station Address:192.168.2.169 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:13,Thread ID:700;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:13,Thread ID:2156;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:13,Thread ID:700;TCP/IP Connection Success
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Calling SetTime()
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Calling SetInitial()
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Requesting Location
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Requesting Mac
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Requesting Gateway
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Requesting Mask
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Requesting Address
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Calling SetCurrency()
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Calling SetDelay()
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Calling SetBadData()
+DGC_MCR,7.3,11/18/10 16:17:14,Thread ID:700;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:17:17,Thread ID:2156;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:17,Thread ID:2156;Thread Terminated @ 11/18/10 16:17:17
+DGC_MCR,7.3,11/18/10 16:17:18,Thread ID:3096;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:18,Thread ID:3096;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:22,Thread ID:3096;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:22,Thread ID:3096;Thread Terminated @ 11/18/10 16:17:22
+DGC_MCR,7.3,11/18/10 16:17:23,Thread ID:2708;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:23,Thread ID:2708;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:27,Thread ID:2708;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:27,Thread ID:2708;Thread Terminated @ 11/18/10 16:17:27
+DGC_MCR,7.3,11/18/10 16:17:28,Thread ID:1212;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:28,Thread ID:1212;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:32,Thread ID:1212;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:32,Thread ID:1212;Thread Terminated @ 11/18/10 16:17:32
+DGC_MCR,7.3,11/18/10 16:17:33,Thread ID:3000;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:33,Thread ID:3000;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:37,Thread ID:3000;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:37,Thread ID:3000;Thread Terminated @ 11/18/10 16:17:37
+DGC_MCR,7.3,11/18/10 16:17:38,Thread ID:2400;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:38,Thread ID:2400;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:42,Thread ID:2400;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:42,Thread ID:2400;Thread Terminated @ 11/18/10 16:17:42
+DGC_MCR,7.3,11/18/10 16:17:43,Thread ID:3144;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:43,Thread ID:3144;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:47,Thread ID:3144;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:47,Thread ID:3144;Thread Terminated @ 11/18/10 16:17:47
+DGC_MCR,7.3,11/18/10 16:17:48,Thread ID:3164;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:48,Thread ID:3164;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:54,Main() Thread ID:2984;Database Open Success
+DGC_MCR,7.3,11/18/10 16:17:54,Main() Thread ID:2984;Database Schema Updated
+DGC_MCR,7.3,11/18/10 16:17:54,CMyDatabase::GetStationCustomPL(SELECT * FROM DOCUGATE_GENERAL_CTLUNIT_CUSTOM_PL WHERE CTLUNIT_GUID = 'B3EC1BFA-0D5C-4C0F-AEAE-548EC9431B8A')
+DGC_MCR,7.3,11/18/10 16:17:54,CMyDatabase::GetStationCustomPL(B3EC1BFA-0D5C-4C0F-AEAE-548EC9431B8A) was located ,Enabled = 1
+DGC_MCR,7.3,11/18/10 16:17:54,CMyDatabase::GetStationCustomPL(SELECT * FROM DOCUGATE_GENERAL_CTLUNIT_CUSTOM_PL WHERE CTLUNIT_GUID = 'D6E3079E-8493-43FA-9A63-C7DBB4A3DEFD')
+DGC_MCR,7.3,11/18/10 16:17:54,CMyDatabase::GetStationCustomPL(D6E3079E-8493-43FA-9A63-C7DBB4A3DEFD) was located ,Enabled = 1
+DGC_MCR,7.3,11/18/10 16:17:54,Main() Thread ID:2984;Service Startup - Detected[2] Stations
+DGC_MCR,7.3,11/18/10 16:17:54,Main() Thread ID:2984;Database Closed
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:2984; Thread started for:[192.168.2.168] at Array Index[0]
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:2984; Thread started for:[192.168.2.169] at Array Index[1]
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:528;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;Station Address:192.168.2.169 - Thread Started
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:528;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;Database Connection success
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;TCP/IP Connection Success
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;DG Control (7.3): Calling SetTime()
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;DG Control (7.3): Calling SetInitial()
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;DG Control (7.3): Requesting Location
+DGC_MCR,7.3,11/18/10 16:17:54,Thread ID:3220;DG Control (7.3): Requesting Mac
+DGC_MCR,7.3,11/18/10 16:17:55,Thread ID:3220;DG Control (7.3): Requesting Gateway
+DGC_MCR,7.3,11/18/10 16:17:55,Main() Thread ID:2984; Active connections monitor thread starting
+DGC_MCR,7.3,11/18/10 16:17:55,Thread ID:3220;DG Control (7.3): Requesting Mask
+DGC_MCR,7.3,11/18/10 16:17:55,Thread ID:3220;DG Control (7.3): Requesting Address
+DGC_MCR,7.3,11/18/10 16:17:55,Thread ID:3220;DG Control (7.3): Calling SetCurrency()
+DGC_MCR,7.3,11/18/10 16:17:56,Thread ID:3220;DG Control (7.3): Calling SetDelay()
+DGC_MCR,7.3,11/18/10 16:17:56,Thread ID:3220;DG Control (7.3): Calling SetBadData()
+DGC_MCR,7.3,11/18/10 16:17:56,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:17:58,Thread ID:528;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:17:58,Thread ID:528;Thread Terminated @ 11/18/10 16:17:58
+DGC_MCR,7.3,11/18/10 16:18:00,Thread ID:3244;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:00,Thread ID:3244;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:04,Thread ID:3244;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:04,Thread ID:3244;Thread Terminated @ 11/18/10 16:18:04
+DGC_MCR,7.3,11/18/10 16:18:05,Thread ID:3252;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:05,Thread ID:3252;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:09,Thread ID:3252;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:09,Thread ID:3252;Thread Terminated @ 11/18/10 16:18:09
+DGC_MCR,7.3,11/18/10 16:18:10,Thread ID:3204;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:10,Thread ID:3204;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:14,Thread ID:3204;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:14,Thread ID:3204;Thread Terminated @ 11/18/10 16:18:14
+DGC_MCR,7.3,11/18/10 16:18:15,Thread ID:3256;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:15,Thread ID:3256;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:19,Thread ID:3256;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:19,Thread ID:3256;Thread Terminated @ 11/18/10 16:18:19
+DGC_MCR,7.3,11/18/10 16:18:20,Thread ID:3260;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:20,Thread ID:3260;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:24,Thread ID:3260;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:24,Thread ID:3260;Thread Terminated @ 11/18/10 16:18:24
+DGC_MCR,7.3,11/18/10 16:18:25,Thread ID:3332;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:25,Thread ID:3332;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:29,Thread ID:3332;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:29,Thread ID:3332;Thread Terminated @ 11/18/10 16:18:29
+DGC_MCR,7.3,11/18/10 16:18:30,Thread ID:3276;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:30,Thread ID:3276;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:34,Thread ID:3276;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:34,Thread ID:3276;Thread Terminated @ 11/18/10 16:18:34
+DGC_MCR,7.3,11/18/10 16:18:35,Thread ID:3340;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:35,Thread ID:3340;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:36,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:18:36,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:18:36,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:18:36,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:18:36,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:18:37,Thread ID:3220;DG Control (7.3): Calling SetPriceLine()
+DGC_MCR,7.3,11/18/10 16:18:39,Thread ID:3340;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:39,Thread ID:3340;Thread Terminated @ 11/18/10 16:18:39
+DGC_MCR,7.3,11/18/10 16:18:40,Thread ID:3240;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:40,Thread ID:3240;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:44,Thread ID:3240;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:44,Thread ID:3240;Thread Terminated @ 11/18/10 16:18:44
+DGC_MCR,7.3,11/18/10 16:18:45,Thread ID:3344;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:45,Thread ID:3344;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:48,Thread ID:3220;DG Control (7.3): MCR Session Terminated 0x26
+DGC_MCR,7.3,11/18/10 16:18:48,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:18:49,Thread ID:3344;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:49,Thread ID:3344;Thread Terminated @ 11/18/10 16:18:49
+DGC_MCR,7.3,11/18/10 16:18:50,Thread ID:3348;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:50,Thread ID:3348;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:54,Thread ID:3348;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:54,Thread ID:3348;Thread Terminated @ 11/18/10 16:18:54
+DGC_MCR,7.3,11/18/10 16:18:55,Thread ID:3364;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:18:55,Thread ID:3364;Database Connection success
+DGC_MCR,7.3,11/18/10 16:18:59,Thread ID:3364;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:18:59,Thread ID:3364;Thread Terminated @ 11/18/10 16:18:59
+DGC_MCR,7.3,11/18/10 16:19:00,Thread ID:3396;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:00,Thread ID:3396;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:04,Thread ID:3396;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:04,Thread ID:3396;Thread Terminated @ 11/18/10 16:19:04
+DGC_MCR,7.3,11/18/10 16:19:05,Thread ID:3408;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:05,Thread ID:3408;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:09,Thread ID:3408;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:09,Thread ID:3408;Thread Terminated @ 11/18/10 16:19:09
+DGC_MCR,7.3,11/18/10 16:19:10,Thread ID:3412;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:10,Thread ID:3412;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:14,Thread ID:3412;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:14,Thread ID:3412;Thread Terminated @ 11/18/10 16:19:14
+DGC_MCR,7.3,11/18/10 16:19:15,Thread ID:3416;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:15,Thread ID:3416;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:19,Thread ID:3416;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:19,Thread ID:3416;Thread Terminated @ 11/18/10 16:19:19
+DGC_MCR,7.3,11/18/10 16:19:20,Thread ID:3420;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:20,Thread ID:3420;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:23,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:19:23,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:19:23,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:19:23,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:19:23,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:19:24,Thread ID:3220;DG Control (7.3): Calling SetPriceLine()
+DGC_MCR,7.3,11/18/10 16:19:24,Thread ID:3420;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:24,Thread ID:3420;Thread Terminated @ 11/18/10 16:19:24
+DGC_MCR,7.3,11/18/10 16:19:25,Thread ID:3476;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:25,Thread ID:3476;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:29,Thread ID:3476;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:29,Thread ID:3476;Thread Terminated @ 11/18/10 16:19:29
+DGC_MCR,7.3,11/18/10 16:19:30,Thread ID:3480;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:30,Thread ID:3480;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:32,Thread ID:3220;DG Control (7.3): MCR Session Terminated 0x26
+DGC_MCR,7.3,11/18/10 16:19:32,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:19:34,Thread ID:3480;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:34,Thread ID:3480;Thread Terminated @ 11/18/10 16:19:34
+DGC_MCR,7.3,11/18/10 16:19:35,Thread ID:3432;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:35,Thread ID:3432;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:37,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:19:37,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:19:37,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:19:37,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:19:38,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:19:39,Thread ID:3432;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:39,Thread ID:3432;Thread Terminated @ 11/18/10 16:19:39
+DGC_MCR,7.3,11/18/10 16:19:39,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:19:40,Thread ID:3484;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:40,Thread ID:3484;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:42,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:19:42,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:19:42,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:19:42,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:19:42,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:19:43,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:19:44,Thread ID:3484;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:44,Thread ID:3484;Thread Terminated @ 11/18/10 16:19:44
+DGC_MCR,7.3,11/18/10 16:19:45,Thread ID:3488;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:45,Thread ID:3488;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:46,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:19:46,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:19:46,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:19:46,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:19:47,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:19:48,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:19:49,Thread ID:3488;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:49,Thread ID:3488;Thread Terminated @ 11/18/10 16:19:49
+DGC_MCR,7.3,11/18/10 16:19:50,Thread ID:2412;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:50,Thread ID:2412;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:54,Thread ID:2412;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:54,Thread ID:2412;Thread Terminated @ 11/18/10 16:19:54
+DGC_MCR,7.3,11/18/10 16:19:55,Thread ID:2500;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:19:55,Thread ID:2500;Database Connection success
+DGC_MCR,7.3,11/18/10 16:19:59,Thread ID:2500;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:19:59,Thread ID:2500;Thread Terminated @ 11/18/10 16:19:59
+DGC_MCR,7.3,11/18/10 16:20:00,Thread ID:3552;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:00,Thread ID:3552;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:02,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:20:02,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:20:02,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:20:02,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:20:02,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:20:03,Thread ID:3220;DG Control (7.3): Calling SetPriceLine()
+DGC_MCR,7.3,11/18/10 16:20:04,Thread ID:3552;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:04,Thread ID:3552;Thread Terminated @ 11/18/10 16:20:04
+DGC_MCR,7.3,11/18/10 16:20:05,Thread ID:3560;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:05,Thread ID:3560;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:09,Thread ID:3560;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:09,Thread ID:3560;Thread Terminated @ 11/18/10 16:20:09
+DGC_MCR,7.3,11/18/10 16:20:10,Thread ID:3512;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:10,Thread ID:3512;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:10,Thread ID:3220;DG Control (7.3): MCR Session Terminated 0x26
+DGC_MCR,7.3,11/18/10 16:20:10,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:20:14,Thread ID:3512;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:14,Thread ID:3512;Thread Terminated @ 11/18/10 16:20:14
+DGC_MCR,7.3,11/18/10 16:20:15,Thread ID:3688;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:15,Thread ID:3688;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:19,Thread ID:3688;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:19,Thread ID:3688;Thread Terminated @ 11/18/10 16:20:19
+DGC_MCR,7.3,11/18/10 16:20:20,Thread ID:2732;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:20,Thread ID:2732;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:24,Thread ID:2732;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:24,Thread ID:2732;Thread Terminated @ 11/18/10 16:20:24
+DGC_MCR,7.3,11/18/10 16:20:25,Thread ID:208;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:25,Thread ID:208;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:29,Thread ID:208;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:29,Thread ID:208;Thread Terminated @ 11/18/10 16:20:29
+DGC_MCR,7.3,11/18/10 16:20:30,Thread ID:2616;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:30,Thread ID:2616;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:34,Thread ID:2616;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:34,Thread ID:2616;Thread Terminated @ 11/18/10 16:20:34
+DGC_MCR,7.3,11/18/10 16:20:35,Thread ID:3700;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:35,Thread ID:3700;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:39,Thread ID:3700;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:39,Thread ID:3700;Thread Terminated @ 11/18/10 16:20:39
+DGC_MCR,7.3,11/18/10 16:20:40,Thread ID:3680;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:40,Thread ID:3680;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:44,Thread ID:3680;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:44,Thread ID:3680;Thread Terminated @ 11/18/10 16:20:44
+DGC_MCR,7.3,11/18/10 16:20:45,Thread ID:3744;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:45,Thread ID:3744;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:49,Thread ID:3744;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:49,Thread ID:3744;Thread Terminated @ 11/18/10 16:20:49
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3712;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3712;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:20:50,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:20:51,Thread ID:3220;DG Control (7.3): Calling SetPriceLine()
+DGC_MCR,7.3,11/18/10 16:20:54,Thread ID:3712;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:54,Thread ID:3712;Thread Terminated @ 11/18/10 16:20:54
+DGC_MCR,7.3,11/18/10 16:20:55,Thread ID:3824;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:20:55,Thread ID:3824;Database Connection success
+DGC_MCR,7.3,11/18/10 16:20:57,Thread ID:3220;DG Control (7.3): MCR Session Terminated 0x26
+DGC_MCR,7.3,11/18/10 16:20:57,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:20:59,Thread ID:3824;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:20:59,Thread ID:3824;Thread Terminated @ 11/18/10 16:20:59
+DGC_MCR,7.3,11/18/10 16:21:00,Thread ID:3828;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:21:00,Thread ID:3828;Database Connection success
+DGC_MCR,7.3,11/18/10 16:21:02,Thread ID:3220;DG Control (7.3): Account = 10
+DGC_MCR,7.3,11/18/10 16:21:02,Thread ID:3220;DG Control (7.3): Authenticating Acccount(10) on Station(511677)
+DGC_MCR,7.3,11/18/10 16:21:02,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate1()
+DGC_MCR,7.3,11/18/10 16:21:02,Thread ID:3220;DG Control (7.3): Calling SetAuthenticate2()
+DGC_MCR,7.3,11/18/10 16:21:03,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard(0)
+DGC_MCR,7.3,11/18/10 16:21:04,Thread ID:3220;DG Control (7.3): Calling SetKeyBoard()
+DGC_MCR,7.3,11/18/10 16:21:04,Thread ID:3828;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:21:04,Thread ID:3828;Thread Terminated @ 11/18/10 16:21:04
+DGC_MCR,7.3,11/18/10 16:21:05,Thread ID:3780;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:21:05,Thread ID:3780;Database Connection success
+DGC_MCR,7.3,11/18/10 16:21:09,Thread ID:3780;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:21:09,Thread ID:3780;Thread Terminated @ 11/18/10 16:21:09
+DGC_MCR,7.3,11/18/10 16:21:10,Thread ID:3836;Station Address:192.168.2.168 - Thread Started
+DGC_MCR,7.3,11/18/10 16:21:10,Thread ID:3836;Database Connection success
+DGC_MCR,7.3,11/18/10 16:21:14,Thread ID:3836;TCP/IP Connection Failed(301)
+DGC_MCR,7.3,11/18/10 16:21:14,Thread ID:3836;Thread Terminated @ 11/18/10 16:21:14

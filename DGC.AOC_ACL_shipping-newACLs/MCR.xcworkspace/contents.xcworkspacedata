@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Docugate (DGC App Release 7.3)"
+      name = "Docugate (DGC App Release 7.3)">
+      <FileRef
+         location = "group:ActiveAccounts.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:ActiveAccounts.h">
+      </FileRef>
+      <FileRef
+         location = "group:Database.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:Database.h">
+      </FileRef>
+      <Group
+         location = "group:Debug"
+         name = "Debug">
+         <FileRef
+            location = "group:cl.command.1.tlog">
+         </FileRef>
+         <FileRef
+            location = "group:CL.read.1.tlog">
+         </FileRef>
+         <FileRef
+            location = "group:CL.write.1.tlog">
+         </FileRef>
+         <FileRef
+            location = "group:TheApp.lastbuildstate">
+         </FileRef>
+         <FileRef
+            location = "group:TheApp.log">
+         </FileRef>
+         <FileRef
+            location = "group:TheApp.unsuccessfulbuild">
+         </FileRef>
+         <FileRef
+            location = "group:vc100.idb">
+         </FileRef>
+         <FileRef
+            location = "group:vc100.pdb">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Discovery.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:IniEx.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:IniEx.h">
+      </FileRef>
+      <FileRef
+         location = "group:Logger.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:RefDatabase.cpp">
+      </FileRef>
+      <Group
+         location = "group:Release"
+         name = "Release">
+         <FileRef
+            location = "group:ActiveAccounts.obj">
+         </FileRef>
+         <FileRef
+            location = "group:Database.obj">
+         </FileRef>
+         <FileRef
+            location = "group:DGC_MCR-newACLs.exe">
+         </FileRef>
+         <FileRef
+            location = "group:DGC_MCR.map">
+         </FileRef>
+         <FileRef
+            location = "group:Discovery.obj">
+         </FileRef>
+         <FileRef
+            location = "group:IniEx.obj">
+         </FileRef>
+         <FileRef
+            location = "group:Logger.obj">
+         </FileRef>
+         <FileRef
+            location = "group:StdAfx.obj">
+         </FileRef>
+         <FileRef
+            location = "group:TheApp.obj">
+         </FileRef>
+         <FileRef
+            location = "group:TheApp.pch">
+         </FileRef>
+         <FileRef
+            location = "group:TheApp.res">
+         </FileRef>
+         <FileRef
+            location = "group:vc60.idb">
+         </FileRef>
+         <FileRef
+            location = "group:Worker.obj">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Resource.h">
+      </FileRef>
+      <FileRef
+         location = "group:sql.h">
+      </FileRef>
+      <FileRef
+         location = "group:sqltypes.h">
+      </FileRef>
+      <FileRef
+         location = "group:StdAfx.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:StdAfx.h">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.aps">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.clw">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.dsp">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.dsw">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.h">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.ncb">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.opt">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.plg">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.rc">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.sln">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.vcxproj">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.vcxproj.filters">
+      </FileRef>
+      <FileRef
+         location = "group:TheApp.vcxproj.user">
+      </FileRef>
+      <FileRef
+         location = "group:Thread.h">
+      </FileRef>
+      <FileRef
+         location = "group:TimedThread.cpp">
+      </FileRef>
+      <FileRef
+         location = "group:TimedThread.h">
+      </FileRef>
+      <FileRef
+         location = "group:Windows.h">
+      </FileRef>
+      <FileRef
+         location = "group:Worker.cpp">
+      </FileRef>
+   </Group>
+</Workspace>

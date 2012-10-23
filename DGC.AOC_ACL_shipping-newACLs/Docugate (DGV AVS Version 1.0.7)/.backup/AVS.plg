@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AVS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/AVS.res" /d "_DEBUG" "Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\AVS.rc"" 
+Creating temporary file "C:\DOCUME~1\MIKEYO~1\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "C:\DOCUGATE\DocuGate (DGC)\Support\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/AVS.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\Activity.cpp"
+"Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\AVS.cpp"
+"Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\AVSDlg.cpp"
+"Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\IniEx.cpp"
+"Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\MyDatabase.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MIKEYO~1\LOCALS~1\Temp\RSPB3.tmp" 
+Creating temporary file "C:\DOCUME~1\MIKEYO~1\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "C:\DOCUGATE\DocuGate (DGC)\Support\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/AVS.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\myoung\Docugate Sources\DGC.AOC_ACL_shipping-newACLs\Docugate (DGV AVS Version 1.0.7)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MIKEYO~1\LOCALS~1\Temp\RSPB4.tmp" 
+Creating temporary file "C:\DOCUME~1\MIKEYO~1\LOCALS~1\Temp\RSPB5.tmp" with contents
+[
+ipworks5.lib netcashapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DGC_AVS.pdb" /debug /machine:I386 /out:"Debug/DGC_AVS.exe" /pdbtype:sept /libpath:"C:\DOCUGATE\DocuGate (DGC)\Support\lib" 
+".\Debug\Activity.obj"
+".\Debug\AVS.obj"
+".\Debug\AVSDlg.obj"
+".\Debug\IniEx.obj"
+".\Debug\MyDatabase.obj"
+".\Debug\StdAfx.obj"
+".\Debug\AVS.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MIKEYO~1\LOCALS~1\Temp\RSPB5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+z:\myoung\docugate sources\dgc.aoc_acl_shipping-newacls\docugate (dgv avs version 1.0.7)\stdafx.h(28) : fatal error C1083: Cannot open include file: 'ipworks.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+DGC_AVS.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
