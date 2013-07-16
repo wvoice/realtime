@@ -51,8 +51,8 @@ Begin VB.Form frm_Reports_Date
       Begin VB.TextBox list_SelectedCashiers 
          Height          =   1455
          Left            =   6000
+         MultiLine       =   -1  'True
          TabIndex        =   18
-         Text            =   "Sorted Names"
          Top             =   720
          Visible         =   0   'False
          Width           =   2295
@@ -176,7 +176,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   61603841
+         Format          =   59965441
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -200,7 +200,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   61603841
+         Format          =   59965441
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -224,7 +224,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   61603841
+         Format          =   59965441
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -249,7 +249,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   61603841
+         Format          =   59965441
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -265,7 +265,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   61603841
+         Format          =   59965441
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -344,18 +344,25 @@ Attribute VB_Exposed = False
 Option Explicit
 
 Private m_FormLoaded As Boolean
+Private Sub cmd_AddSelected_Click()
+    Call CopySelectedListItems(Me.list_CashierFilter, Me.list_SelectedCashiers)
+End Sub
+
+Private Sub cmd_DelSelected_Click()
+    Call CopySelectedListItems(Me.list_SelectedCashiers, Me.LstFilter)
+End Sub
 
 
 Private Sub chk_CashierFilter_Click() 'Added 7/15/13 by Mike so that we can sub-filter by Cashier name
 On Error GoTo Err_Handler
     
     If chk_CashierFilter.Value = 1 Then
-    list_CashierFilter.Visible = True
-    list_SelectedCashiers.Visible = True
-    cmd_Select.Visible = True
-    cmd_Deselect.Visible = True
-    'Need to get all cashier names and load the combo box
-    Call Mod_Data.LoadComboFromSQL("select ACC_FULLNAME from docugate_general_acc where ACC_ACCESS_LEVEL=2", list_CashierFilter)
+        list_CashierFilter.Visible = True
+        list_SelectedCashiers.Visible = True
+        cmd_Select.Visible = True
+        cmd_Deselect.Visible = True
+        'Need to get all cashier names and load the combo box
+        Call Mod_Data.LoadComboFromSQL("select ACC_FULLNAME from docugate_general_acc where ACC_ACCESS_LEVEL=2 order by acc_firstname", list_CashierFilter)
         
     Else
         list_CashierFilter.Visible = False
@@ -365,13 +372,25 @@ On Error GoTo Err_Handler
         
     End If
     
-    If m_FormLoaded = True Then Me.list_CashierFilter.SetFocus
-    Dim i As Integer
-
-    For i = 1 To 2
-        Me.list_CashierFilter.Selected(i) = True
-    Next i
-    Exit Sub
+'    If Me.list_SelectedCashiers.ListCount = 0 Then
+'        'gClsReports.SelectedEntityList = ""
+'    Else
+        Dim i As Integer
+        Dim ValClause As String
+        
+        For i = 0 To Me.list_SelectedCashiers.ListCount - 1
+            If ValClause = "" Then
+                ValClause = "'" & list_SelectedCashiers.List(i) & "'"
+            Else
+                ValClause = ValClause & ",'" & list_SelectedCashiers.List(i) & "'"
+            End If
+        Next i
+        If Trim(ValClause) = "" Then
+            gClsReports.SelectedEntityList = Trim(ValClause)
+        Else
+            gClsReports.SelectedEntityList = " AND " & gClsReports.EntityFieldname & " in (" & Trim(ValClause) & ")"
+        End If
+    End If
 Err_Handler:
 End Sub
 Private Sub Cmd_Cancel_Click()
