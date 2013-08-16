@@ -382,6 +382,7 @@ On Error GoTo Err_Handler
     
     If m_DetailLevel = 1 Then
     
+       'Modified on 8/16/13 by Mike Young to narrow the reports to those members of same Site Code as cashier
        SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE "
             
         If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND "
