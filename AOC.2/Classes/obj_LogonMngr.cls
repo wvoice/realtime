@@ -124,6 +124,9 @@ End Property
 Public Property Get mLevel() As Long
    mLevel = m_ActiveLogon.m_ACCESS_LEVEL
 End Property
+Public Property Get mSiteCode() As Long
+   mSiteCode = m_ActiveLogon.m_SITECODE
+End Property
 
 Public Function SetSuperUserLogin(badge As String)
 '//Lynette - there seems to be no account for this hard coded user, hence this is a workaround
@@ -156,6 +159,7 @@ On Error GoTo Err_Handler
           .m_ACCOUNT_GUID = m_rs!acc_acc_guid
           .m_BADGE = m_rs!acc_badge
           .m_ACCESS_LEVEL = m_rs!ACC_ACCESS_LEVEL
+          .m_SITECODE = m_rs!ACC_SC_INDEX
           .m_CMETHOD = m_rs!ACC_CMETHOD
           .m_EMAIL = m_rs!ACC_EMAIL
           .m_FIRSTNAME = m_rs!acc_firstname

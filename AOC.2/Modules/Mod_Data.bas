@@ -111,6 +111,7 @@ Public Type CURRENT_ACCOUNT
     m_CMETHOD As String
     m_FUNDS As String
     m_VALID As Boolean
+    m_SITECODE As String
 End Type
 
 Type CURRENT_DATABASE

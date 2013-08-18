@@ -383,14 +383,18 @@ On Error GoTo Err_Handler
     If m_DetailLevel = 1 Then
     
        'Modified on 8/16/13 by Mike Young to narrow the reports to those members of same Site Code as cashier
-       SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE "
-            
+       'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE "
+       SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities join docugate_general_acc ON docugate_cashier_all_activities.ACC_BADGE = docugate_general_acc.ACC_BADGE WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
+       'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
+        
         If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND "
+        'If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & ""
         If m_ReportId = 7 Then SelectStr = SelectStr & " TRANTYPE = 'FUND ADJ' AND "
         If m_ReportId = 9 Then SelectStr = SelectStr & " TRANTYPE = 'CHECKED OUT' AND "
         If m_ReportId = 10 Then SelectStr = SelectStr & " TRANTYPE = 'CHECKED IN' AND "
             
-        OrderClause = " ORDER BY TRANDATE, CASHIER_NAME, CASHIER_OU_NAME, ACC_BADGE, ACC_TRAN_DT"
+        OrderClause = " ORDER BY TRANDATE, CASHIER_NAME, CASHIER_OU_NAME, docugate_cashier_all_activities.ACC_BADGE, ACC_TRAN_DT"
+        'OrderClause = " ORDER BY TRANDATE, CASHIER_NAME, CASHIER_OU_NAME, ACC_BADGE, ACC_TRAN_DT"
         
         m_ReportSQL = SelectStr & m_DateFilter & m_SelectedEntityList & OrderClause
 
@@ -400,6 +404,8 @@ On Error GoTo Err_Handler
             Print #7, ""
             Print #7, m_ReportTitle & "  */"
             Print #7, ""
+            
+            
             'Print #7, m_ReportSQL
             'Print #7, ""
             Print #7, gObjDBConn.FormatSQL(m_ReportSQL)
