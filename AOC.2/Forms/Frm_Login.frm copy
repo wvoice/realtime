@@ -2,7 +2,7 @@ VERSION 5.00
 Object = "{FE666755-7DB5-47B5-9F9E-ABC3D730AF26}#1.0#0"; "SCLabel.ocx"
 Begin VB.Form Frm_Login 
    BorderStyle     =   1  'Fixed Single
-   Caption         =   "Docugate Login"
+   Caption         =   "RealTime Login"
    ClientHeight    =   2205
    ClientLeft      =   4380
    ClientTop       =   2475
@@ -26,7 +26,6 @@ Begin VB.Form Frm_Login
    Begin VB.TextBox txtError 
       Alignment       =   2  'Center
       Appearance      =   0  'Flat
-      BackColor       =   &H8000000F&
       BorderStyle     =   0  'None
       Enabled         =   0   'False
       Height          =   450

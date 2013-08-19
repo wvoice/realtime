@@ -2,7 +2,7 @@ VERSION 5.00
 Object = "{FE666755-7DB5-47B5-9F9E-ABC3D730AF26}#1.0#0"; "SCLabel.ocx"
 Begin VB.Form frm_Disclaimer 
    BorderStyle     =   3  'Fixed Dialog
-   Caption         =   "End User License Agreement"
+   Caption         =   "Disclaimer and Limitation of Liability"
    ClientHeight    =   6885
    ClientLeft      =   45
    ClientTop       =   330
@@ -32,6 +32,15 @@ Begin VB.Form frm_Disclaimer
       _ExtentX        =   13996
       _ExtentY        =   10610
       _StockProps     =   13
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Caption         =   "SCLabel"
       Alignment       =   1
       Enabled         =   -1  'True
@@ -109,23 +118,28 @@ End Sub
 
 Private Sub Form_Load()
     
- Disclaimer = "END USER LICENSE AGREEMENT" & vbCrLf & _
- "The Software is protected by the copyright laws and treaties of the " & _
- "United States (U.S.) and other countries and is subject to the terms " & _
- "of this Agreement. The Software is licensed to HighTech Accessory Items, Inc. " & _
- vbCrLf & vbCrLf & _
- "The Software may be bundled with other software programs (Bundled " & _
- "Programs). Your license rights with respect to Bundled Programs " & _
- "accompanied by separate license terms are defined by those terms; " & _
- "nothing in this Agreement shall restrict, limit, or otherwise affect " & _
- "any rights or obligations You may have, or conditions to which You may " & _
- "be subject, under such license terms. " & _
- vbCrLf & vbCrLf & _
- "THE SOFTWARE IS ONLY COMPATIBLE WITH CERTAIN COMPUTERS AND OPERATING " & _
- "SYSTEMS. THE SOFTWARE IS NOT WARRANTED FOR NON-COMPATIBLE SYSTEMS. " & _
- "Call HighTech Accessory Items or Your dealer for information about compatibility. " & _
- vbCrLf & vbCrLf
-
+ Disclaimer = "DISCLAIMER" & vbCrLf & _
+ "USER expressly acknowledge and agree that use of the software is at USER's sole risk and that the entire risk as to satisfactory quality, " & _
+ "performance, accuracy and effort is with USER. The software is provided 'AS IS', with all faults and without warranty of any kind, and NPS, " & _
+ "its suppliers and contributors hereby disclaim all warranties and conditions with respect to the SOFTWARE, either express, implied or statutory, " & _
+ "including, but not limited to, the implied warranties and/or conditions of merchantability, of satisfactory quality, of fitness for a particular " & _
+ "purpose, of accuracy, of quiet enjoyment, of title and non-infringement of third party rights. NPS does not warrant against interference with " & _
+ "USERS's enjoyment of the SOFTWARE, that the functions contained in the SOFTWARE will meet USERS requirements, that the operation of the " & _
+ "SOFTWARE will be uninterrupted or error-free, or that defects in the SOFTWARE will be corrected. No oral or written information or advice given by NPS, " & _
+ "its suppliers and contributors shall create a warranty. Should the software prove defective, USER assumes the entire cost of all necessary servicing, " & _
+ "repair or correction. Some jurisdictions do not allow the exclusion of implied warranties or limitations on applicable statutory rights of a consumer, " & _
+ "so the above exclusion and limitations may not apply to you. " & _
+  vbCrLf & vbCrLf & _
+ "LIMITATION OF LIABILITY" & vbCrLf & _
+ "To the extent not prohibited by law, in no event shall NPS (including its officers, directors, employees, affiliates, independent contractors, distributors, " & _
+ "agents and successors), its suppliers or contributors be liable for personal injury, or any direct, indirect, incidental, exemplary, special, consequential " & _
+ "or punitive damages whatsoever, including, without limitation, damages for loss of profits, loss of revenue, loss of data, business interruption, breach of " & _
+ "contract ,negligence or any other commercial damages or losses,  arising out of or related to USERS's use or inability to use the SOFTWARE, however caused, " & _
+ "regardless of the theory of liability (contract, tort or otherwise) even if NPS has been advised of the possibility of such damages. Some jurisdictions do not " & _
+ "allow the limitation of liability for personal  injury,or of incidental or consequential damages, so this limitation may not apply to you.  In no event shall " & _
+ "NPS 's total liability to USER for all damages whether in  contract, tort (including negligence), or otherwise, exceed the amount of money received by " & _
+ "NPS pursuant to the terms of  this Agreement. The foregoing limitations will apply even if the above stated remedy fails of its essential purpose"
+   
  scDisclaimer.Caption = Disclaimer
 End Sub
 
