@@ -329,14 +329,14 @@ Private Sub Form_Load()
   
   lblVersion.Caption = gAppVersion
   
-  lblComments.Caption = "©2007 – 2010, A Licensed Product of Network Printing Solutions,Inc." & vbCrLf & vbCrLf _
+  lblComments.Caption = "©2007 – 2013, A Licensed Product of Hightech Accessory Items,Inc." & vbCrLf & vbCrLf _
     & "All Rights Reserved" & vbCrLf & vbCrLf _
     & "Website: http://www.Hightech-ai.com" & vbCrLf & vbCrLf _
     & "Sales: sales@Hightech-ai.com" & vbCrLf & vbCrLf _
     & "Support: support@Hightech-ai.com"
     
   lblWorkstationName.Caption = "High Tech Accessory Items, Inc"
-  lblLicence.Caption = "Product ID: Realtime Admin 3.0.5"
+  lblLicence.Caption = "Product ID: Realtime Admin 3.1.1"
   
 End Sub
 

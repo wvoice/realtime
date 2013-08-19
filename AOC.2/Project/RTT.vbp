@@ -103,6 +103,7 @@ RevisionVer=1
 AutoIncrementVer=0
 ServerSupportFiles=0
 VersionCompanyName="High Tech Accessory Items, Inc."
+VersionLegalCopyright="Copyright 2007-2013, Hightech Accessory Items, Inc."
 VersionProductName="DocuGate Chargeback System"
 CompilationType=0
 OptimizationType=0

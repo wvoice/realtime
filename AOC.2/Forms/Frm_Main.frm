@@ -3367,7 +3367,7 @@ Private Sub MDIForm_Initialize()
  '   Call CentreForm(Me)
     DoEvents
     
-    SkinOb.InitLicenKeys "Network Printing Solutions", "Network Printing Solutions", "peterd@printstudy.com", "IV9ID7B49QT6WBDA0C4TMJZ15FUS2"
+    SkinOb.InitLicenKeys "Hightech Accessory Items", "Hightech Accessory Items", "sales@hightech-ai.com", "IV9ID7B49QT6WBDA0C4TMJZ15FUS2"
     SkinOb.DefineLanguage 2
     SkinOb.InitDecoration 1
     SkinOb.LoadSkinFromFile App.Path & "\docugate.skf"
