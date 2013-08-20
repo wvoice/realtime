@@ -1384,8 +1384,14 @@ Begin VB.MDIForm Frm_Main
    End
    Begin VB.Menu mnuReports 
       Caption         =   "&Reports"
+      Begin VB.Menu mnuReportsPrintAndCopy 
+         Caption         =   "&Print and Copy Reports"
+      End
       Begin VB.Menu mnuReportsCashier 
          Caption         =   "&Cashier Reports"
+      End
+      Begin VB.Menu mnuReportsCustom 
+         Caption         =   "C&ustom Reports"
       End
    End
    Begin VB.Menu muHelp 
@@ -1487,9 +1493,9 @@ Private Const mc_OUTitle = "OU Groups"
 Private Const mc_CTRLUNITS = "Control Units"
 Private Const mc_CLIENTMATTERS = "Client / Matters"
 Private Const mc_ACCOUNTS = "Accounts"
-'Private Const mc_PRINTCOPY_REPORTS = "Print/Copy Reports"
+Private Const mc_PRINTCOPY_REPORTS = "Print/Copy Reports"
 Private Const mc_CASHIER_REPORTS = "cashier reports"
-'Private Const mc_CUSTOM_REPORTS = "custom reports"
+Private Const mc_CUSTOM_REPORTS = "custom reports"
 Private Const mc_ACCOUNT_STATUS = "Account Status"
 Private Const mc_CASHIER_CHK_OUT = "Cashier Check OUT"
 Private Const mc_CASHIER_CHK_IN = "Cashier Check IN"
@@ -1518,7 +1524,7 @@ Private Sub SetupOUExplorer()
       
     
       Set cBar = .Bars.Add(, "REPORTS", "Reports")
-      cBar.ToolTipText = "Cashier Reports"
+      cBar.ToolTipText = "RealTime Reports"
       cBar.IsSpecial = True
       If Val(MyTitleBarIconsShow.m_REPORTS) = 1 Then
          cBar.IconIndex = 4
@@ -1526,17 +1532,12 @@ Private Sub SetupOUExplorer()
          cBar.IconIndex = m_TitleBar_NoIconIndex
       End If
       cBar.State = eBarCollapsed
-'      If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
-'        Set cItem = cBar.Items.Add(, "REPORTS_PRCPY", "print and copy reports", 8)
-'      End If
-'
-'      Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
-'      Set cItem = cBar.Items.Add(, "CUSTOM_REPORTS", mc_CUSTOM_REPORTS, 9)
       If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
-        Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
+        Set cItem = cBar.Items.Add(, "REPORTS_PRCPY", "print and copy reports", 8)
       End If
       
-      
+      Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
+      Set cItem = cBar.Items.Add(, "CUSTOM_REPORTS", mc_CUSTOM_REPORTS, 9)
 
 
    If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
@@ -1658,17 +1659,8 @@ Private Sub SetupOUExplorer()
       cBar.State = eBarCollapsed
       cBar.IsSpecial = True
       
-'      If gDevMode = True Then
-'        Set cItem = cBar.Items.Add(, "CASHIER_DOPRINTCOPY", "do print + copy jobs", 11)
-'      End If
-'      Set cItem = cBar.Items.Add(, "CASHIER_ACCOUNT_ADD", "add a &new account", 1)
-'      Set cItem = cBar.Items.Add(, "CASHIER_MANAGE", "&Update account", 5)
-'      Set cItem = cBar.Items.Add(, "CASHIER_ACTIVESESSION", "&Active Sessions", 4)
-'      Set cItem = cBar.Items.Add(, "CASHIER_FUNDING", "&fund account", 4)
-'      Set cItem = cBar.Items.Add(, "MODIFIEDPANEL", , , eItemControlPlaceHolder)
-'      cItem.Control = pnlCashierFilter
       If gDevMode = True Then
-         Set cItem = cBar.Items.Add(, "CASHIER_DOPRINTCOPY", "do print + copy jobs", 11)
+        Set cItem = cBar.Items.Add(, "CASHIER_DOPRINTCOPY", "do print + copy jobs", 11)
       End If
       Set cItem = cBar.Items.Add(, "CASHIER_ACCOUNT_ADD", "add a &new account", 1)
       Set cItem = cBar.Items.Add(, "CASHIER_MANAGE", "&Update account", 5)
@@ -2091,14 +2083,14 @@ Private Sub MainGrid_DblClick(ByVal lRow As Long, ByVal lCol As Long)
     ElseIf mContextStr = mc_ACCOUNTS Then
         Call Admin_Edit_Accounts
         
-    'ElseIf mContextStr = mc_PRINTCOPY_REPORTS Then
-    '    Call ShowReports(0)
+    ElseIf mContextStr = mc_PRINTCOPY_REPORTS Then
+        Call ShowReports(0)
         
     ElseIf mContextStr = mc_CASHIER_REPORTS Then
         ShowReports (1)
     
-    'ElseIf mContextStr = mc_CUSTOM_REPORTS Then
-    '    ShowReports (2)
+    ElseIf mContextStr = mc_CUSTOM_REPORTS Then
+        ShowReports (2)
         
     ElseIf mContextStr = mc_ACCOUNT_STATUS Or _
             mContextStr = mc_CASHIER_CHK_OUT Or _
@@ -2902,14 +2894,14 @@ Private Sub ouExplorer_ItemClick(itm As vbalExplorerBarLib6.cExplorerBarItem)
         Case "MATTER_MANAGE"
                 Call Edit_Matters
                 
-'        Case "REPORTS_PRCPY"
-'              Call LoadReports(0)
+        Case "REPORTS_PRCPY"
+              Call LoadReports(0)
               
         Case "REPORTS_CASHIER"
               Call LoadReports(1)
               
-'        Case "CUSTOM_REPORTS"
-'              Call LoadReports(2)
+        Case "CUSTOM_REPORTS"
+              Call LoadReports(2)
       
     Case "CONSOLE-STATS"
             Call LoadConsoleStats
@@ -3118,14 +3110,14 @@ Private Sub MainExplorer_ItemClick(itm As vbalExplorerBarLib6.cExplorerBarItem)
         Case "CASHIER_PRINT_RECEIPT"
             Call CashierCheckInOut(gcCashINPrintReceipt)
             
-'        Case "REPORTS_PRCPY"
-'              Call LoadReports(0)
+        Case "REPORTS_PRCPY"
+              Call LoadReports(0)
               
         Case "REPORTS_CASHIER"
               Call LoadReports(1)
               
-'        Case "CUSTOM_REPORTS"
-'              Call LoadReports(2)
+        Case "CUSTOM_REPORTS"
+              Call LoadReports(2)
               
         Case "CONSOLE-STATS"
             Call LoadConsoleStats
@@ -3205,15 +3197,12 @@ End Sub
 
 
 Private Sub LoadReports(TypeOfReports As Integer)
-'    If TypeOfReports = 0 Then
-'       Call SetWindowContext(mc_PRINTCOPY_REPORTS)
-'    ElseIf TypeOfReports = 1 Then
-'       Call SetWindowContext(mc_CASHIER_REPORTS)
-'    ElseIf TypeOfReports = 2 Then
-'       Call SetWindowContext(mc_CUSTOM_REPORTS)
-'    End If
-    If TypeOfReports = 1 Then
+    If TypeOfReports = 0 Then
+       Call SetWindowContext(mc_PRINTCOPY_REPORTS)
+    ElseIf TypeOfReports = 1 Then
        Call SetWindowContext(mc_CASHIER_REPORTS)
+    ElseIf TypeOfReports = 2 Then
+       Call SetWindowContext(mc_CUSTOM_REPORTS)
     End If
     
     QuickStats.Visible = False
@@ -3278,7 +3267,7 @@ Private Sub SetupMenuToUserProfile()
          Me.muTools.Visible = False
          Me.mnuConfiguration.Visible = False
          Me.mnuTasks.Visible = False
-         'Me.mnuReportsPrintAndCopy.Visible = False
+         Me.mnuReportsPrintAndCopy.Visible = False
          
      Else
         
@@ -3291,7 +3280,7 @@ Private Sub SetupMenuToUserProfile()
          Me.mnuConfiguration.Visible = True
          Me.mnuTasks.Visible = True
          Me.mnuReports.Visible = True
-         'Me.mnuReportsPrintAndCopy.Visible = True
+         Me.mnuReportsPrintAndCopy.Visible = True
          
          If CurrentDatabase.MSDE <> "1" Then
             Me.muDBBackup.Visible = True 'Enable backup form- Mike Young 12/9/2011

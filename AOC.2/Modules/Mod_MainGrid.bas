@@ -391,12 +391,19 @@ Public Sub GridReportsSetUp(ByRef mgrid As vbalGrid, TypeOfReports As Integer)
       .SetHeaders
       
       '//Print and Copy reports
+'      If TypeOfReports = 0 Then
+'        GridReportsPrintCopyPopulate mgrid
+'      ElseIf TypeOfReports = 1 Then
+'          GridReportsCashierPopulate mgrid
+'      ElseIf TypeOfReports = 2 Then
+'          GridReportsCustomPopulate mgrid
+'      End If
       If TypeOfReports = 0 Then
-        GridReportsPrintCopyPopulate mgrid
+        GridReportsCashierPopulate mgrid
       ElseIf TypeOfReports = 1 Then
           GridReportsCashierPopulate mgrid
       ElseIf TypeOfReports = 2 Then
-          GridReportsCustomPopulate mgrid
+          GridReportsCashierPopulate mgrid
       End If
       
       .KeySearchColumn = .ColumnIndex("ReportId")
