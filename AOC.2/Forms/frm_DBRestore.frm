@@ -250,7 +250,6 @@ Begin VB.Form frm_DBRestore
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   6960
          TabIndex        =   5

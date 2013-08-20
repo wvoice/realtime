@@ -130,6 +130,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -155,6 +156,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -180,6 +182,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   3408
          _ExtentY        =   550
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -205,6 +208,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -230,6 +234,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -289,7 +294,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
       End
       Begin VB.CheckBox chk_CTLUNIT_SPECIAL 
          Caption         =   "Special"
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   5040
          TabIndex        =   11
@@ -340,6 +344,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   3408
          _ExtentY        =   550
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -365,6 +370,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -390,6 +396,7 @@ Begin VB.Form Frm_CTLUNIT_detail_Type1
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76

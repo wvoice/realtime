@@ -25,7 +25,6 @@ Begin VB.Form Frm_OU_detail
    ShowInTaskbar   =   0   'False
    Begin VB.Frame Frame5 
       Caption         =   "Max Spend Limit -"
-      ForeColor       =   &H8000000E&
       Height          =   1215
       Left            =   120
       TabIndex        =   42
@@ -107,10 +106,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -214,7 +212,6 @@ Begin VB.Form Frm_OU_detail
    End
    Begin VB.Frame Frame6 
       Caption         =   "OU Costing Options:"
-      ForeColor       =   &H8000000E&
       Height          =   1215
       Left            =   120
       TabIndex        =   31
@@ -279,7 +276,7 @@ Begin VB.Form Frm_OU_detail
          ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -305,7 +302,7 @@ Begin VB.Form Frm_OU_detail
          ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -328,10 +325,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -356,7 +352,7 @@ Begin VB.Form Frm_OU_detail
          _StockProps     =   13
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -381,7 +377,7 @@ Begin VB.Form Frm_OU_detail
          _StockProps     =   13
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -487,10 +483,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3678
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -513,10 +508,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3678
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -538,7 +532,6 @@ Begin VB.Form Frm_OU_detail
       Begin VB.CheckBox chk_OU_ALLOWNEG 
          Caption         =   "Allow Negative Balances"
          Enabled         =   0   'False
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   120
          TabIndex        =   10
@@ -549,7 +542,6 @@ Begin VB.Form Frm_OU_detail
       Begin VB.CheckBox chk_OU_CODES 
          Caption         =   "Billing Codes Enabled"
          Enabled         =   0   'False
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   6000
          TabIndex        =   9
@@ -559,7 +551,6 @@ Begin VB.Form Frm_OU_detail
       End
       Begin VB.CheckBox chk_OU_LOCKED 
          Caption         =   "Lock the Organizational Unit"
-         ForeColor       =   &H8000000E&
          Height          =   375
          Left            =   2280
          TabIndex        =   8
@@ -616,7 +607,6 @@ Begin VB.Form Frm_OU_detail
       End
       Begin VB.CheckBox chk_OU_LOWBALANCE 
          Caption         =   "User Balance Notication"
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   240
          TabIndex        =   4
@@ -650,10 +640,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3678
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -676,7 +665,15 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   2884
          _ExtentY        =   450
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Caption         =   "Message Text:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -693,7 +690,15 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   2461
          _ExtentY        =   450
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
          Caption         =   "Message Title:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -790,10 +795,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3889
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -816,10 +820,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3889
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -842,10 +845,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3889
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -868,10 +870,9 @@ Begin VB.Form Frm_OU_detail
          _ExtentX        =   3466
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False

@@ -192,7 +192,6 @@ Begin VB.Form frm_ECashier
       End
       Begin VB.Frame Frame3 
          Caption         =   "AVS Options"
-         ForeColor       =   &H8000000E&
          Height          =   1215
          Left            =   5880
          TabIndex        =   1
@@ -200,7 +199,6 @@ Begin VB.Form frm_ECashier
          Width           =   2775
          Begin VB.CheckBox chk_Pin_Required 
             Caption         =   "Pin Required"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   3
@@ -210,7 +208,6 @@ Begin VB.Form frm_ECashier
          End
          Begin VB.CheckBox chk_Enable_Acct_AVS 
             Caption         =   "Enable New Account"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   2
@@ -230,10 +227,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -256,10 +252,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -282,10 +277,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   3466
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -308,10 +302,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -334,10 +327,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -360,10 +352,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -386,10 +377,9 @@ Begin VB.Form frm_ECashier
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False

@@ -51,7 +51,6 @@ Begin VB.Form frm_spc
    End
    Begin VB.Frame Frame5 
       Caption         =   "Server Usage charging:"
-      ForeColor       =   &H8000000E&
       Height          =   2295
       Left            =   240
       TabIndex        =   0
@@ -99,10 +98,9 @@ Begin VB.Form frm_spc
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -125,10 +123,9 @@ Begin VB.Form frm_spc
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -151,10 +148,9 @@ Begin VB.Form frm_spc
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -179,7 +175,7 @@ Begin VB.Form frm_spc
          _StockProps     =   13
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9
+            Size            =   9.01
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False

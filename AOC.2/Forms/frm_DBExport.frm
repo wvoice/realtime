@@ -99,7 +99,6 @@ Begin VB.Form frm_DBExport
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   5760
          TabIndex        =   6

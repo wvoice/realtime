@@ -114,7 +114,6 @@ Begin VB.Form Frm_CLIENT_detail
    End
    Begin VB.Frame Frame6 
       Caption         =   "Cost Multiplier:"
-      ForeColor       =   &H8000000E&
       Height          =   1335
       Left            =   120
       TabIndex        =   38
@@ -124,7 +123,6 @@ Begin VB.Form Frm_CLIENT_detail
       Begin VB.CheckBox chkPriceOverride 
          Caption         =   "Pricing Override Enabled"
          Enabled         =   0   'False
-         ForeColor       =   &H80000014&
          Height          =   255
          Left            =   2040
          TabIndex        =   8
@@ -177,10 +175,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   3043
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -203,10 +200,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   3043
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483639
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -232,7 +228,7 @@ Begin VB.Form Frm_CLIENT_detail
          ForeColor       =   -2147483631
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -258,7 +254,7 @@ Begin VB.Form Frm_CLIENT_detail
          ForeColor       =   -2147483631
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -717,10 +713,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -743,10 +738,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -769,10 +763,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -795,10 +788,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -821,10 +813,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -847,10 +838,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -873,10 +863,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -899,10 +888,9 @@ Begin VB.Form Frm_CLIENT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False

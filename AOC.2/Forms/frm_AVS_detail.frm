@@ -151,7 +151,6 @@ Begin VB.Form frm_AVS_detail
       End
       Begin VB.Frame Frame3 
          Caption         =   "Account Options:"
-         ForeColor       =   &H8000000E&
          Height          =   855
          Left            =   2280
          TabIndex        =   8
@@ -159,7 +158,6 @@ Begin VB.Form frm_AVS_detail
          Width           =   3375
          Begin VB.CheckBox chk_Pin_Required 
             Caption         =   "Pin Required"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   120
             TabIndex        =   14
@@ -169,7 +167,6 @@ Begin VB.Form frm_AVS_detail
          End
          Begin VB.CheckBox chk_Enable_Acct_AVS 
             Caption         =   "Enable New Account"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   120
             TabIndex        =   9
@@ -190,10 +187,9 @@ Begin VB.Form frm_AVS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -216,10 +212,9 @@ Begin VB.Form frm_AVS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -242,10 +237,9 @@ Begin VB.Form frm_AVS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -268,10 +262,9 @@ Begin VB.Form frm_AVS_detail
          _ExtentX        =   3043
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -294,10 +287,9 @@ Begin VB.Form frm_AVS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False

@@ -62,7 +62,6 @@ Begin VB.Form Frm_CTLPARMS_detail
    End
    Begin VB.Frame Frame2 
       Caption         =   "Matter Prompt:"
-      ForeColor       =   &H8000000E&
       Height          =   855
       Left            =   360
       TabIndex        =   28
@@ -79,7 +78,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   5640
          TabIndex        =   13
@@ -97,7 +95,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   5640
          TabIndex        =   12
@@ -138,7 +135,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   2520
          TabIndex        =   19
@@ -167,7 +163,6 @@ Begin VB.Form Frm_CTLPARMS_detail
       End
       Begin VB.Frame Frame5 
          Caption         =   "ID Prompt:"
-         ForeColor       =   &H8000000E&
          Height          =   855
          Left            =   240
          TabIndex        =   31
@@ -200,7 +195,6 @@ Begin VB.Form Frm_CTLPARMS_detail
                Italic          =   0   'False
                Strikethrough   =   0   'False
             EndProperty
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   5640
             TabIndex        =   5
@@ -210,7 +204,6 @@ Begin VB.Form Frm_CTLPARMS_detail
       End
       Begin VB.Frame Frame4 
          Caption         =   "Pin Prompt:"
-         ForeColor       =   &H8000000E&
          Height          =   855
          Left            =   240
          TabIndex        =   30
@@ -227,7 +220,6 @@ Begin VB.Form Frm_CTLPARMS_detail
                Italic          =   0   'False
                Strikethrough   =   0   'False
             EndProperty
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   5640
             TabIndex        =   7
@@ -253,7 +245,6 @@ Begin VB.Form Frm_CTLPARMS_detail
       End
       Begin VB.Frame Frame3 
          Caption         =   "Client Prompt:"
-         ForeColor       =   &H8000000E&
          Height          =   855
          Left            =   240
          TabIndex        =   29
@@ -286,7 +277,6 @@ Begin VB.Form Frm_CTLPARMS_detail
                Italic          =   0   'False
                Strikethrough   =   0   'False
             EndProperty
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   5640
             TabIndex        =   9
@@ -304,7 +294,6 @@ Begin VB.Form Frm_CTLPARMS_detail
                Italic          =   0   'False
                Strikethrough   =   0   'False
             EndProperty
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   5640
             TabIndex        =   10
@@ -323,7 +312,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   2520
          TabIndex        =   17
@@ -341,7 +329,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   240
          TabIndex        =   16
@@ -359,7 +346,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   2520
          TabIndex        =   18
@@ -377,7 +363,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   240
          TabIndex        =   15
@@ -395,7 +380,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   240
          TabIndex        =   14
@@ -445,7 +429,6 @@ Begin VB.Form Frm_CTLPARMS_detail
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   5880
          TabIndex        =   1
@@ -497,6 +480,7 @@ Begin VB.Form Frm_CTLPARMS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -522,6 +506,7 @@ Begin VB.Form Frm_CTLPARMS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -547,6 +532,7 @@ Begin VB.Form Frm_CTLPARMS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -572,6 +558,7 @@ Begin VB.Form Frm_CTLPARMS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -597,6 +584,7 @@ Begin VB.Form Frm_CTLPARMS_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76

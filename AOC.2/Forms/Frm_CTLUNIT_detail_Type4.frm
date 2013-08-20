@@ -187,7 +187,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   4080
          TabIndex        =   8
@@ -291,7 +290,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   4080
          TabIndex        =   9
@@ -309,7 +307,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H8000000E&
          Height          =   255
          Left            =   4080
          TabIndex        =   10
@@ -327,7 +324,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   1714
          _ExtentY        =   550
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -353,7 +349,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   2773
          _ExtentY        =   550
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -379,7 +374,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   1714
          _ExtentY        =   550
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -405,7 +399,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   1714
          _ExtentY        =   550
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -431,7 +424,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   2773
          _ExtentY        =   550
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.65
@@ -524,7 +516,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -550,7 +541,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   2990
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -576,7 +566,6 @@ Begin VB.Form Frm_CTLUNIT_detail_Type4
          _ExtentX        =   2566
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76

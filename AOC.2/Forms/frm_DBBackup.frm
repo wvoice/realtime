@@ -149,10 +149,9 @@ Begin VB.Form frm_DBBackup
          _ExtentX        =   4101
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.76
             Charset         =   0
             Weight          =   700
             Underline       =   0   'False

@@ -47,7 +47,6 @@ Begin VB.Form Frm_ACCOUNT_detail
    End
    Begin VB.Frame Frame5 
       Caption         =   "Max Spend Limit -"
-      ForeColor       =   &H8000000E&
       Height          =   1215
       Left            =   120
       TabIndex        =   40
@@ -130,7 +129,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -328,7 +327,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   3678
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -354,7 +353,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   3678
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -456,7 +455,7 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentX        =   3254
             _ExtentY        =   556
             _StockProps     =   13
-            ForeColor       =   -2147483634
+            ForeColor       =   -2147483630
             BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
                Name            =   "Arial"
                Size            =   9.76
@@ -482,7 +481,7 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentX        =   2461
             _ExtentY        =   556
             _StockProps     =   13
-            ForeColor       =   -2147483634
+            ForeColor       =   -2147483630
             BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
                Name            =   "Arial"
                Size            =   9.76
@@ -508,7 +507,7 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentX        =   503
             _ExtentY        =   556
             _StockProps     =   13
-            ForeColor       =   -2147483634
+            ForeColor       =   -2147483630
             BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
                Name            =   "Arial"
                Size            =   9.76
@@ -534,7 +533,7 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentX        =   3254
             _ExtentY        =   556
             _StockProps     =   13
-            ForeColor       =   -2147483634
+            ForeColor       =   -2147483630
             BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
                Name            =   "Arial"
                Size            =   9.76
@@ -552,7 +551,6 @@ Begin VB.Form Frm_ACCOUNT_detail
       End
       Begin VB.Frame Frame2 
          Caption         =   "Security Level:"
-         ForeColor       =   &H8000000E&
          Height          =   2175
          Left            =   5880
          TabIndex        =   33
@@ -696,7 +694,6 @@ Begin VB.Form Frm_ACCOUNT_detail
       End
       Begin VB.Frame Frame3 
          Caption         =   "Account Options:"
-         ForeColor       =   &H8000000E&
          Height          =   1575
          Left            =   5880
          TabIndex        =   31
@@ -704,7 +701,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          Width           =   2775
          Begin VB.CheckBox chk_Enable_Acct_AVS 
             Caption         =   "Enable New Account"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   39
@@ -714,7 +710,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          End
          Begin VB.CheckBox chk_Pin_Required 
             Caption         =   "Pin Required"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   38
@@ -724,7 +719,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          End
          Begin VB.CheckBox chk_ACC_COPYPIN_ENABLED 
             Caption         =   "Copy Pin Enabled"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   11
@@ -733,7 +727,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          End
          Begin VB.CheckBox chk_ACC_LOCKED 
             Caption         =   "Lock the Account"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   12
@@ -743,7 +736,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          End
          Begin VB.CheckBox chk_ACC_PASSWORD_ENABLED 
             Caption         =   "Password Enabled"
-            ForeColor       =   &H8000000E&
             Height          =   255
             Left            =   360
             TabIndex        =   10
@@ -900,7 +892,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -926,7 +918,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -952,7 +944,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   3466
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -978,7 +970,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -1004,7 +996,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -1030,7 +1022,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -1056,7 +1048,7 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentX        =   2831
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
+         ForeColor       =   -2147483630
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
             Size            =   9.76
@@ -1090,7 +1082,7 @@ Begin VB.Form Frm_ACCOUNT_detail
       _ExtentX        =   2619
       _ExtentY        =   556
       _StockProps     =   13
-      ForeColor       =   -2147483634
+      ForeColor       =   -2147483630
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
          Name            =   "Arial"
          Size            =   9.76

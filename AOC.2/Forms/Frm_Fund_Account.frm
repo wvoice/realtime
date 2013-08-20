@@ -587,10 +587,9 @@ Begin VB.Form Frm_ACCOUNT_fund
          _ExtentX        =   2990
          _ExtentY        =   661
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.74
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -613,10 +612,9 @@ Begin VB.Form Frm_ACCOUNT_fund
          _ExtentX        =   2990
          _ExtentY        =   661
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.74
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -639,10 +637,9 @@ Begin VB.Form Frm_ACCOUNT_fund
          _ExtentX        =   2990
          _ExtentY        =   661
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.74
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False
@@ -664,10 +661,9 @@ Begin VB.Form Frm_ACCOUNT_fund
          _ExtentX        =   2990
          _ExtentY        =   661
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
-            Size            =   9.75
+            Size            =   9.74
             Charset         =   0
             Weight          =   400
             Underline       =   0   'False

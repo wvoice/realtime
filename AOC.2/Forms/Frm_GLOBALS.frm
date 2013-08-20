@@ -26,7 +26,6 @@ Begin VB.Form Frm_GLOBALS
    ShowInTaskbar   =   0   'False
    Begin VB.Frame Frame3 
       Caption         =   "Unit Model -"
-      ForeColor       =   &H8000000E&
       Height          =   1455
       Left            =   6600
       TabIndex        =   41
@@ -109,7 +108,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -128,7 +126,6 @@ Begin VB.Form Frm_GLOBALS
    End
    Begin VB.Frame Frame1 
       Caption         =   "Max Spend Limit -"
-      ForeColor       =   &H8000000E&
       Height          =   1215
       Left            =   6600
       TabIndex        =   35
@@ -211,7 +208,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -230,7 +226,6 @@ Begin VB.Form Frm_GLOBALS
    End
    Begin VB.Frame Frame2 
       Caption         =   "Global Multiplier -"
-      ForeColor       =   &H8000000E&
       Height          =   1695
       Left            =   240
       TabIndex        =   26
@@ -382,7 +377,6 @@ Begin VB.Form Frm_GLOBALS
    End
    Begin VB.Frame Frame5 
       Caption         =   "Global Printing and Copying Prices -"
-      ForeColor       =   &H8000000E&
       Height          =   3015
       Left            =   240
       TabIndex        =   12
@@ -480,7 +474,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -507,7 +500,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -534,7 +526,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -561,7 +552,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -588,7 +578,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -615,7 +604,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -642,7 +630,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -669,7 +656,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -714,7 +700,6 @@ Begin VB.Form Frm_GLOBALS
    End
    Begin VB.Frame Frame6 
       Caption         =   "Additional Global Charges -"
-      ForeColor       =   &H8000000E&
       Height          =   2535
       Left            =   240
       TabIndex        =   10
@@ -795,7 +780,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -822,7 +806,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -849,7 +832,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   6429
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -876,7 +858,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -903,7 +884,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
@@ -930,7 +910,6 @@ Begin VB.Form Frm_GLOBALS
          _ExtentX        =   503
          _ExtentY        =   556
          _StockProps     =   13
-         ForeColor       =   -2147483634
          BackColor       =   -2147483633
          BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   "Arial"
