@@ -384,8 +384,9 @@ On Error GoTo Err_Handler
     
        'Modified on 8/16/13 by Mike Young to narrow the reports to those members of same Site Code as cashier
        'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE "
-       SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities join docugate_general_acc ON docugate_cashier_all_activities.ACC_BADGE = docugate_general_acc.ACC_BADGE WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
+       'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities join docugate_general_acc ON docugate_cashier_all_activities.ACC_BADGE = docugate_general_acc.ACC_BADGE WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
        'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
+       SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
         
         If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND "
         'If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & ""
