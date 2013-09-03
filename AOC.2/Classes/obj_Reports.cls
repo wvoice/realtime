@@ -123,8 +123,10 @@ Public Property Get ControlKey() As String
 End Property
 
 ' Added 8/15/13 by Mike Young to obtain acc_badge associated with the login, so that we can then get the default site code
+' Added 9/3/13 by Mike Young call to populate dropdown box with cashier names
 Public Property Get DefaultSC() As String
     DefaultSC = "SELECT acc_sc_index FROM dbo.docugate_general_acc WHERE acc_badge = '" & gObjLogonMngr.mBadge & "'"
+    Call Mod_Data.LoadComboFromSQL("select NAME from docugate_sitecode " & "order by ID ", .Cbm_Cashier)
 End Property
 
 

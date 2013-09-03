@@ -3,7 +3,7 @@ Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomct2.ocx"
 Begin VB.Form frm_Reports_Date 
    BorderStyle     =   4  'Fixed ToolWindow
    Caption         =   "Reports Date Selection"
-   ClientHeight    =   4650
+   ClientHeight    =   6225
    ClientLeft      =   5460
    ClientTop       =   2535
    ClientWidth     =   6150
@@ -20,16 +20,33 @@ Begin VB.Form frm_Reports_Date
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   4650
+   ScaleHeight     =   6225
    ScaleWidth      =   6150
    ShowInTaskbar   =   0   'False
    Begin VB.Frame Frame2 
       Caption         =   "Level of Detail:"
-      Height          =   855
+      Height          =   1815
       Left            =   240
       TabIndex        =   15
-      Top             =   3120
+      Top             =   3240
       Width           =   5655
+      Begin VB.ComboBox Cbm_Cashier 
+         Height          =   345
+         Left            =   2760
+         TabIndex        =   17
+         Text            =   "Cashier Name"
+         Top             =   840
+         Visible         =   0   'False
+         Width           =   2535
+      End
+      Begin VB.CheckBox Chk_Cashier 
+         Caption         =   "Search by Cashier?"
+         Height          =   375
+         Left            =   480
+         TabIndex        =   16
+         Top             =   840
+         Width           =   2055
+      End
       Begin VB.OptionButton optDetail 
          Caption         =   "Totals (Summarized)"
          Height          =   255
@@ -56,7 +73,7 @@ Begin VB.Form frm_Reports_Date
       Height          =   375
       Left            =   4680
       TabIndex        =   11
-      Top             =   4080
+      Top             =   5520
       Width           =   1215
    End
    Begin VB.CommandButton Cmd_Cancel 
@@ -65,7 +82,7 @@ Begin VB.Form frm_Reports_Date
       Height          =   375
       Left            =   3360
       TabIndex        =   12
-      Top             =   4080
+      Top             =   5520
       Width           =   1215
    End
    Begin VB.Frame Frame1 
@@ -133,7 +150,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   16515073
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -157,7 +174,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -181,7 +198,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -206,7 +223,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -222,7 +239,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -299,6 +316,20 @@ Attribute VB_Exposed = False
 ''****************************************************************************/
 
 Option Explicit
+'Added by Mike Young on 9/2/13 for filtering by cashier
+Private Sub chk_Cashier_Click()
+On Error GoTo Err_Handler
+    Cbm_Cashier.Visible = False
+    
+    If Chk_Cashier.Value = 1 Then
+        Cbm_Cashier.Visible = True
+    Else
+        Cbm_Cashier.Visible = False
+    End If
+    
+Err_Handler:
+End Sub
+
 
 Private Sub Cmd_Cancel_Click()
     Unload Me
@@ -352,9 +383,7 @@ Private Sub Cmd_Process_Click()
     Else
         gClsReports.DetailLevel = 1
     End If
-    
-
-    
+     
     gClsReports.CancelledPressed = False
     Unload Me
     
@@ -414,7 +443,6 @@ End Function
 Private Sub Form_Load()
     Call CentreForm(Me)
     gClsReports.CancelledPressed = True
-    
     Dim Dt As Variant
     Dt = GetDefaultStartDate()
     Me.dtDate(0).Value = DateSerial(Year(Dt), Month(Dt), 1)
