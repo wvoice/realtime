@@ -85,6 +85,8 @@ Private m_DateFilter As String
 Private m_DateFilterTitle As String
 Private m_DetailLevel As Integer
 Private m_DateField As String
+Private m_ChkCashier As Integer
+Private m_CbmCashier As String
 
 Private m_ReportTitle As String
 Private m_ReportSQL As String
@@ -158,6 +160,12 @@ End Property
 
 Public Property Let DetailLevel(InputVar As Integer)
     m_DetailLevel = InputVar
+End Property
+Public Property Let ChkCashier(InputVar As Integer)
+    m_ChkCashier = InputVar
+End Property
+Public Property Get CbmCashier(InputVar As String)
+    m_CbmCashier = InputVar
 End Property
 
 Public Property Get DateField() As String
@@ -386,8 +394,13 @@ On Error GoTo Err_Handler
        'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE "
        'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities join docugate_general_acc ON docugate_cashier_all_activities.ACC_BADGE = docugate_general_acc.ACC_BADGE WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
        'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
-       SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
-        
+       
+       ' Added on 9/4/13 by Mike Young to take drop down cashier input as a conditional
+       If m_ChkCashier = False Then
+        SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
+       Else
+        SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE CASHIER_NAME='REALTIME ADMINISTRATOR' AND docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
+       End If
         If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND "
         'If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & ""
         If m_ReportId = 7 Then SelectStr = SelectStr & " TRANTYPE = 'FUND ADJ' AND "

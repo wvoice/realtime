@@ -150,7 +150,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   62259201
+         Format          =   16515073
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -174,7 +174,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   62259201
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -198,7 +198,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   62259201
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -223,7 +223,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   62259201
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -239,7 +239,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   62259201
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -323,8 +323,10 @@ On Error GoTo Err_Handler
     
     If Chk_Cashier.Value = 1 Then
         Cbm_Cashier.Visible = True
+        gClsReports.ChkCashier = 1
     Else
         Cbm_Cashier.Visible = False
+        gClsReports.ChkCashier = 0
     End If
     'Need to get all cashier names and load the combo box by Mike Young 9/4/13
     Call Mod_Data.LoadComboFromSQL("SELECT distinct cashier_name FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "'", Cbm_Cashier)
