@@ -130,15 +130,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "$ "
          Alignment       =   1
          Enabled         =   -1  'True
@@ -328,15 +319,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Default Billing Code:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -354,15 +336,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Default Billing Matter:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -456,15 +429,6 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentY        =   556
             _StockProps     =   13
             ForeColor       =   -2147483630
-            BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-               Name            =   "Arial"
-               Size            =   9.76
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             Caption         =   "Organizational Unit:"
             Alignment       =   1
             Enabled         =   -1  'True
@@ -482,15 +446,6 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentY        =   556
             _StockProps     =   13
             ForeColor       =   -2147483630
-            BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-               Name            =   "Arial"
-               Size            =   9.76
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             Caption         =   "Balance:"
             Alignment       =   1
             Enabled         =   -1  'True
@@ -508,15 +463,6 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentY        =   556
             _StockProps     =   13
             ForeColor       =   -2147483630
-            BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-               Name            =   "Arial"
-               Size            =   9.76
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             Caption         =   "$ "
             Alignment       =   1
             Enabled         =   -1  'True
@@ -534,15 +480,6 @@ Begin VB.Form Frm_ACCOUNT_detail
             _ExtentY        =   556
             _StockProps     =   13
             ForeColor       =   -2147483630
-            BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-               Name            =   "Arial"
-               Size            =   9.76
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             Caption         =   "Site Code:"
             Alignment       =   1
             Enabled         =   -1  'True
@@ -893,15 +830,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "First name:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -919,15 +847,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Last name:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -945,15 +864,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Password:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -971,15 +881,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Email:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -997,15 +898,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Full name:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -1023,15 +915,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Copy ID:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -1049,15 +932,6 @@ Begin VB.Form Frm_ACCOUNT_detail
          _ExtentY        =   556
          _StockProps     =   13
          ForeColor       =   -2147483630
-         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   "Arial"
-            Size            =   9.76
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Caption         =   "Copy Pin:"
          Alignment       =   1
          Enabled         =   -1  'True
@@ -1083,15 +957,6 @@ Begin VB.Form Frm_ACCOUNT_detail
       _ExtentY        =   556
       _StockProps     =   13
       ForeColor       =   -2147483630
-      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "Arial"
-         Size            =   9.76
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Caption         =   "Billing Method:"
       Alignment       =   1
       Enabled         =   -1  'True

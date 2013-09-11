@@ -164,7 +164,7 @@ End Property
 Public Property Let ChkCashier(InputVar As Integer)
     m_ChkCashier = InputVar
 End Property
-Public Property Get CbmCashier(InputVar As String)
+Public Property Let CbmCashier(InputVar As String)
     m_CbmCashier = InputVar
 End Property
 
@@ -399,7 +399,7 @@ On Error GoTo Err_Handler
        If m_ChkCashier = False Then
         SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
        Else
-        SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE CASHIER_NAME='REALTIME ADMINISTRATOR' AND docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
+        SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE CASHIER_NAME='" & m_CbmCashier & "' AND docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
        End If
         If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND "
         'If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & ""

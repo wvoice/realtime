@@ -150,7 +150,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   16515073
+         Format          =   16580609
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -174,7 +174,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16515073
+         Format          =   16580609
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -198,7 +198,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   16515073
+         Format          =   16580609
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -223,7 +223,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16515073
+         Format          =   16580609
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -239,7 +239,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16515073
+         Format          =   16580609
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -330,9 +330,26 @@ On Error GoTo Err_Handler
     End If
     'Need to get all cashier names and load the combo box by Mike Young 9/4/13
     Call Mod_Data.LoadComboFromSQL("SELECT distinct cashier_name FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "'", Cbm_Cashier)
+
+    'Dim CbmCashier As String
+    'Private m_CbmCashier As String
+    'CbmCashier = Cbm_Cashier.Text
+    'gClsReports.CbmCashier = "REALTIME ADMINISTRATOR"
+    'Dim CbmCashier As String
+    'Cbm_Cashier.Clear
+    'Cbm_Cashier.AddItem
+    
+    gClsReports.CbmCashier = "SUSAN  HOPE"
+    
 Err_Handler:
 End Sub
 
+'Private Sub CbmCashier_Click()
+'On Error GoTo Err_Handler
+'
+'    gClsReports.CbmCashier = "SUSAN  HOPE"
+'Err_Handler:
+'End Sub
 
 Private Sub Cmd_Cancel_Click()
     Unload Me
