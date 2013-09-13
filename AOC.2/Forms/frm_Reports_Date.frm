@@ -150,7 +150,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   56426497
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -174,7 +174,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   56426497
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -198,7 +198,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   56426497
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -223,7 +223,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   56426497
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -239,7 +239,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   16580609
+         Format          =   56426497
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -329,8 +329,26 @@ On Error GoTo Err_Handler
         gClsReports.ChkCashier = 0
     End If
     'Need to get all cashier names and load the combo box by Mike Young 9/4/13
+    'Gonna try to execute new local call to Db vs using Mod.Data for it. Hoping to then be able to manipulate the data.s
+    'Possibly use nchk function in mod_data for selecting the text
+'    Cbm_Cashier.Text = ""
+'    Dim i As Integer
+'    For i = 0 To Cbm_Cashier.ListCount - 1
     Call Mod_Data.LoadComboFromSQL("SELECT distinct cashier_name FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "'", Cbm_Cashier)
-
+       
+'    Next i
+    
+'    Dim i As Integer
+'    Cbm_Cashier.ListIndex = -1
+'    'Cbm_Cashier.Text = ""
+'    For i = 0 To Cbm_Cashier.ListCount - 1
+'        If Cbm_Cashier.ItemData(i) = Not Null Then
+'            Cbm_Cashier.ListIndex = i
+'            Cbm_Cashier.Text = Cbm_Cashier.List(i)
+'            Exit For
+'        End If
+'    Next
+    'Cbm_Cashier.AddItem = Cbm_Cashier.ItemData(i)
     'Dim CbmCashier As String
     'Private m_CbmCashier As String
     'CbmCashier = Cbm_Cashier.Text
@@ -338,8 +356,11 @@ On Error GoTo Err_Handler
     'Dim CbmCashier As String
     'Cbm_Cashier.Clear
     'Cbm_Cashier.AddItem
-    
-    gClsReports.CbmCashier = "SUSAN  HOPE"
+    'Dim i As Integer
+    'Cbm_Cashier.AddItem (i + 1)
+    'Cbm_Cashier.SetFocus
+    'gClsReports.CbmCashier = Cbm_Cashier.Text
+    'gClsReports.CbmCashier = Cbm_Cashier.List(Cbm_Cashier.ListIndex)
     
 Err_Handler:
 End Sub
