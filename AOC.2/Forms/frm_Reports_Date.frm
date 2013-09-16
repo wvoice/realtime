@@ -30,6 +30,14 @@ Begin VB.Form frm_Reports_Date
       TabIndex        =   15
       Top             =   3240
       Width           =   5655
+      Begin VB.TextBox Text_Cbm_Cashier 
+         Height          =   375
+         Left            =   2760
+         TabIndex        =   18
+         Top             =   1200
+         Visible         =   0   'False
+         Width           =   2535
+      End
       Begin VB.ComboBox Cbm_Cashier 
          Height          =   345
          Left            =   2760
@@ -150,7 +158,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   56426497
+         Format          =   16515073
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -174,7 +182,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   56426497
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -198,7 +206,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   56426497
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -223,7 +231,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   56426497
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -239,7 +247,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   56426497
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -335,7 +343,6 @@ On Error GoTo Err_Handler
 '    Dim i As Integer
 '    For i = 0 To Cbm_Cashier.ListCount - 1
     Call Mod_Data.LoadComboFromSQL("SELECT distinct cashier_name FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "'", Cbm_Cashier)
-       
 '    Next i
     
 '    Dim i As Integer
@@ -353,6 +360,11 @@ On Error GoTo Err_Handler
     'Private m_CbmCashier As String
     'CbmCashier = Cbm_Cashier.Text
     'gClsReports.CbmCashier = "REALTIME ADMINISTRATOR"
+    'gClsReports.CbmCashier = Mod_Data.nchk(Cbm_Cashier.Text)
+    'Text_Cbm_Cashier.Text = nchk(Mod_Data.GetSQLValue("SELECT distinct cashier_name FROM dbo.docugate_cashier_all_activities where Cashier_name=' & Cbm_Cashier.Text &'"))
+    'Text_Cbm_Cashier.Text = Cbm_Cashier.AddItem(Cbm_Cashier.Text)
+    'gClsReports.CbmCashier = "REALTIME ADMINISTRATOR"
+    'gClsReports.CbmCashier = Text_Cbm_Cashier.Text
     'Dim CbmCashier As String
     'Cbm_Cashier.Clear
     'Cbm_Cashier.AddItem
@@ -365,15 +377,15 @@ On Error GoTo Err_Handler
 Err_Handler:
 End Sub
 
-'Private Sub CbmCashier_Click()
-'On Error GoTo Err_Handler
-'
-'    gClsReports.CbmCashier = "SUSAN  HOPE"
-'Err_Handler:
-'End Sub
+Private Sub Cbm_Cashier_Click()
 
-Private Sub Cmd_Cancel_Click()
-    Unload Me
+   '//Lookup the matter description which the user just selected
+   'Text_Cbm_Cashier.Text = nchk("SELECT distinct cashier_name FROM dbo.docugate_cashier_all_activities where Cashier_name=' & Cbm_Cashier.Text &'")
+   Text_Cbm_Cashier.Text = Cbm_Cashier.Text
+   gClsReports.CbmCashier = Mod_Data.nchk(Text_Cbm_Cashier.Text)
+   'gClsReports.CbmCashier = "Realtime Administrator"
+   'txt_Def_MatterCode.Text = ""
+    
 End Sub
 
 Private Sub Cmd_Process_Click()
