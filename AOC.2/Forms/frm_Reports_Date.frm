@@ -158,7 +158,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   57278465
+         Format          =   16515073
          CurrentDate     =   39480
       End
       Begin MSComCtl2.DTPicker dtDateEnd 
@@ -182,7 +182,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   57278465
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -206,7 +206,7 @@ Begin VB.Form frm_Reports_Date
          EndProperty
          CheckBox        =   -1  'True
          DateIsNull      =   -1  'True
-         Format          =   57278465
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -231,7 +231,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   57278465
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin MSComCtl2.DTPicker dtDate 
@@ -247,7 +247,7 @@ Begin VB.Form frm_Reports_Date
          CheckBox        =   -1  'True
          CustomFormat    =   "mm/dd/yyyy"
          DateIsNull      =   -1  'True
-         Format          =   57278465
+         Format          =   16515073
          CurrentDate     =   39475
       End
       Begin VB.Label Label1 
@@ -350,6 +350,9 @@ Private Sub Cbm_Cashier_Click()
    Text_Cbm_Cashier.Text = Cbm_Cashier.Text
    gClsReports.CbmCashier = Mod_Data.nchk(Text_Cbm_Cashier.Text)
     
+End Sub
+Private Sub Cmd_Cancel_Click()
+    Unload Me
 End Sub
 
 Private Sub Cmd_Process_Click()
