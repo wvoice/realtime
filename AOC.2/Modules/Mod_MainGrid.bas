@@ -516,10 +516,10 @@ On Error GoTo Err_Handler
         .CellDetails .Rows, 2, "1", DT_CENTER
         .CellDetails .Rows, 3, uct("My daily activities")
         
-        .AddRow
-        .CellDetails .Rows, 1, 6, DT_WORD_ELLIPSIS Or DT_SINGLELINE, , vbButtonFace, , , , 4
-        .CellDetails .Rows, 2, "2", DT_CENTER
-        .CellDetails .Rows, 3, uct("Cashier Dollar Sales by date")
+        '.AddRow
+        '.CellDetails .Rows, 1, 6, DT_WORD_ELLIPSIS Or DT_SINGLELINE, , vbButtonFace, , , , 4
+        '.CellDetails .Rows, 2, "2", DT_CENTER
+        '.CellDetails .Rows, 3, uct("Cashier Dollar Sales by date") 'Removed this report by Mike Young on 9/16/13
         'Commented out to remove defective cashier report by Mike Young on 8/18/13
 '        .AddRow
 '        .CellDetails .Rows, 1, 7, DT_WORD_ELLIPSIS Or DT_SINGLELINE, , vbButtonFace, , , , 4

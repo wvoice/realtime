@@ -344,6 +344,13 @@ On Error GoTo Err_Handler
                 & " SUM(DEBIT_SALE) AS TOTAL_DEBIT" _
                 & " from dbo.docugate_cashier_all_activities  " _
                 & " WHERE " & m_DateFilter & m_SelectedEntityList
+
+        ' Added by Mike Young on 9/16/13, need to add sitecode filter here
+'        m_ReportSQL = "Select CASHIER_BADGE AS DESC2, CASHIER_NAME AS DESC1, " _
+'                & " TRANDATE,TRANTYPE, COUNT(*) AS TRANCOUNT, SUM(CREDIT_SALE) AS TOTAL_CREDIT," _
+'                & " SUM(DEBIT_SALE) AS TOTAL_DEBIT" _
+'                & " from dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE " _
+'                & " WHERE " & m_DateFilter & m_SelectedEntityList & "dbo.docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "'"
                 
         If m_ReportId = 11 Then m_ReportSQL = m_ReportSQL & " AND CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' "
         
@@ -390,11 +397,6 @@ On Error GoTo Err_Handler
     
     If m_DetailLevel = 1 Then
     
-       'Modified on 8/16/13 by Mike Young to narrow the reports to those members of same Site Code as cashier
-       'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE "
-       'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities join docugate_general_acc ON docugate_cashier_all_activities.ACC_BADGE = docugate_general_acc.ACC_BADGE WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
-       'SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities WHERE ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & "' AND "
-       
        ' Added on 9/4/13 by Mike Young to take drop down cashier input as a conditional
        If m_ChkCashier = False Then
         SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
@@ -402,14 +404,11 @@ On Error GoTo Err_Handler
         SelectStr = "SELECT * FROM dbo.docugate_cashier_all_activities inner join dbo.docugate_general_acc on CASHIER_BADGE = dbo.docugate_general_acc.ACC_BADGE WHERE CASHIER_NAME='" & m_CbmCashier & "' AND docugate_general_acc.acc_sc_index = '" & gObjLogonMngr.mSiteCode & "' AND "
        End If
         If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND "
-        'If m_ReportId = 11 Then SelectStr = SelectStr & " CASHIER_BADGE = '" & gObjLogonMngr.mBadge & "' AND ACC_SC_INDEX = '" & gObjLogonMngr.mSiteCode & ""
         If m_ReportId = 7 Then SelectStr = SelectStr & " TRANTYPE = 'FUND ADJ' AND "
         If m_ReportId = 9 Then SelectStr = SelectStr & " TRANTYPE = 'CHECKED OUT' AND "
         If m_ReportId = 10 Then SelectStr = SelectStr & " TRANTYPE = 'CHECKED IN' AND "
             
         OrderClause = " ORDER BY TRANDATE, CASHIER_NAME, CASHIER_OU_NAME, docugate_cashier_all_activities.ACC_BADGE, ACC_TRAN_DT"
-        'OrderClause = " ORDER BY TRANDATE, CASHIER_NAME, CASHIER_OU_NAME, ACC_BADGE, ACC_TRAN_DT"
-        
         m_ReportSQL = SelectStr & m_DateFilter & m_SelectedEntityList & OrderClause
 
         If gDevMode = True Then

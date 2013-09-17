@@ -2167,7 +2167,7 @@ End Sub
 
 Private Sub mnuFileLogout_Click()
 
-    Call LoadQuickStats
+    'Call LoadQuickStats
     cmdQuickStatsMin.Visible = False
     cmdQuickStatsMax.Visible = False
     
