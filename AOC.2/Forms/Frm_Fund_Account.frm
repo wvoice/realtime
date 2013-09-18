@@ -757,6 +757,7 @@ Begin VB.Form Frm_ACCOUNT_fund
          Left            =   240
          TabIndex        =   38
          Top             =   1200
+         Visible         =   0   'False
          Width           =   1815
       End
       Begin VB.ComboBox cmb_Printers 
@@ -767,6 +768,7 @@ Begin VB.Form Frm_ACCOUNT_fund
          TabIndex        =   37
          Text            =   "cmb_Printers"
          Top             =   1200
+         Visible         =   0   'False
          Width           =   3855
       End
       Begin VB.CommandButton cmdCredit 

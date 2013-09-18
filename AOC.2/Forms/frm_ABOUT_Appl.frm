@@ -288,7 +288,7 @@ Private Sub Form_Load()
     & "Support: support@hightech-ai.com"
     
   lblWorkstationName.Caption = "High Tech Accessory Items, Inc"
-  lblLicence.Caption = "Product ID: Docugate Admin 3.3.5"
+  lblLicence.Caption = "Product ID: Docugate Admin 3.3.6"
   
 End Sub
 
