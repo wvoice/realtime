@@ -1,0 +1,278 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <ProductVersion>8.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{283BBCB5-3F3D-4728-8140-495C8F83831A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>Realtime_Tray</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Realtime_Tray.Mod_Main</StartupObject>
+    <AssemblyMajorVersion>3</AssemblyMajorVersion>
+    <AssemblyMinorVersion>5</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>4</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>High Tech Accessories, Inc.</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <ApplicationIcon>DGSysTray.ico</ApplicationIcon>
+    <RootNamespace>Realtime_Tray</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>Realtime_Tray.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>Realtime_Tray.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Name>Microsoft.VisualBasic.Compatibility.Data</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="ADODB">
+      <Guid>{EF53050B-882E-4776-B643-EDA472E8E3F2}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="AxCTLISTLib">
+      <Guid>{D58B0E43-C5DF-4A4E-8635-84ADA7EAA339}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="AxMSWinsockLib">
+      <Guid>{248DD890-BB45-11CF-9ABC-0080C7E7B78D}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="CTLISTLib">
+      <Guid>{D58B0E43-C5DF-4A4E-8635-84ADA7EAA339}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="Microsoft.StdFormat">
+      <Guid>{6B263850-900B-11D0-9484-00A0C91110ED}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSDATASRC">
+      <Guid>{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSWinsockLib">
+      <Guid>{248DD890-BB45-11CF-9ABC-0080C7E7B78D}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="cls_AccountManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_cmActive.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_cmChargeBack.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_config.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_Database.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_fpNoLogon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_Job.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_LabPrint.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_maxspend.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_Monitor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_OfflineManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_pcpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_SessionManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_unitcurrency.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls_Workstation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Frm_About.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Frm_About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ClientMatter.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Frm_ClientMatter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ClientMatter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Error.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Frm_Error.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Error.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Logon.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Frm_Logon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Logon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Frm_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SysTray.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Frm_SysTray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SysTray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mod_checkNetwork.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mod_Data.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mod_DisableClose.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mod_EnumJobs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mod_guid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mod_Main.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mod_Windows.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Frm_About.resX">
+      <DependentUpon>Frm_About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ClientMatter.resX">
+      <DependentUpon>Frm_ClientMatter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Error.resX">
+      <DependentUpon>Frm_Error.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Logon.resX">
+      <DependentUpon>Frm_Logon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resX">
+      <DependentUpon>Frm_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SysTray.resX">
+      <DependentUpon>Frm_SysTray.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="DGSysTray.ico" />
+    <None Include="_UpgradeReport.htm">
+      <SubType>Preview</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

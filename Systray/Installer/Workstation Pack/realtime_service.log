@@ -1,0 +1,12 @@
+3.0.2,10/14/2013,08:38:06 - Service Realtime_Service installed
+3.0.2,10/14/2013,08:38:06 - Realtime Service Started: Found (2) Local Queues
+3.0.2,10/14/2013,08:38:06 - QueueProcessor started for local Queue(Microsoft XPS Document Writer)
+3.0.2,10/14/2013,08:38:06 - QueueMonitor started for local Queue(Microsoft XPS Document Writer)
+3.0.2,10/14/2013,08:38:06 - QueueProcessor started for local Queue(Fax)
+3.0.2,10/14/2013,08:38:06 - QueueMonitor started for local Queue(Fax)
+3.0.2,10/14/2013,08:39:39 - Realtime_Service - shutdown
+3.0.2,10/14/2013,08:39:57 - Realtime Service Started: Found (2) Local Queues
+3.0.2,10/14/2013,08:39:57 - QueueProcessor started for local Queue(Microsoft XPS Document Writer)
+3.0.2,10/14/2013,08:39:57 - QueueMonitor started for local Queue(Microsoft XPS Document Writer)
+3.0.2,10/14/2013,08:39:57 - QueueProcessor started for local Queue(Fax)
+3.0.2,10/14/2013,08:39:57 - QueueMonitor started for local Queue(Fax)

@@ -1,0 +1,5 @@
+Z:\myoung\Development\docugate\Systray\DocuGate (Realtime_Tray 3.5)\Project\Realtime_Tray.NET\obj\Debug\Interop.CTLISTLib.dll
+Z:\myoung\Development\docugate\Systray\DocuGate (Realtime_Tray 3.5)\Project\Realtime_Tray.NET\obj\Debug\Interop.MSWinsockLib.dll
+Z:\myoung\Development\docugate\Systray\DocuGate (Realtime_Tray 3.5)\Project\Realtime_Tray.NET\obj\Debug\AxInterop.CTLISTLib.dll
+Z:\myoung\Development\docugate\Systray\DocuGate (Realtime_Tray 3.5)\Project\Realtime_Tray.NET\obj\Debug\AxInterop.MSWinsockLib.dll
+Z:\myoung\Development\docugate\Systray\DocuGate (Realtime_Tray 3.5)\Project\Realtime_Tray.NET\obj\Debug\DGSysTray.vbproj.ResolveComReference.cache
