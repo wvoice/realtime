@@ -46,11 +46,13 @@ Source: "{app}\Realtime_Configurator.exe"; DestDir: "{app}"; MinVersion: 0.0,5.0
 Source: "{app}\realtime.conf"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600; 
 Source: "{app}\HighTechs.ico"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600; 
 Source: "{app}\realtime_service.exe"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600; 
-Source: "{app}\realtime_service.log"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600; 
+Source: "{app}\realtime_service.log"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600;
+Source: "{app}\elevate.cmd"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600; 
+Source: "{app}\elevate.vbs"; DestDir: "{app}"; MinVersion: 0.0,5.01.2600;
 
 [Registry]
 Root: HKLM; Subkey: "SOFTWARE\High Tech Accessory Items, Inc."; ValueType: String; MinVersion: 0.0,5.01.2600; Flags: uninsdeletekey 
-Root: HKLM; Subkey: "SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN"; ValueName: "realtime"; ValueType: String; ValueData: "{app}\realtime_tray.exe"; MinVersion: 0.0,5.01.2600; Flags: uninsdeletevalue 
+;Root: HKLM; Subkey: "SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN"; ValueName: "realtime"; ValueType: String; ValueData: """{app}\elevate.cmd"" realtime_tray.exe"; MinVersion: 0.0,5.01.2600; Flags: uninsdeletevalue 
 ;Root: HKLM; Subkey: "SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers\"; ValueType: String; ValueName: "{app}\realtime_tray.exe"; ValueData: "RUNASADMIN"; Flags: uninsdeletekeyifempty uninsdeletevalue; MinVersion: 0.0,5.01.2600
 
 [Run]
@@ -58,8 +60,7 @@ Filename: "{app}\realtime_service.exe"; Parameters: "-i"; WorkingDir: "{app}"; S
 Filename: "{sys}\NET"; Parameters: "START ""Realtime_service"""; WorkingDir: "{sys}"; StatusMsg: "Starting Service"; MinVersion: 0.0,5.01.2600; 
 Filename: "{app}\realtime_configurator.exe"; WorkingDir: "{app}"; MinVersion: 0.0,5.01.2600; 
 ;Filename: "{app}\realtime_tray.exe"; WorkingDir: "{app}"; MinVersion: 0.0,5.01.2600; 
-Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
-;Filename: {sys}\sc.exe; Parameters: "create Realtime_tray start= auto binPath= ""{app}\realtime_tray.exe""" ; MinVersion: 0.0,5.01.2600;
+Filename: "{app}\elevate.cmd"; Parameters: "{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 ;Filename: "{sys}\NET"; Parameters: "START ""Realtime_tray"""; WorkingDir: "{sys}"; StatusMsg: "Starting Service"; MinVersion: 0.0,5.01.2600;
 
 
@@ -71,10 +72,10 @@ Filename: "{app}\realtime_service.exe"; Parameters: "-u"; WorkingDir: "{app}"; M
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+Name: "{group}\{#MyAppName}"; Filename: "{app}\elevate.cmd"; Parameters: "{#MyAppExeName}"; IconFilename: "{#MyAppExeName}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
-Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
-Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon
+Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\elevate.cmd"; Parameters: "{#MyAppExeName}"; Tasks: desktopicon; IconFilename: "{#MyAppExeName}"
+Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\elevate.cmd"; Parameters: "{#MyAppExeName}"; Tasks: quicklaunchicon; IconFilename: "{#MyAppExeName}"
 
 
 
