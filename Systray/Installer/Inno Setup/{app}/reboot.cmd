@@ -1,0 +1,1 @@
+shutdown /r /c "Realtime Workstation requires a reboot to complete its installation. Restart will occur in 60 seconds."
