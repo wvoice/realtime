@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Realtime Workstation"
-#define MyAppVersion "3.6.0"
+#define MyAppVersion "3.6.1"
 #define DefaultGroupName "Realtime"
 #define MyAppPublisher "High Tech Accessory Items, Inc."
 #define MyAppURL "http://www.hightech-ai.com"

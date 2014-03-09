@@ -215,11 +215,12 @@ Public Sub VerifyBadge(Badge As String)
           
           'If m_rs!ou_name = UCase("copier") Then
           'If ComputerName = UCase("morpheus") Then
-          If m_rs!OU_NAME = UCase("PW PURPLE QK") Or m_rs!OU_NAME = UCase("Staff") Or m_rs!OU_NAME = UCase("AGENCY CREDIT") Or m_rs!OU_NAME = UCase("AGENCY DEBIT") Then
-            .m_VALID = True
-          Else
-            .m_VALID = False
-          End If
+'' Commented on 1/2/2014 by Mike Young to remove hard coded NC AOC values
+'          If m_rs!OU_NAME = UCase("PW PURPLE QK") Or m_rs!OU_NAME = UCase("Staff") Or m_rs!OU_NAME = UCase("AGENCY CREDIT") Or m_rs!OU_NAME = UCase("AGENCY DEBIT") Then
+'            .m_VALID = True
+'          Else
+'            .m_VALID = False
+'          End If
           
      End If
    
