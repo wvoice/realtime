@@ -1516,26 +1516,26 @@ Private Sub SetupOUExplorer()
       .ImageList = ilsIcons.hIml
       .BarTitleImageList = ilsTitleIcons.hIml
       
-    
-      Set cBar = .Bars.Add(, "REPORTS", "Reports")
-      cBar.ToolTipText = "Cashier Reports"
-      cBar.IsSpecial = True
-      If Val(MyTitleBarIconsShow.m_REPORTS) = 1 Then
-         cBar.IconIndex = 4
-      Else
-         cBar.IconIndex = m_TitleBar_NoIconIndex
-      End If
-      cBar.State = eBarCollapsed
-'      If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
-'        Set cItem = cBar.Items.Add(, "REPORTS_PRCPY", "print and copy reports", 8)
+' Begin comment block to disable sidebar "reports" by Mike Young on 7/6/14 for 3.3.8
+'      Set cBar = .Bars.Add(, "REPORTS", "Reports")
+'      cBar.ToolTipText = "Cashier Reports"
+'      cBar.IsSpecial = True
+'      If Val(MyTitleBarIconsShow.m_REPORTS) = 1 Then
+'         cBar.IconIndex = 4
+'      Else
+'         cBar.IconIndex = m_TitleBar_NoIconIndex
 '      End If
-'
-'      Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
-'      Set cItem = cBar.Items.Add(, "CUSTOM_REPORTS", mc_CUSTOM_REPORTS, 9)
-      If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
-        Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
-      End If
-      
+'      cBar.State = eBarCollapsed
+''      If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
+''        Set cItem = cBar.Items.Add(, "REPORTS_PRCPY", "print and copy reports", 8)
+''      End If
+''
+''      Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
+''      Set cItem = cBar.Items.Add(, "CUSTOM_REPORTS", mc_CUSTOM_REPORTS, 9)
+'      If (gObjLogonMngr.mLevel = ADMIN_LEVEL) Then
+'        Set cItem = cBar.Items.Add(, "REPORTS_CASHIER", mc_CASHIER_REPORTS, 9)
+'      End If
+' End comment block to disable sidebar "reports" by Mike Young on 7/6/14 for 3.3.8
       
 
 
@@ -3273,7 +3273,7 @@ Private Sub SetupMenuToUserProfile()
          Me.ouExplorer.Align = vbAlignLeft
          
          Me.mnuTasksCashier.Visible = True
-         Me.mnuReports.Visible = True
+         Me.mnuReports.Visible = False 'Changed to False on 7/6/14 for MD by Mike Young for 3.3.8
          
          Me.muTools.Visible = False
          Me.mnuConfiguration.Visible = False
@@ -3290,7 +3290,7 @@ Private Sub SetupMenuToUserProfile()
          Me.muTools.Visible = True
          Me.mnuConfiguration.Visible = True
          Me.mnuTasks.Visible = True
-         Me.mnuReports.Visible = True
+         Me.mnuReports.Visible = False 'Changed to False on 7/6/14 for MD by Mike Young for 3.3.8
          'Me.mnuReportsPrintAndCopy.Visible = True
          
          If CurrentDatabase.MSDE <> "1" Then

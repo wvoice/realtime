@@ -88,7 +88,7 @@ Begin VB.Form frm_ABOUT_Appl
       _StockProps     =   13
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
          Name            =   "Microsoft Sans Serif"
-         Size            =   8.26
+         Size            =   8.25
          Charset         =   0
          Weight          =   400
          Underline       =   -1  'True
@@ -110,15 +110,6 @@ Begin VB.Form frm_ABOUT_Appl
       _ExtentX        =   6800
       _ExtentY        =   450
       _StockProps     =   13
-      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "Microsoft Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Caption         =   "Workstation name"
       Alignment       =   1
       Enabled         =   -1  'True
@@ -134,15 +125,6 @@ Begin VB.Form frm_ABOUT_Appl
       _ExtentX        =   6800
       _ExtentY        =   450
       _StockProps     =   13
-      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "Microsoft Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Caption         =   "Product ID: XXXXX-XXX-XXXXXX-XXXXX"
       Alignment       =   1
       Enabled         =   -1  'True
@@ -160,7 +142,7 @@ Begin VB.Form frm_ABOUT_Appl
       _StockProps     =   13
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
          Name            =   "Microsoft Sans Serif"
-         Size            =   8.26
+         Size            =   8.25
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -184,7 +166,7 @@ Begin VB.Form frm_ABOUT_Appl
       _StockProps     =   13
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
          Name            =   "Microsoft Sans Serif"
-         Size            =   8.26
+         Size            =   8.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -206,15 +188,6 @@ Begin VB.Form frm_ABOUT_Appl
       _ExtentX        =   9763
       _ExtentY        =   3201
       _StockProps     =   13
-      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "Microsoft Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Caption         =   "Comments"
       Alignment       =   1
       Enabled         =   -1  'True
@@ -324,7 +297,7 @@ Private Sub Form_Load()
     & "Support: support@hightech-ai.com"
     
   lblWorkstationName.Caption = "High Tech Accessory Items, Inc"
-  lblLicence.Caption = "Product ID: Docugate Admin 3.3.7"
+  lblLicence.Caption = "Product ID: Docugate Admin 3.3.8"
   
 End Sub
 
