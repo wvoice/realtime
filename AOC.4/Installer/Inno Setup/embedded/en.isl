@@ -1,0 +1,12 @@
+[LangOptions]
+LanguageName=English
+LanguageID=$0409
+LanguageCodePage=0
+DialogFontName=Arial
+TitleFontName=Arial
+WelcomeFontName=Arial
+CopyrightFontName=Arial
+DialogFontSize=10
+TitleFontSize=29
+WelcomeFontSize=11
+CopyrightFontSize=10
