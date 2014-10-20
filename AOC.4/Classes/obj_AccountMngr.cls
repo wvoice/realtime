@@ -84,7 +84,7 @@ Private m_RecordGUID As String
 Private m_CurrentAcc As CURRENT_ACCOUNT
 Private m_CashierInstruction As Integer
 Const ErrCodePrefix = "002-"
-Private defaultSC As String
+Private DefaultSC As String
 Private scIndex As Integer
 
 Public Property Get CashierInstruction() As Integer
@@ -715,16 +715,20 @@ On Error GoTo Err_Handler
     
     
     '// Create a transaction for the change in fund balance
+    'Mike Young, 10/20/2014 needs message pop-up before proceeding to change balance.
     If PrevFundBal <> CDbl(Val(MyForm.txt_ACC_FUNDS)) Then
         Dim AmtAdjustment As Double
         AmtAdjustment = CDbl(Val(MyForm.txt_ACC_FUNDS)) - PrevFundBal
-        
         '12102008 - changed format to remove the comma {Jeff}
         Call CashierAdjustFunds(MyForm.txt_ACC_BADGE.Text, Format(AmtAdjustment, "###0.00"))
+        If MsgBox("Modify balance too?", vbYesNo + vbQuestion) = vbYes Then
+            gConn.Execute ("UPDATE dbo.docugate_general_acc set ACC_FUNDS = " & MyForm.txt_ACC_FUNDS.Text _
+                & " WHERE ACC_ACC_GUID = '" & m_RecordGUID & "'")
+        Else
+            gConn.Execute ("UPDATE dbo.docugate_general_acc set ACC_FUNDS = " & PrevFundBal _
+                & " WHERE ACC_ACC_GUID = '" & m_RecordGUID & "'")
+        End If
     End If
-    
-    gConn.Execute ("UPDATE dbo.docugate_general_acc set ACC_FUNDS = " & MyForm.txt_ACC_FUNDS.Text _
-        & " WHERE ACC_ACC_GUID = '" & m_RecordGUID & "'")
      
     Set m_rs = Nothing
     
